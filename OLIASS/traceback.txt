@@ -1,0 +1,30 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 3401, in script
+    "{i}A student raises their hand.{/i}"
+Exception: Image 'ms_hallway' does not accept attributes '(0.5)'.
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/script.rpy", line 3401, in script
+    "{i}A student raises their hand.{/i}"
+  File "C:\Renpy\renpy-8.1.1-sdk\renpy\ast.py", line 1562, in execute
+    show_imspec(self.imspec, atl=getattr(self, "atl", None))
+  File "C:\Renpy\renpy-8.1.1-sdk\renpy\ast.py", line 1391, in show_imspec
+    renpy.config.show(name,
+  File "C:\Renpy\renpy-8.1.1-sdk\renpy\exports.py", line 733, in show
+    if not base.find_target() and renpy.config.missing_show:
+  File "C:\Renpy\renpy-8.1.1-sdk\renpy\display\image.py", line 421, in find_target
+    self.target = target._duplicate(a)
+  File "C:\Renpy\renpy-8.1.1-sdk\renpy\display\core.py", line 496, in _duplicate
+    args.extraneous()
+  File "C:\Renpy\renpy-8.1.1-sdk\renpy\display\core.py", line 359, in extraneous
+    raise Exception("Image '{}' does not accept attributes '{}'.".format(
+Exception: Image 'ms_hallway' does not accept attributes '(0.5)'.
+
+Windows-10-10.0.22631 AMD64
+Ren'Py 8.1.1.23060707
+jinseikome 1.0
+Thu Jan  4 01:09:42 2024
