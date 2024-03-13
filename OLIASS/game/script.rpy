@@ -5134,12 +5134,16 @@ label start:
 
                 MH "Oh no."
 
+                scene hs_classroom_front with Dissolve(1.0)
+
                 "{i}Bell rings.{/i}"
 
                 HUK "Okay, you kids have fun at lunch."
                 HUK "Don't forget about my dinner bash now."
 
                 "{i}Hiro-sensei leaves the room.{/i}"
+
+                scene hs_classroom_left with Dissolve(1.0)
 
                 ALI "Hey Randori-kun, do you wanna get lunch together?"
 
@@ -5149,6 +5153,8 @@ label start:
 
                 LAN "Sure."
                 LAN "And who are you?"
+
+                scene hs_classroom with Dissolve(1.0)
 
                 MH "Did you see that, Keisuke?"
                 MH "He's trying to snag her!"
@@ -5163,6 +5169,8 @@ label start:
 
                 MH "You don't know anything."
                 MH "I'm gonna go get a drink from the vending machine in the cafeteria."
+
+                scene hs_classroom_left with Dissolve(1.0)
 
                 "{i}Minato gets up to leave the classroom."
                 "{i}Randori stretches his leg out in front of himself and Minato trips onto the floor.{/i}"
@@ -5185,6 +5193,9 @@ label start:
                 LAN "I think something hit my leg just now."
 
                 "{i}Two days later.{/i}"
+
+                scene hs_classroom_left with Dissolve(1.0)
+
                 "{i}At lunch{/i}"
 
                 MH "Hey Asuka-chan."
@@ -5198,6 +5209,8 @@ label start:
                 LAN "Okay."
 
                 "{i}Asuka and Randori leave the classroom.{/i}"
+
+                scene hs_classroom with Dissolve(1.0)
 
                 MH "Did you see that, Keisuke?"
                 MH "Randori snagged her away again!"
@@ -5221,6 +5234,8 @@ label start:
 
                 MH "Huh?"
                 MH "Oh shit."
+
+                scene hs_hallway with Dissolve(1.0)
 
                 "{i}After school.{/i}"
 
