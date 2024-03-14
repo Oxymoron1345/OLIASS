@@ -536,6 +536,7 @@ label start:
                 M "Mi pley da gaem n kill lot of skunt man lik ninja mon."
                 M "Cowabunga mon go lik crasy."
                 M "Ninja mun save mi fro mad docta at de borda ya, killin big mon who lik de collag ball."
+                M "(coughs)S-Sorry, I don't know what just happened there."
 
                 "{i}Total silence fills the classroom."
                 "{i}Minato sits back down.{/i}"
