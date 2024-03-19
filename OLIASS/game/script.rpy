@@ -5193,9 +5193,11 @@ label start:
                 LAN "Nah, it's fine."
                 LAN "I think something hit my leg just now."
 
-                "{i}Two days later.{/i}"
-
                 scene hs_classroom_left with Dissolve(1.0)
+
+                "Classroom Evening"
+                
+                "{i}Two days later.{/i}"
 
                 "{i}At lunch{/i}"
 
@@ -5238,6 +5240,8 @@ label start:
 
                 scene hs_hallway with Dissolve(1.0)
 
+                "Hallway"
+
                 "{i}After school.{/i}"
 
                 MH "You gotta believe me, Asuka-chan."
@@ -5246,13 +5250,17 @@ label start:
                 ALI "I bet you broke your phone on purpose as an excuse for ghosting me."
                 ALI "I gotta head on over to practice."
 
-                "Asuka leaves the classroom."
+                "{i}Asuka leaves Minato alone in the hallway.{/i}"
 
                 MH "I can't believe this is happening..."
 
-                "Two days later."
+                scene hs_track with Dissolve(1.0)
 
-                "Before track practice."
+                "Track Field"
+
+                "{i}Two days later."
+
+                "{i}Before track practice.{/i}"
 
                 CAT "You're thinking about confessing to Randori-kun?"
                 CAT "Weren't you texting Minato-kun every night?"
@@ -5264,12 +5272,16 @@ label start:
                 RUT "I mean, he's tall."
                 RUT "And most importantly, he's on the track team."
 
-                "Asuka goes over to Randori."
+                "{i}Asuka goes over to Randori.{/i}"
 
                 ALI "Hey Randori-kun, I gotta ask you something."
                 ALI "Can you wait by the front gate after everyone leaves?"
 
-                "Asuka meets up with Randori at the front gate after practice."
+                scene hs_frontgate with Dissolve(1.0)
+
+                "Front Gate"
+
+                "{i}Asuka meets up with Randori at the front gate after practice.{/i}"
 
                 LAN "Yeah?"
 
@@ -5284,9 +5296,9 @@ label start:
                 LAN "Yeah, so I should get going."
                 LAN "Goodbye, Akane-chan."
 
-                "Asuka is completely flabbergasted as Randori leaves."
+                "{i}Asuka is completely flabbergasted as Randori leaves."
 
-                "Meanwhile, behind a tree..."
+                "{i}Meanwhile, behind a tree...{/i}"
 
                 RUT "I think it went pretty well."
                 RUT "She seems smeckledorfed."
@@ -5299,13 +5311,17 @@ label start:
 
                 CAT "We'll find out next Monday anyway."
 
-                "Meanwhile, behind another tree..."
+                "{i}Meanwhile, behind another tree...{/i}"
 
                 TSB "Since when is Rumi-dono so close to The Riot?"
                 TSB "They're practically all over each other."
                 TSB "This really grinds my gears."
 
             label Ten_three:
+
+                scene hs_classroom_front with Dissolve(1.0)
+
+                "Classroom Morning"
 
                 HUK "Sorry class, hope you kids won't miss Randori-kun too much."
                 HUK "He was sent back to his old school for underperforming on the track team."
