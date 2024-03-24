@@ -5485,11 +5485,11 @@ label start:
 
                 "Atsushi goes to sit with The Riot, Asuka, Rumi and Chizuru."
 
-                HBI "TSB, do you–"
+                HBI "TSBB, do you–"
 
                 TSB "No."
 
-                "TSB sits by himself in a corner and watches Rumi."
+                "TSBB sits by himself in a corner and watches Rumi."
                 "Bii goes over to Minato and Keisuke and sits next to them."
 
                 HBI "Is this seat taken?"
