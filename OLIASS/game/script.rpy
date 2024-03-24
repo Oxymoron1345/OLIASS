@@ -163,7 +163,7 @@ label sprites:
             image CAM_W = im.Scale("sprites/Kaimon/CAM_W.png", 550,650)
             image CAM_W_shock = im.Scale("sprites/Kaimon/CAM_W_shock.png", 550,650)
             image CAM_S = im.Scale("sprites/Kaimon/CAM_S.png", 550,650)
-            image CAM_S_shout = im.Scale("sprites/Kaimon/CAM_S_shout.png", 550,650)
+            image CAM_S_shock = im.Scale("sprites/Kaimon/CAM_S_shock.png", 550,650)
 
         label Jun:
             image GNG_W = im.Scale("sprites/Jun/GNG_W.png", 550,650)
@@ -217,12 +217,12 @@ label sprites:
             image FOS_shout = im.Scale("sprites/Fumino/FOS_shout.png", 980,840)
 
         label Daiki:
-            image DUE = im.Scale("sprites/Daiki/DUE.png", 980,840)
-            image DUE_angry = im.Scale("sprites/Daiki/DUE_angry.png", 980,840)
-            image DUE_cry = im.Scale("sprites/Daiki/DUE_cry.png", 980,840)
-            image DUE_distraught = im.Scale("sprites/Daiki/DUE_distraught.png", 980,840)
-            image DUE_shock = im.Scale("sprites/Daiki/DUE_shock.png", 980,840)
-            image DUE_smug = im.Scale("sprites/Daiki/DUE_smug.png", 980,840)
+            image DUE = im.Scale("sprites/Daiki/DUE.png", 720,900)
+            image DUE_angry = im.Scale("sprites/Daiki/DUE_angry.png", 720,900)
+            image DUE_cry = im.Scale("sprites/Daiki/DUE_cry.png", 720,900)
+            image DUE_distraught = im.Scale("sprites/Daiki/DUE_distraught.png", 720,900)
+            image DUE_shock = im.Scale("sprites/Daiki/DUE_shock.png", 720,900)
+            image DUE_smug = im.Scale("sprites/Daiki/DUE_smug.png", 720,900)
 
         label Beri:
             image RR = im.Scale("sprites/Beri/RR.png", 980,840)
@@ -268,7 +268,6 @@ label sprites:
         label Donaldville:
         label Fuka:
         label Sae:
-    return
 label backgrounds:
     image ms_classroom_morning = im.Scale("backgrounds/ms_classroom_morning.jpg", 1920,1080)
     image ms_classroom_afternoon = im.Scale("backgrounds/ms_classroom_afternoon.jpg", 1920,1080)
@@ -336,6 +335,16 @@ label positions:
     transform Tright:
         xalign 0.80
         yalign 0.1
+    transform TMcenter:
+        xalign 0.5
+        yalign 0.50
+    transform TMleft:
+        xalign 0.20
+        yalign 0.50
+    transform TMright:
+        xalign 0.80
+        yalign 0.50
+
     return
 
 # The game starts here.
@@ -721,7 +730,7 @@ label start:
 
                 hide M_S_frown
 
-                show CAM_S_shout at left
+                show CAM_S_shock at left
 
                 CAM "Man, shut yo' cracker ass up!"
 
@@ -733,7 +742,7 @@ label start:
 
                 FOS "Thank you boys."
 
-                hide CAM_S_shout with Dissolve(0.1)
+                hide CAM_S_shock with Dissolve(0.1)
                 hide GNG_S with Dissolve(0.1)
 
                 show FOS at Tcenter with Dissolve(0.25)
@@ -800,12 +809,12 @@ label start:
 
                 "Music Classroom"
 
-                show DUE at Tcenter with Dissolve(0.25)
+                show DUE at TMcenter with Dissolve(0.25)
 
                 DUE "Hello boys and girls."
 
                 hide DUE
-                show DUE_smug at Tcenter
+                show DUE_smug at TMcenter
 
                 DUE "Today, we'll be practicing a song that I wrote for our school."
 
@@ -826,9 +835,11 @@ label start:
                 hide CAM_S
                 hide TY_S
 
-                show DUE_smug at Tcenter with Dissolve(0.25)
+                show DUE_smug at TMcenter with Dissolve(0.25)
 
                 "{i}Daiki plays the school theme song.{/i}"
+
+                hide DUE_smug with Dissolve(0.25)
 
                 show TY_S at center with Dissolve(0.25)
 
@@ -853,18 +864,18 @@ label start:
                 hide GTA_S
                 hide GTB_S
 
-                show DUE_shock at Tcenter with Dissolve(0.25)
+                show DUE_shock at TMcenter with Dissolve(0.25)
 
                 DUE "Geez Louise, you're all flattering me."
 
                 hide DUE_shock
-                show DUE_smug at Tcenter
+                show DUE_smug at TMcenter
 
                 DUE "You're making it seem like I could write up a whole school play or something."
                 DUE "I mean, what would it even be about?"
 
                 hide DUE_smug
-                show DUE at Tcenter
+                show DUE at TMcenter
 
                 DUE "It can't be that easy to write something up in a day or two."
                 DUE "It'd probably be weeks, months, or even years."
@@ -988,11 +999,11 @@ label start:
 
                 hide RR
 
-                show CAM_W_shout at center with Dissolve(0.25)
+                show CAM_W_shock at center with Dissolve(0.25)
 
                 CAM "Pretty sure it was all that smoking behind the school that caused that cough!"
 
-                hide CAM_W_shout
+                hide CAM_W_shock
 
                 show RR_shout at Tcenter
 
@@ -1062,7 +1073,7 @@ label start:
 
                 HKMR "What?"
 
-                hide A_W_shout
+                hide A_W_shock
 
                 show A_W at right
 
@@ -1071,7 +1082,15 @@ label start:
 
                 "{i}They all exchange looks, then exit the classroom to go to the boy's restroom.{i}"
 
+                hide A_W
+                hide K_W
+                hide M_W_frown
+                hide R_W
+                hide HN_W
+
                 scene toilet_poop with Dissolve(0.5)
+
+                "Restroom"
 
                 show R_W_startled at left with Dissolve(0.25)
 
@@ -1094,7 +1113,7 @@ label start:
                 hide K_W_shock
                 hide M_W_shock
 
-                show R_W at left
+                show R_W at left 
                 show HN_W at left_two
                 show K_W at right_three
                 show M_W at right_two
@@ -1103,21 +1122,27 @@ label start:
 
                 R "It looks dry as hell."
 
-                show A_W_frown at left_three
+                show A_W_frown at right with Dissolve(0.25)
 
                 A "It's probably been there for a while."
                 A "I'd be surprised if it was someone in a lower grade because of how massive it is."
 
                 R "What are you, some kinda, shit connoisseur?"
 
-                show TY_W at right with Dissolve(0.25)
+                hide R_W
+                hide HN_W 
+                hide K_W
+                hide M_W 
+                hide A_W_frown 
+
+                show TY_W at left with Dissolve(0.25)
 
                 "{i}Saki walks into the boy's restroom.{/i}"
 
                 TY "What y'all doing crowding the restroom for?"
 
                 hide TY_W
-                show TY_W_shy at right
+                show TY_W_shy at left
 
                 "{i}Saki notices the shit emoji in the urinal.{/i}"
 
@@ -1125,15 +1150,11 @@ label start:
 
                 "{i}He exits the restroom silently soon after.{/i}"
 
-                hide R_W with Dissolve(0.05)
-                hide A_W_frown with Dissolve(0.05)
-                hide K_W with Dissolve(0.05)
-                hide HN_W with Dissolve(0.05)
-                hide M_W with Dissolve(0.05)
-
                 "{i}Meanwhile...{i}"
 
                 scene ms_hallway with Dissolve(0.5)
+
+                "Hallway"
 
                 show JEN_W at left with Dissolve(0.25)
 
@@ -1157,6 +1178,10 @@ label start:
                 TIN "That's really gross."
 
                 JEN "Just promise you'll never tell anyone!"
+
+                hide JEN_W_angry
+                hide RIN_W_shock
+                hide TIN_W
 
             label Seven_four:
 
@@ -1195,7 +1220,7 @@ label start:
 
                 hide GTB_W with Dissolve(0.1)
                 hide GTA_W with Dissolve(0.1)
-                hide GNG with Dissolve(0.1)
+                hide GNG_W with Dissolve(0.1)
 
                 show R_W at left
 
@@ -1204,6 +1229,9 @@ label start:
                 FOS "Yes Roro-kun, like I said, you can use anything."
                 FOS "The project will be due in two days."
                 FOS "I'll let y'all work on it in class tomorrow."
+
+                hide R_W
+                hide FOS
 
                 scene ms_classroom_morning
 
@@ -1295,9 +1323,16 @@ label start:
                 A "I should fall back."
                 A "Oh, hey Rin."
 
+                hide MI_W_angry with Dissolve(0.25)
+
                 "{i}Akiyuki waves to Rin, then turns around and retreats back to Keisuke, who made an origami Zoda in the meantime.{/i}"
 
+                show K_W at right with Dissolve(0.25)
+
                 OGZ "A wise endeavor, that was not."
+
+                hide K_W with Dissolve(0.25)
+                hide A_W with Dissolve(0.25)
 
                 "{i}Fumino sneaks up behind them and snatches their paper masterpieces.{/i}"
 
@@ -1603,7 +1638,7 @@ label start:
 
                 scene ms_classroom_morning with Dissolve(1.0)
 
-                "{i}Sheldrieka sniffs the room.{/i}"
+                "{i}Sheldrieka sniffs the room like a bitch.{/i}"
 
                 SDK "OOF!"
                 SDK "It smell even mustier than usual up in here!"
@@ -5416,8 +5451,8 @@ label start:
 
                 HBI "Sure thing, Hiro-sensei!"
 
-                "Bii drops the stack of porcelain plates at the front of the desk."
-                "Asuka places eggs on the desk with the rest of the dishes."
+                "{i}Bii drops the stack of porcelain plates at the front of the desk."
+                "{i}Asuka places eggs on the desk with the rest of the dishes.{/i}"
 
                 ALI "I brought the eggs, Hiro-sensei."
 
@@ -5458,14 +5493,14 @@ label start:
 
                 MH "Well that went great."
 
-                "Asuka goes back to The Riot, Rumi, and Chizuru."
+                "{i}Asuka goes back to The Riot, Rumi, and Chizuru.{/i}"
 
                 TRT "Rumi-chan, go get some plates for us."
 
                 RUT "Of course."
 
-                "Rumi goes to grab four plates for her friends."
-                "TSB materializes behind her."
+                "{i}Rumi goes to grab four plates for her friends."
+                "{i}TSB materializes behind her.{/i}"
 
                 TSB "Rumi-dono, do you need help carrying those plates?"
 
@@ -5483,14 +5518,14 @@ label start:
                 ABD "Yeah, that's why I joined the track team."
                 ABD "You should join too if you wanna hang out with us."
 
-                "Atsushi goes to sit with The Riot, Asuka, Rumi and Chizuru."
+                "{i}Atsushi goes to sit with The Riot, Asuka, Rumi and Chizuru.{/i}"
 
                 HBI "TSBB, do you–"
 
                 TSB "No."
 
-                "TSBB sits by himself in a corner and watches Rumi."
-                "Bii goes over to Minato and Keisuke and sits next to them."
+                "{i}TSBB sits by himself in a corner and watches Rumi."
+                "{i}Bii goes over to Minato and Keisuke and sits next to them.{/i}"
 
                 HBI "Is this seat taken?"
 
@@ -5498,7 +5533,7 @@ label start:
 
                 HBI "Don't be like that."
 
-                "Eriko goes over to them."
+                "{i}Eriko goes over to them.{/i}"
 
                 ELI "Can I eat with you guys?"
 
