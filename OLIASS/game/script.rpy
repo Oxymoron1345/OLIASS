@@ -163,7 +163,7 @@ label sprites:
             image CAM_W = im.Scale("sprites/Kaimon/CAM_W.png", 550,650)
             image CAM_W_shock = im.Scale("sprites/Kaimon/CAM_W_shock.png", 550,650)
             image CAM_S = im.Scale("sprites/Kaimon/CAM_S.png", 550,650)
-            image CAM_S_shock = im.Scale("sprites/Kaimon/CAM_S_shock.png", 550,650)
+            image CAM_S_shout = im.Scale("sprites/Kaimon/CAM_S_shout.png", 550,650)
 
         label Jun:
             image GNG_W = im.Scale("sprites/Jun/GNG_W.png", 550,650)
@@ -313,7 +313,8 @@ label positions:
         xalign 0.80
         yalign 0.49
     transform right_three:
-        xalign 0.70
+        xalign 0.65
+        yalign 0.49
     transform left:
         xalign 0.05
         yalign 0.49
@@ -330,10 +331,10 @@ label positions:
         xalign 0.5
         yalign 0.1
     transform Tleft:
-        xalign 0.2
+        xalign 0.20
         yalign 0.1
     transform Tright:
-        xalign 0.98
+        xalign 0.80
         yalign 0.1
     return
 
@@ -756,11 +757,11 @@ label start:
 
                 TY "Fatty-sensei what we reading? \"Hats in the Cats\"?"
 
-                show GTB at left_two with Dissolve(0.25)
+                show GTB_S at left_two with Dissolve(0.25)
 
                 BII "Nah, that was a movie, Saki-kun."
 
-                hide GTB
+                hide GTB_S
                 hide TY_S
                 show TY_S_shy at center
 
