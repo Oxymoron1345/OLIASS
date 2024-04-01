@@ -5422,7 +5422,7 @@ label start:
 
                 KH "At least I got the best condiment."
 
-                "Bell rings."
+                "{i}Bell rings.{/i}"
 
                 HUK "Good, so you all know what to bring. Let's resume this tomorrow!"
 
