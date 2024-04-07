@@ -355,7 +355,6 @@ label start:
 
         label Syschord_prologue:
 
-            play music "audio/bgm/TheGreatClosedTrial.ogg"
             scene toilet with Dissolve (0.5)
 
             "{i}Minato, Akiyuki, and Keisuke are in discord playing Zenith Champions.{/i}"
@@ -452,7 +451,6 @@ label start:
             label Seven_one:
 
                 scene ms_classroom_morning with Dissolve(1.0)
-                play music "audio/bgm/SusatoMikotobaObjection!.mp3"
 
                 "Classroom Morning"
 
@@ -3949,8 +3947,8 @@ label start:
                 M "I didn't do anything."
                 M "It's all Roro's fault!"
 
-                K "Roro already transferred to another school this year."
-                K "How is it his fault?"
+                K "Beri-sensei said he transferred to another school this year."
+                K "How can it be his fault?"
 
                 M "I told Maruiko that Roro liked her hair."
                 M "Then Maruiko texted Roro to ask if he liked her and he never responded."
