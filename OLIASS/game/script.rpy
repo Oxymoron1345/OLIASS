@@ -361,29 +361,38 @@ label start:
 
             MH "Akiyuki, why didn't you drop where Keisuke and me are?"
 
-            AH "What do you mean? I'm already there."
+            AH "What do you mean?" 
+            AH "I'm already there."
 
-            MH "No, you're not. I can see you on the mini map. You're on the other side of the map."
+            MH "No, you're not." 
+            MH "I can see you're on the other side of the map."
 
             AH "Give me like 5 seconds, and I'll be there."
 
-            MH "Keisuke, come support my offense. I see a party up ahead. I'm gonna rush ‘em."
+            MH "Keisuke, I see a party up ahead." 
+            MH "Come support my offense, I'm gonna rush ‘em."
 
             KH "Wait a minute, I can't find a gun."
 
-            MH "We've gone by ten supply bins. And you still haven't picked up a gun yet?"
+            MH "We've gone by like ten supply bins." 
+            MH "You still haven't picked up a gun yet?"
 
-            KH "The ones I went through were filled with ammo and shields. I couldn't get a gun."
+            KH "The ones I went through were filled with ammo and shields, so I couldn't get a gun."
 
-            MH "I literally saw a mozambique. Just grab it and let's rush the other party."
+            MH "I literally just saw a mozambique." 
+            MH "Grab it and let's rush the other party."
 
-            AH "Oh, I think I see the other party Minato. I'll use my ultimate on them."
+            AH "Oh, I think I see the other party, Minato." 
+            AH "I'll use my ultimate on them."
 
-            MH "No, what are you doing?! Wait for us!"
+            MH "No, what are you doing?!" 
+            MH "Wait for us!"
 
             KH "I still haven't found a gun yet."
 
-            AH "They don't see me, so I'm gonna go ahead and use my ultimate. Oh shit, I think they do see me. Minato, hurry up!"
+            AH "They don't see me, so I'm gonna go ahead and use my ultimate." 
+            AH "Oh shit, I think they do see me." 
+            AH "Minato, hurry up!"
 
             "{i}Akiyuki gets shot by the enemy party and dies alone.{/i}"
 
@@ -393,7 +402,7 @@ label start:
 
             "{i}Minato and Keisuke get shot by a different party from behind and die.{/i}"
 
-            AH "This is your guy's fault for not dropping with me."
+            AH "This is your guys' fault for not dropping with me."
 
             MH "No, you–"
 
@@ -405,7 +414,7 @@ label start:
 
             "{i}The Soom ends.{/i}"
 
-            KH "Are you guys gonna join tomorrow?"
+            KH "Are you guys joining tomorrow?"
 
             AH "No, why would I?"
 
@@ -413,7 +422,7 @@ label start:
 
             AH "I already don't attend my first period class at 8AM, so I don't see why I would go to one of Fuka-sensei's sooms to listen to a kid read off a powerpoint."
 
-            KH "What about you, Minato? You gonna go?"
+            KH "What about you, Minato?"
 
             MH "I'm still pissed about what happened in the game man."
             MH "Akiyuki, what the hell were you doing?"
