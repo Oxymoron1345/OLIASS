@@ -5388,7 +5388,11 @@ label start:
 
                 TSB "Silence, you nimrod."
 
-                "{i}Next month.{/i}"
+                scene hs_classroom_front with Dissolve(1.0)
+
+                "Next month."
+
+                "Classroom Morning"
 
                 HUK "Okay everyone, I'll explain how this is going to go."
                 HUK "I want each of you to bring a breakfast dish to class tomorrow."
@@ -5405,17 +5409,19 @@ label start:
 
                 HUK "It will be waffles."
 
+                scene hs_classroom with Dissolve(1.0)
+
                 KH "(whisper) Damn, should've been pancakes."
                 KH "(whisper) They're way better than waffles."
 
-                MH "(whisper) Yeah but whatever."
+                MH "Yeah, sure, whatever."
                 MH "Who cares?"
 
                 KH "(whisper) Are you still hung up on Asuka, man?"
-                KH "You need to get over her."
-                KH "She wasn't even a decent option."
+                KH "(whisper) You need to get over her."
+                KH "(whisper) She wasn't even a decent option."
 
-                MH "(whisper) You weren't there man. You don't know how much she meant to me."
+                MH "You weren't there man. You don't know how much she meant to me."
 
                 KH "(whisper) Whatever you–"
 
@@ -5433,10 +5439,16 @@ label start:
 
                 HUK "Good, so you all know what to bring. Let's resume this tomorrow!"
 
+                scene hs_classroom_front with Dissolve(1.0)
+
                 "The next day"
+
+                "Classroom Morning"
 
                 HUK "You all remembered to bring your dishes, right?"
 
+                scene hs_classroom_left with Dissolve(1.0)
+                
                 TRT "Yep, bought the waffles from Waffle Shack."
 
                 ALI "Ermahgerd, I love Waffle Shack."
@@ -5458,12 +5470,16 @@ label start:
 
                 HBI "Sure thing, Hiro-sensei!"
 
+                scene hs_classroom_front with Dissolve(1.0)
+
                 "{i}Bii drops the stack of porcelain plates at the front of the desk."
                 "{i}Asuka places eggs on the desk with the rest of the dishes.{/i}"
 
                 ALI "I brought the eggs, Hiro-sensei."
 
                 HUK "Good job, Asuka-chan."
+
+                scene hs_classroom with Dissolve(1.0)
 
                 MH "Did you see that, Keisuke?"
 
@@ -5485,6 +5501,8 @@ label start:
                 KH "Normally, I'd say you're crazy."
                 KH "But I like eggs, so sure."
 
+                scene hs_classroom_front with Dissolve(1.0)
+
                 "{i}Minato grabs a plate and goes over to Asuka.{/i}"
 
                 MH "So Asuka, I saw you brought these eggs."
@@ -5500,14 +5518,18 @@ label start:
 
                 MH "Well that went great."
 
+                scene hs_classroom_left with Dissolve(1.0)
+
                 "{i}Asuka goes back to The Riot, Rumi, and Chizuru.{/i}"
 
                 TRT "Rumi-chan, go get some plates for us."
 
                 RUT "Of course."
 
+                scene hs_classroom_front with Dissolve(1.0)
+
                 "{i}Rumi goes to grab four plates for her friends."
-                "{i}TSB materializes behind her.{/i}"
+                "{i}TSBB materializes behind her.{/i}"
 
                 TSB "Rumi-dono, do you need help carrying those plates?"
 
@@ -5515,6 +5537,8 @@ label start:
                 RUT "Don't talk to me, weirdo."
 
                 TSB "She's so nice..."
+
+                scene hs_classroom_left with Dissolve(1.0)
 
                 HBI "Hey Atsushi-kun, wanna eat together?"
 
@@ -5531,7 +5555,10 @@ label start:
 
                 TSB "No."
 
-                "{i}TSBB sits by himself in a corner and watches Rumi."
+                "{i}TSBB sits by himself in a corner and watches Rumi.{/i}"
+
+                scene hs_classroom_front with Dissolve(1.0) 
+
                 "{i}Bii goes over to Minato and Keisuke and sits next to them.{/i}"
 
                 HBI "Is this seat taken?"
@@ -5561,6 +5588,10 @@ label start:
 
             label Ten_four:
 
+                scene hs_classroom_front with Dissolve(1.0)
+
+                "Classroom Morning"
+
                 HUK "I regret to inform you all that the school year is almost over."
                 HUK "I want all of you to know I thoroughly enjoyed my time here with you all."
 
@@ -5583,7 +5614,9 @@ label start:
 
                 E "Awwwwwwww."
 
-                KH "And here I was thinking the rest would be easy."
+                scene hs_classroom with Dissolve(1.0)
+
+                KH "And here I thought the rest would be easy."
 
                 MH "He said this is a group project, right?"
                 MH "I have one final chance!"
@@ -5596,31 +5629,51 @@ label start:
 
                 MH "That doesn't even make sense."
 
+                scene hs_classroom_front with Dissolve(1.0)
+
                 HUK "I'll go ahead and announce the groups"
                 HUK "They'll be determined randomly, so don't complain about your partner."
 
+                scene hs_classroom with Dissolve(1.0)
+
                 MH "{i}Please be Asuka-chan.{i}"
                 MH "{i}Please be Asuka-chan.{i}"
                 MH "{i}Please be Asuka-chan.{i}"
+
+                scene hs_classroom_front with Dissolve(1.0)
 
                 HUK "First is Asuka-chan..."
 
+                scene hs_classroom with Dissolve(1.0)
+
                 MH "{i}Yes!{i}"
+
+                scene hs_classroom_front with Dissolve(1.0)
 
                 HUK "and Chizuru-chan."
 
+                scene hs_classroom with Dissolve(1.0)
+
                 MH "{i}No!{/i}"
+
+                scene hs_classroom_front with Dissolve(1.0)
 
                 HUK "Next is Minato-kun and The Riot."
 
+                scene hs_classroom with Dissolve(1.0)
+
                 MH "{i}NOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO!{/i}"
 
-                HUK "TSB and Bii-kun."
+                scene hs_classroom_front with Dissolve(1.0)
+
+                HUK "TSBB and Bii-kun."
                 HUK "Rumi-chan and Atsushi-kun."
                 HUK "Last but not least, Keisuke-kun and Eriko-chan."
                 HUK "I hope there won't be any problems."
                 HUK "I'll hand out the outline detailing what you all will be doing for the project."
 
+                scene hs_classroom with Dissolve(1.0)
+                
                 KH "Good thing Randori left, or else it'd be an odd number."
 
                 MH "My life is over..."
@@ -5631,14 +5684,20 @@ label start:
 
                 MH "That's my line, The Riot."
 
-                KH "What a bunch of clowns."
+                KH "What a couple of clowns."
 
-                "{i}The next day.{/i}"
+                scene hs_classroom_front with Dissolve(1.0)
+
+                "The next day."
+
+                "Classroom Morning"
 
                 HUK "For the next few days, I'm giving you ladies and gentlemen free time to work on your project."
                 HUK "Feel free to move the desks and sit together."
 
-                HBI "Hey, TSB, so how are we gonna split the workload?"
+                scene hs_classroom_left with Dissolve(1.0)
+
+                HBI "Hey, TSBB, so how are we gonna split the workload?"
 
                 TSB "Don't even think about touching anything, you nimrod."
 
@@ -5646,9 +5705,9 @@ label start:
                 HBI "How can I help?"
 
                 TSB "You can help by leaving me alone, nimrod."
-                TSB "{i}I can't believe Rumi-dono is with that numbskull Atsushi.{/i}"
+                TSB "{i}I can't believe Rumi-dono is working with that nimrod, Atsushi.{/i}"
 
-                "{i}TSB stares at Atsushi and Rumi while they work on their project.{/i}"
+                "{i}TSBB stares at Atsushi and Rumi while they work on their project.{/i}"
 
                 TSB "{i}There has to be something I can do...{/i}"
 
@@ -5662,6 +5721,8 @@ label start:
 
                 "{i}Let's check on how the main character is doing.{/i}"
 
+                scene hs_classroom with Dissolve(1.0)
+                
                 MH "Like I said, I'll handle this part."
 
                 TRT "No, that's my expertise."
@@ -5683,12 +5744,14 @@ label start:
 
                 MH "{i}I hate my life.{/i}"
 
+                scene hs_classroom with Dissolve(1.0)
+
                 "{i}The next day.{/i}"
 
-                MH "–and that's how we do it."
+                MH "–and that's how we'd do it."
 
                 TRT "I see, I see."
-                TRT "Not bad, I don't think I would've done it this way by myself."
+                TRT "Not bad, I don't think I would've done it that way by myself."
                 TRT "You're actually like, pretty smart or something, huh?"
 
                 MH "Naturally."
@@ -5696,7 +5759,9 @@ label start:
 
                 TRT "Thanks man."
 
-                "Across the other side of the room."
+                "{i}Across the other side of the room.{/i}"
+
+                scene hs_classroom_left with Dissolve(1.0)
 
                 HBI "And so, that's what he said."
 
@@ -5706,22 +5771,26 @@ label start:
 
                 HBI "Yep."
                 HBI "He said the criteria is the same for everybody, so it won't matter if some stuff is the same."
-                HBI "Just make sure to keep it a secret from Rumi-chan."
+                HBI "I believe he also wanted you to keep it a secret from Rumi-chan."
 
                 ABD "Poggers."
 
+                scene hs_classroom_front with Dissolve(1.0)
+
                 "The final day."
+
+                "Classroom Morning"
 
                 HUK "Okay class, I hope you're all ready to present your projects."
                 HUK "Asuka and Chizuru, you two go to the front and start us off."
 
                 AC "Yes, sensei."
 
-                "They presented their project with no issues."
+                "{i}They presented their project with no issues.{/i}"
 
                 HUK "Excellent, next is Minato and The Riot."
 
-                "Minato and The Riot present their brilliant project perfectly, bouncing off each other like the ideal married couple."
+                "{i}Minato and The Riot present their brilliant project perfectly, bouncing off each other like the ideal married couple.{/i}"
 
                 HUK "T-That was beautiful..."
                 HUK "I never knew you two were such great partners!"
@@ -5729,32 +5798,32 @@ label start:
                 TRT "What can I say except..."
                 MH "You're welcome."
 
-                "The classroom roars with applause for the two boys."
+                "{i}The classroom roars with applause for the two boys.{/i}"
 
                 HUK "That was a very tough act to follow, but no pressure."
-                HUK "Next is TSB and Bii-kun."
+                HUK "Next is TSBB and Bii-kun."
 
-                "TSB presents the project by himself, while Bii acts as his cheerleader."
+                "{i}TSBB presents the project by himself, while Bii acts as his cheerleader.{/i}"
 
                 HUK "That will suffice, you two."
                 HUK "Next, Atsushi-kun and Rumi-chan."
 
                 "{i}Atsushi and Rumi walk up to the front.{/i}"
-                "{i}They present their project, and it has the exact same content as TSB and Bii's project.{/i}"
-                "{i}TSB raises his hand.{/i}"
+                "{i}They present their project, and it has the exact same content as TSBB and Bii's project.{/i}"
+                "{i}TSBB raises his hand.{/i}"
 
-                HUK "Yes, TSB?"
+                HUK "Yes, TSBB?"
 
                 TSB "Have you noticed something strange, Hiro-sensei?"
                 TSB "Atsushi is presenting the exact same project as my group."
 
-                ABD "What are you saying, TSB?"
+                ABD "What are you saying, TSBB?"
                 ABD "It's the same criteria, so there's bound to be a few similarities."
 
                 TSB "But it's the exact same."
 
                 HUK "I did think it was quite strange."
-                HUK "The previous groups all had different ideas, but Atsushi, yours is the same as TSB and Bii-kun's."
+                HUK "The previous groups all had different ideas, but Atsushi, yours is the same as TSBB and Bii-kun's."
 
                 RUT "I don't know why it's the same."
                 RUT "Atsushi gave me an outline and I just followed what he said."
@@ -5774,7 +5843,7 @@ label start:
 
                 HUK "I can't believe I'm saying this, but I'm going to have to punish–"
 
-                "Atsushi gasps loudly for air and dramatically falls on the floor in a fetal position."
+                "{i}Atsushi gasps loudly for air and dramatically falls on the floor in a fetal position.{/i}"
 
                 HUK "Atsushi-kun, what's wrong?"
 
@@ -5782,7 +5851,7 @@ label start:
 
                 TRT "I'll handle it."
 
-                "{i}The Riot leaps to the front of the class and lifts up Atsushi princess-style.{/i}"
+                "{i}The Riot leaps to the front of the class and lifts up Atsushi princess-style."
                 "{i}The Riot carries Atsushi out of the class and takes him to the school nurse.{/i}"
 
                 HUK "Well, that was something..."
@@ -5794,26 +5863,33 @@ label start:
 
             label Eleven_one:
 
-                DSN "My name is Donaldville-sensei. Now I want you all to come up to the front and introduce yourselves."
-                DSN "We'll go in alphabetical order. First is Akane-san."
+                scene hs_classroom_front with Dissolve(1.0)
 
-                ANA "But why me first? That's not–"
+                DSN "My name is Donaldville-sensei." 
+                DSN "I want you all to come up to the front and introduce yourselves."
+                DSN "We'll go in alphabetical order." 
+                DSN "First is Akane-san."
 
-                DSN "Don't talk back to me. Respect your sensei."
+                ANA "Um, I'm not ready–"
+
+                DSN "Don't talk back to me." 
+                DSN "Respect your sensei."
 
                 ANA "Yes, sensei..."
 
                 "{i}Akane goes to the front and does an elaborate curtsy.{/i}"
 
-                DSN "Alright, sit down Akane-san. Next is Akiyuki-san."
+                DSN "Alright, sit down Akane-san." 
+                DSN "Next is Akiyuki-san."
 
-                ANA "But I–"
+                ANA "But I haven't–"
 
                 DSN "What was that?"
 
                 ANA "N-Nothing..."
 
-                DSN "That's what I thought. Now, Akiyuki-san, hurry up."
+                DSN "That's what I thought." 
+                DSN "Now, Akiyuki-san, hurry up."
 
                 AH "{i}What a bitch...{/i}"
 
@@ -6217,7 +6293,7 @@ label start:
                 ANA "We were just walking to class. What else is there to say?"
 
                 AH "Yeah, you're right."
-                AH "Why am I supposed to press this statement, Keisuke?"
+                AH "Why was I supposed to press this statement, Keisuke?"
 
                 KH "Sigh."
                 KH "Ask her to extrapolate the details."
