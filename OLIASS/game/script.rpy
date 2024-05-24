@@ -5924,7 +5924,8 @@ label start:
 
                 TET "As I was saying, don't forget to check out my Modifye. You can find me under \"Lil Tetsuo\"."
 
-                DSN "That's enough of that. This has gone on long enough. Tanaka-san is the last one."
+                DSN "That's enough of that. This has gone on long enough." 
+                DSN "Tanaka-san is the last one."
                 DSN "Just raise your hand."
 
                 "{i}Tanaka raises his hand.{/i}"
@@ -5986,6 +5987,8 @@ label start:
 
                 DSN "Oh."
 
+                scene hs_classroom_left with Dissolve(1.0)
+
                 "{i}The next day{i}"
 
                 AH "How much are you guys donating?"
@@ -6000,7 +6003,9 @@ label start:
 
                 MH "Yeah, but you should give at least something."
 
-                KH "I don't think so."
+                KH "No, I don't think I will."
+
+                scene hs_classroom_front with Dissolve(1.0)
 
                 "{i}Donaldville slammed a metal box on her desk to silence the class.{i}"
 
@@ -6028,17 +6033,23 @@ label start:
                 DSN "{i}This is the worst class I've ever had.{/i}"
                 DSN "Let's just get on with today's lesson."
 
+                scene hs_hallway with Dissolve(1.0)
+
                 "The next day"
 
                 "{i}Keisuke walks through the empty hallway.{/i}"
 
                 KH "{i}Can't believe I woke up early for once.{/i}"
 
+                scene hs_classroom_morning with Dissolve(1.0)
+
                 "{i}He opens the door and sits at his desk.{/i}"
 
                 KH "{i}There isn't even anyone here.{/i}"
                 KH "{i}Makes sense, considering I'm almost an hour early.{/i}"
                 KH "{i}Guess I'll just sleep until class starts.{/i}"
+
+                scene hs_classroom_front with Dissolve(2.0)
 
                 DSN "WHAT IS THE MEANING OF THIS!?"
 
@@ -6078,12 +6089,13 @@ label start:
 
                 RUT "He was the first person to enter the classroom."
 
-                DSN "Yes, that's why."
-                DSN "So just hand it over and quit making a fool of yourself in front of the class."
+                DSN "Yes, that's precisely why!"
+                DSN "So just hand it over and quit making a fool of yourself in front of the class!"
 
                 CAT "Yeah, Keisuke-kun, I thought you were better than that."
 
-                ELI "Really? Doesn't surprise me."
+                ELI "Really?"
+                ELI "Doesn't surprise me."
 
                 TET "I don't know the guy, but it wouldn't surprise me either."
 
@@ -6105,7 +6117,7 @@ label start:
 
                 DSN "Accusing others only makes you look even worse."
 
-                KH "I never accused anyone, unlike certain people in this room."
+                KH "I never accused anyone, unlike certain other people in this room."
                 KH "I don't really care about figuring out who actually did what."
                 KH "But I do care about defending myself."
 
@@ -6155,7 +6167,8 @@ label start:
 
                 FAT "That sounds like a fun idea!"
 
-                DSN "Principal?! What are you doing here?"
+                DSN "Principal?!"
+                DSN "What are you doing here?"
 
                 FAT "I've been here the whole time."
                 FAT "I was originally here for a class evaluation..."
@@ -6178,28 +6191,47 @@ label start:
                 FAT "Everyone, please be seated."
 
                 "{i}Everyone takes their seats.{/i}"
-                "{i}Minato, Akiyuki, and Keisuke sit to the right.{/i}"
-                "{i}Donaldville and Rumi sit to the left.{/i}"
+
+                scene hs_classroom_left with Dissolve(0.5)
+
+                "{i}Minato, Akiyuki, and Keisuke sit to the right, from the principal's perspective.{/i}"
+                
+                scene hs_classroom with Dissolve(0.5)
+                
+                "{i}Donaldville and Rumi sit to the left, from the principal's perspective.{/i}"
 
                 RUT "I thought I was the prosecutor..."
 
-                DSN "Nobody said that. You'll be my assistant."
+                DSN "Nobody said that." 
+                DSN "You'll be my assistant."
                 DSN "We'll just call the witnesses to the front and get this over with."
+
+                scene hs_classroom_front with Dissolve(0.5)
 
                 FAT "Okay, everything seems to be in order."
                 FAT "Donaldville, explain the case to the jury."
 
+                scene hs_classroom with Dissolve(0.5)
+
                 DSN "The case couldn't be any more simple."
-                DSN "According to two witness reports, the defendant, Keisuke, was seen stealing the donation money."
+                DSN "According to two witness reports, the defendant, Keisuke-san, was seen stealing the donation money."
+
+                scene hs_classroom_left with Dissolve(0.5)
 
                 "{i}Akiyuki slams his palms on his desk.{/i}"
 
                 AH "OBJECTION!"
 
+                scene hs_classroom with Dissolve(0.5)
+
                 DSN "What?"
+
+                scene hs_classroom_front with Dissolve(0.5)
 
                 FAT "Order! Defense, please wait your turn."
                 FAT "Since it's your first time, I'll let you off with a warning."
+
+                scene hs_classroom_left with Dissolve(0.5)
 
                 AH "Damn, I always wanted to do that too."
 
@@ -6221,22 +6253,38 @@ label start:
 
                 AH "Just sit there for now."
 
+                scene hs_classroom with Dissolve(0.5)
+
                 DSN "And that's the prosecution's stance on the matter."
 
-                FAT "I see."
-                FAT "defense, explain your stance."
+                scene hs_classroom_front with Dissolve(0.5)
 
-                AH "Obviously, my client is innocent."
-                AH "And in the preceding hours, I plan to prove it."
+                FAT "I see."
+                FAT "Defense, explain your stance."
+
+                scene hs_classroom_left with Dissolve(0.5)
+
+                AH "Obviously, my client is fully innocent."
+                AH "And in the proceeding hours, I plan to prove it."
+
+                scene hs_classroom_front with Dissolve(0.5)
 
                 FAT "Good luck."
                 FAT "Donaldville-sensei, please bring out your witness."
 
+                scene hs_classroom with Dissolve(0.5)
+
                 DSN "The prosecution calls Eriko-san and Akane-san to the stand."
+
+                scene hs_classroom_front with Dissolve(0.5)
 
                 "{i}Eriko and Akane stand up at the front of the classroom next to each other.{/i}"
 
+                scene hs_classroom with Dissolve(0.5)
+                
                 DSN "Girls, explain what you saw when you were on your way to class."
+
+                scene hs_classroom_front with Dissolve(0.5)
 
                 FAT "Remember, any attempts at falsehood is perjury, and there will be true consequences."
                 FAT "Oh my, I've always wanted to do something like this."
@@ -6247,22 +6295,42 @@ label start:
 
                 ANA "What?"
 
+                scene hs_classroom_left with Dissolve(0.5)
+
+                AH "I want you to–"
+
+                KH "What are you doing?"
                 KH "You can't cross-examine them yet."
 
                 AH "Oh, really?"
 
+                scene hs_classroom with Dissolve(0.5)
+
                 DSN "You have to wait until they finish their full statement."
+
+                scene hs_classroom_left with Dissolve(0.5)
 
                 AH "..."
                 AH "Well, since it's my first time, I think I should be left off with a warning."
+
+                scene hs_classroom_front with Dissolve(0.5)
 
                 "{i}The judge smh his head.{/i}"
 
                 FAT "You've already exhausted all your warnings."
 
+                scene hs_classroom_left with Dissolve(0.5)
+
                 AH "Why do I feel like I just lost one of my five lives?"
 
                 KH "Look, I'll tell you where to press their statements."
+                KH "Just make sure you pay attention."
+
+                AH "Don't worry, I know what I'm doing."
+
+                KH "..."
+
+                scene hs_classroom_front with Dissolve(0.5)
 
                 ANA "Anyway, like I was saying, we were walking down the hallway–"
 
@@ -6273,25 +6341,38 @@ label start:
                 FAT "Sounds pretty cut and dry to me."
                 FAT "Defense, you can start your cross-examination."
 
+                scene hs_classroom_left with Dissolve(0.5)
+
                 AH "..."
                 AH "Uh, Keisuke–"
+
+                "{i}Keisuke smh his head.{/i}"
 
                 KH "Press the first statement."
 
                 AH "Right, I knew that."
 
+                scene hs_classroom_front with Dissolve(0.5)
+
                 ANA "Anyway, like I was saying, we were walking down the hallway–"
 
                 AH "Hold it!"
 
-                ANA "Why do you keep interrupting me?"
+                ANA "Why do I keep getting interrupted by everyone?"
+
+                scene hs_classroom_left with Dissolve(0.5)
 
                 AH "I swear, it's just my job."
                 AH "I'm gonna need you to explain that statement further."
 
+                scene hs_classroom_front with Dissolve(0.5)
+
                 ANA "How?"
                 ANA "We were just walking to class. What else is there to say?"
 
+                scene hs_classroom_left with Dissolve(0.5)
+
+                AH "..."
                 AH "Yeah, you're right."
                 AH "Why was I supposed to press this statement, Keisuke?"
 
@@ -6310,12 +6391,16 @@ label start:
 
                 AH "What time were you and Eriko-chan walking down the hallway?"
 
+                scene hs_classroom_front with Dissolve(0.5)
+
                 ANA "It was pretty early, so probably around–"
 
                 ELI "It was 8:17 when we walked inside."
                 ELI "I remember because I looked at the time when we first saw Keisuke-san in the class."
 
-                KH "I went to sleep at 7:41."
+                scene hs_classroom_left with Dissolve(0.5)
+
+                KH "I went to sleep at 7:41 by the way."
 
                 AH "Aha!"
                 AH "That means there was over thirty minutes of time in-between."
@@ -6325,24 +6410,34 @@ label start:
 
                 AH "Huh!?"
 
+                scene hs_classroom with Dissolve(0.5)
+
                 DSN "That line of reasoning would be true."
                 DSN "If it wasn't based on pure assumptions."
 
+                scene hs_classroom_left with Dissolve(0.5)
+                
                 AH "N-Nani?!"
                 AH "Keisuke was asleep, so anyone could've snuck in and–"
+
+                scene hs_classroom with Dissolve(0.5)
 
                 DSN "And that is where your argument falls apart."
                 DSN "There aren't any witnesses to corroborate the supposed fact he was just sleeping."
                 DSN "If anything, the half hour gap just proves he had more than enough time to commit the crime himself..."
                 DSN "And pretend to sleep as if nothing happened."
 
+                scene hs_classroom_front with Dissolve(0.5)
+
                 FAT "I have to say, I agree with the prosecution's assertion."
 
+                scene hs_classroom_left with Dissolve(0.5)
+                
                 AH "T-This can't be."
                 AH "Nice going Keisuke, you just made things worse for yourself."
 
                 KH "Establishing the facts early on is important."
-                KH "And I didn't know the gap in time was that big."
+                KH "I just wanted to know how big the gap in time was."
 
                 MH "Well, looks like it's over for you guys."
 
@@ -6354,9 +6449,15 @@ label start:
 
                 KH "Just trust me."
 
+                scene hs_classroom_front with Dissolve(0.5)
+
                 FAT "Defense, please continue your cross-examination."
 
+                scene hs_classroom_left with Dissolve(0.5)
+
                 AH "Yes, your honor."
+
+                scene hs_classroom_front with Dissolve(0.5)
 
                 FAT "Oh my, I've always wanted to be called that."
 
@@ -6368,27 +6469,66 @@ label start:
 
                 AH "Objection!"
 
-                ANA "What now?"
+                ANA "Really?"
+                ANA "Me again?"
+                ANA "What is it now?"
 
-                AH "Yeah, Keisuke, what now!?"
+                scene hs_classroom_left with Dissolve(0.5)
+
+                AH "Yeah, Keisuke, what is it now!?"
 
                 KH "Are you serious?"
                 KH "It's very obvious."
 
                 AH "If it's so obvious, you should have no trouble explaining."
 
-                KH "Fair."
+                KH "That's actually pretty fair."
                 KH "They aren't the first ones to enter the classroom."
 
                 AH "Oh wait, I see where you're going with–"
 
+                scene hs_classroom with Dissolve(0.5)
+
                 "{i}Donaldville slams her fist on her desk.{/i}"
 
                 DSN "Objection!"
-                DSN "You were the first one there."
-                DSN "And a minute after the two witnesses entered the classroom, I joined them."
+                DSN "The defendant was the first one there."
+                DSN "He had half an hour to do as he pleased before anyone else entered the classroom."
+                DSN "And a minute after the two witnesses entered, I joined them."
                 DSN "It's just not plausible for anyone else to have taken it."
 
+                scene hs_classroom_left with Dissolve(0.5)
+
+                AH "Objection!"
+                AH "That wasn't going to be our line of reasoning."
+
+                scene hs_classroom with Dissolve(0.5)
+                
+                DSN "What other avenues could there possibly be?"
+
+                scene hs_classroom_left with Dissolve(0.5)
+
+                AH "Within that half hour gap, there could've been someone else who entered the classroom."
+                AH "Keisuke went to sleep immediately, so he wouldn't have seen them."
+                AH "It would have been ample time for them to take the donations and leave!"
+
+                scene hs_classroom with Dissolve(0.5)
+
+                DSN "Objection!"
+                DSN "That's the best you could come up with?"
+                DSN "A mysterious third party, that just so conveniently evaded the defendant and the witnesses?"
+                
+                scene hs_classroom with Dissolve(0.5)
+
+                FAT "The prosecution is correct."
+                FAT "Unless the defense can name this third party, I'm afraid I'm going to have to shut down this line of reasoning."
+
+                scene hs_classroom_left with Dissolve(0.5)
+
+                AH "Well, Keisuke?"
+
+                KH "To be frank, I don't have a name."
+                
                 MH "Well, looks like it's over for you guys."
 
                 AH "Whose side are you on?"
@@ -6415,44 +6555,82 @@ label start:
                 AH "Wow guys, can't believe it took you so long to notice that."
                 AH "I was just about to bring it up in my earlier objection too."
 
-                FAT "Defense, stop talking amongst yourselves."
-                FAT "I only have one question for you."
+                scene hs_classroom_front with Dissolve(0.5)
 
+                FAT "Defense, stop talking amongst yourselves!"
+                FAT "It's obvious you don't have a reasonable answer to my prior inquiry."
+                FAT "So I only have one last question for you."
+
+                scene hs_classroom_left with Dissolve(0.5)
+                
                 AH "Wait, what does that mean?"
+
+                scene hs_classroom_front with Dissolve(0.5)
 
                 FAT "If you can't answer properly, I'm going to have to give a verdict."
 
-                KH "It's fine, we already know what to point out."
+                scene hs_classroom_left with Dissolve(0.5)
 
-                FAT "Is there anything that the witnesses have said that alludes to the facts of this case being different?"
+                AH "That sounds bad."
+
+                KH "It'll be fine." 
+                KH "We already know what to point out."
+                
+                AH "Right."
+
+                scene hs_classroom_front with Dissolve(0.5)
+
+                FAT "Is there anything that these witnesses have said that alludes to the facts of this case being different?"
+
+                scene hs_classroom_left with Dissolve(0.5)
 
                 AH "Yes, your honor, there is."
+
+                scene hs_classroom_front with Dissolve(0.5)
 
                 FAT "Really?"
                 FAT "Which one?"
 
+                scene hs_classroom_left with Dissolve(0.5)
+
                 AH "Akane-chan."
+
+                scene hs_classroom_front with Dissolve(0.5)
 
                 ANA "Why is it always me?"
 
+                scene hs_classroom_left with Dissolve(0.5)
+
                 AH "You stated in your official testimony that no one else could've done it, except my client."
                 AH "But that statement, doesn't hold up with the evidence."
+
+                scene hs_classroom_front with Dissolve(0.5)
 
                 DSN "Objection!"
                 DSN "We've already been through this."
                 DSN "Keisuke was the first one there–"
 
+                scene hs_classroom_left with Dissolve(0.5)
+
                 AH "Objection!"
                 AH "Keisuke couldn't have been the first person there."
                 AH "And the evidence supports this."
 
+                scene hs_classroom with Dissolve(0.5)
+
                 DSN "What?"
 
+                scene hs_classroom_front with Dissolve(0.5)
+
                 FAT "I can't turn a blind eye to that."
-                FAT "What evidence supports the idea that Keisuke wasn't the first person in the classroom?"
+                FAT "What evidence supports the reasoning that Keisuke wasn't the first person in the classroom?"
+
+                scene hs_classroom_left with Dissolve(0.5)
 
                 AH "That evidence is..."
                 AH "That Keisuke was in the classroom!"
+
+                scene hs_classroom_front with Dissolve(0.5)
 
                 FAT "..."
                 FAT "WHAT!?"
@@ -6462,65 +6640,106 @@ label start:
 
                 FAT "Order! Order!"
 
-                MH "Where'd he get that?"
+                scene hs_classroom_left with Dissolve(0.5)
+
+                MH "Where'd he even get that?"
 
                 KH "No clue."
 
+                scene hs_classroom_front with Dissolve(0.5)
+
                 FAT "Akiyuki!"
+
+                scene hs_classroom_left with Dissolve(0.5)
 
                 AH "Yes, your honor?"
 
+                scene hs_classroom_front with Dissolve(0.5)
+
                 FAT "Please explain yourself in a way that makes sense to the court."
 
+                scene hs_classroom_left with Dissolve(0.5)
+                
                 AH "Keisuke being in the classroom first..."
                 AH "Is the very thing that proves he wasn't in the classroom first."
 
+                scene hs_classroom with Dissolve(0.5)
+
                 DSN "Wait, it can't be..."
-                DSN "No! That's impossible!"
+                DSN "No!" 
+                DSN "That's impossible!"
+
+                scene hs_classroom_front with Dissolve(0.5)
 
                 FAT "I feel as though I'm missing something."
+
+                scene hs_classroom_left with Dissolve(0.5)
 
                 AH "It's elementary, my dear Honor."
                 AH "At the end of every school day, all the classroom doors are locked."
                 AH "And yet, Keisuke was able to enter the classroom before the Sensei."
 
-                FAT "Oh, I see."
+                scene hs_classroom_front with Dissolve(0.5)
+
+                FAT "Oh, I see!"
                 FAT "That does seem like quite the conundrum."
 
+                scene hs_classroom with Dissolve(0.5)
+
                 RUT "He probably just stole the key too."
+
+                scene hs_classroom_left with Dissolve(0.5)
 
                 "{i}Akiyuki slams his fist on his desk.{/i}"
 
                 AH "Objection!"
-                AH "{i}I've got the hang of this now.{/i}"
+                AH "{i}I think I've got the hang of this now.{/i}"
                 AH "Donaldville-Sensei herself can prove whether that's true."
                 AH "Well?"
+
+                scene hs_classroom with Dissolve(0.5)
 
                 DSN "..."
                 DSN "The key was in the office, where it was supposed to be."
                 DSN "He couldn't have taken it without someone seeing him do it."
 
+                scene hs_classroom_left with Dissolve(0.5)
+
                 AH "And there you have it."
                 AH "My client had no opportunity to commit the crime, so he has to be found not guilty."
 
+                scene hs_classroom_front with Dissolve(0.5)
+
                 FAT "..."
+
+                scene hs_classroom with Dissolve(0.5)
 
                 DSN "Objection!"
                 DSN "Just because the door wasn't locked, doesn't prove he didn't steal the donations."
                 DSN "He clearly took advantage of the rare opportunity to commit his crime."
 
+                scene hs_classroom_left with Dissolve(0.5)
+
                 AH "What?"
                 AH "O-Objection!"
+
+                scene hs_classroom_front with Dissolve(0.5)
 
                 FAT "Overruled."
                 FAT "The prosecution makes an excellent point."
                 FAT "The detail of the unlocked room feels troublesome..."
                 FAT "But I don't see how it has any bearing on the case."
 
+                scene hs_classroom_left with Dissolve(0.5)
+
                 AH "You can't be serious..."
 
-                FAT "If you can't provide any compelling reason why this avenue should continue to be explored..."
+                scene hs_classroom_front with Dissolve(0.5)
+
+                FAT "If you can't provide any compelling reason why this reasoning should continue to be explored..."
                 FAT "I'm going to have to end the cross-examination, and precede with my verdict."
+
+                scene hs_classroom_left with Dissolve(0.5)
 
                 AH "What am I gonna do?"
 
@@ -6542,7 +6761,11 @@ label start:
 
                 AH "Your Honor!"
 
+                scene hs_classroom_front with Dissolve(0.5)
+
                 FAT "Have you finished gathering your thoughts?"
+
+                scene hs_classroom_left with Dissolve(0.5)
 
                 AH "Yes."
                 AH "The reason why my client, Keisuke, couldn't do it..."
@@ -6553,12 +6776,18 @@ label start:
                 AH "But wait, there's more!"
                 AH "And he, I mean, I can point out who did it."
 
+                scene hs_classroom with Dissolve(0.5)
+
                 DSN "Oh really?"
+
+                scene hs_classroom_front with Dissolve(0.5)
 
                 FAT "That's a bold statement, attorney for the defense."
                 FAT "I'm going to have to press you on that one."
                 FAT "This better be within reason, or else I'll have to end the trial immediately."
 
+                scene hs_classroom_left with Dissolve(0.5)
+                
                 AH "No worries."
                 AH "So Keisuke, who did it again?"
 
@@ -6569,10 +6798,12 @@ label start:
                 AH "But you said you knew!"
 
                 KH "I never said that."
-                KH "But it doesn't matter. There's still a way we can turn things around in our favor."
+                KH "But it doesn't matter." 
+                KH "There's still a way we can turn things around in our favor."
 
                 AH "You've gotta be kidding me."
-                AH "How can that even be possible? This situation is hopeless."
+                AH "How can that even be possible?" 
+                AH "This situation is hopeless."
 
                 KH "You'll have to call a witness to the stand."
                 KH "Say that the cross-examination of the witness will bring out who did it."
@@ -6589,17 +6820,27 @@ label start:
 
                 MK "Who?"
 
-                FAT "Defense, ready or not, it's time."
+                scene hs_classroom_front with Dissolve(0.5)
+
+                FAT "Defense, it's time up."
+
+                scene hs_classroom_left with Dissolve(0.5)
 
                 AH "Yes, your Honor."
                 AH "At this time, I cannot specifically point out the culprit."
                 AH "But I can call out a witness who'll reveal their identity."
 
+                scene hs_classroom with Dissolve(0.5)
+
                 DSN "Objection!"
                 DSN "What's the point of another testimony at this stage?"
                 DSN "This charade has gone on long enough."
 
-                AH "Oh well. Can't say I didn't try."
+                scene hs_classroom_left with Dissolve(0.5)
+
+                AH "{i}Oh well. Can't say I didn't try.{/i}"
+
+                scene hs_classroom_front with Dissolve(0.5)
 
                 FAT "I hereby overrule that objection."
 
@@ -6608,9 +6849,13 @@ label start:
                 FAT "If this witness can point out the true culprit..."
                 FAT "Then I see no reason to end this trial until we hear their testimony."
 
+                scene hs_classroom_left with Dissolve(0.5)
+
                 AH "Yes!"
 
-                FAT "Don't get too excited, defense."
+                scene hs_classroom_front with Dissolve(0.5)
+
+                FAT "But don't get too excited, defense."
                 FAT "If the witness testimony proves to be unfruitful, then I'm declaring my verdict immediately."
                 FAT "Don't expect that verdict to be in your favor either."
                 FAT "Now then–"
@@ -6620,11 +6865,19 @@ label start:
                 FAT "Oh well then."
                 FAT "Time for an intermission."
 
+                scene hs_classroom with Dissolve(0.5)
+
                 DSN "Why can't we just finish this now?"
+
+                scene hs_classroom_front with Dissolve(0.5)
 
                 FAT "Surely you aren't suggesting to deprive these kids of their midday meal, right Donaldville-sensei?"
 
+                scene hs_classroom with Dissolve(0.5)
+
                 DSN "O-Of course not, principal."
+
+                scene hs_classroom_left with Dissolve(0.5)
 
                 MH "We were just about to get to the good part too."
 
@@ -6654,10 +6907,10 @@ label start:
 
                 KH "Whatever."
 
-                "{i}Tanaka and Chiba walk up to the group.{/i}"
+                "{i}Tanaka and Chiba walk up to them.{/i}"
 
                 THO "Akiyuki, you were on fire out there."
-                THO "You may not need it, but We have something to tell you."
+                THO "You may not need it, but we have something to tell you."
 
                 AH "What's up?"
 
@@ -6680,7 +6933,8 @@ label start:
 
                 XC "It was definitely a guy."
 
-                MH "You didn't think that was suspicious? Why didn't you tell anyone when this started?"
+                MH "You didn't think that was suspicious?" 
+                MH "Why didn't you tell anyone when this started?"
 
                 XC "For all we knew it could've just been Keisuke."
 
@@ -6699,17 +6953,18 @@ label start:
                 THO "It was around 17:30."
                 THO "We stayed after to check out the clubs and stuff."
 
-                XC "They were wastelands though. Everybody just joins the track team."
-                XC "So it didn't take long for us to get back and grab our stuff from the class."
+                XC "They were wastelands though." 
+                XC "Everybody just joins the track team."
+                XC "It didn't take long for us to get back and grab our stuff from the class."
 
-                THO "Someone must've walked in behind us though, 'cause there wasn't anyone there until after we left."
+                THO "Someone must've walked in behind us though, 'cause we only saw him from the hallway after we left."
 
                 AH "That means it happened yesterday."
                 AH "We know whoever did it went in the classroom after you guys left, around 17:30."
 
                 MH "That means anyone could've done it."
 
-                KH "Which is bad, cuz they're still gonna blame me for it anyway."
+                KH "Which is not good, cuz they're probably gonna blame me for it anyway."
 
                 THO "Guess it really didn't help much, huh?"
 
@@ -6723,21 +6978,34 @@ label start:
                 AH "And we'll see about that."
 
                 "{i}Bell rings.{/i}"
+
+                scene hs_classroom_front with Dissolve(0.5)
+
                 "{i}The judge slammed his gavel on his desk.{/i}"
 
                 FAT "Now, let's resume the trial."
                 FAT "I believe the defense was about to call the next witness to the stand."
                 FAT "Is the defense prepared to name this witness?"
 
+                scene hs_classroom_left with Dissolve(0.5)
+
                 AH "Yes, your Honor."
                 AH "The witness we want to call up to the stand..."
                 AH "Is Ei-san!"
 
+                scene hs_classroom with Dissolve(0.5)
+
                 DSN "Ei? Oh god, why him?"
+
+                scene hs_classroom_front with Dissolve(0.5)
 
                 "{i}Ei walks up to the front of the classroom.{i}"
 
+                scene hs_classroom_left with Dissolve(0.5)
+
                 AH "Please state your name and occupation for the court."
+
+                scene hs_classroom_front with Dissolve(0.5)
 
                 HEI "I'm Ei, and I'm on the track team."
 
@@ -6745,55 +7013,89 @@ label start:
                 FAT "What bearings could this young gentleman have on this case?"
                 FAT "I shouldn't have to remind the defense of the consequences if this testimony turns out unrelated."
 
+                scene hs_classroom_left with Dissolve(0.5)
+
                 AH "Of course not."
                 AH "The defense is certain that the testimony of Ei will bring out the truth."
 
+                scene hs_classroom_front with Dissolve(0.5)
+
                 FAT "And what is the prosecution's stance?"
 
-                DSN "I, I mean, we believe that Keisuke stole the donations, and all the facts of the case point to this conclusion."
+                scene hs_classroom with Dissolve(0.5)
+
+                DSN "I believe that Keisuke stole the donations, and all the facts of the case point to this conclusion."
+
+                RUT "Don't you mean we believe?"
+
+                DSN "No."
+
+                scene hs_classroom_front with Dissolve(0.5)
 
                 FAT "I understand both of your stances."
                 FAT "So let's get the testimony started."
 
+                scene hs_classroom_left with Dissolve(0.5)
+
                 AH "Witness, please explain what you did after class yesterday."
+
+                scene hs_classroom_front with Dissolve(0.5)
 
                 HEI "Yeah yeah yeah yeah."
                 HEI "I performed my class duties."
                 HEI "And then I went home."
 
+                scene hs_classroom_left with Dissolve(0.5)
+
                 AH "..."
 
+                scene hs_classroom with Dissolve(0.5)
+
                 DSN "..."
+
+                scene hs_classroom_front with Dissolve(0.5)
 
                 E "..."
 
                 FAT "..."
                 FAT "Is that it?"
 
-                HEI "Yes."
+                HEI "Yeah yeah yeah yeah."
 
                 FAT "I think I've heard enough."
                 FAT "I'm ready to give my verdict."
+
+                scene hs_classroom_left with Dissolve(0.5)
 
                 AH "{i}Well, it was fun while it lasted.{/i}"
 
                 KH "Objection."
 
+                scene hs_classroom_front with Dissolve(0.5)
+
                 FAT "Defendant? What's the meaning of that lukewarm objection?"
+
+                scene hs_classroom_left with Dissolve(0.5)
 
                 AH "Yeah, I'm supposed to do that."
 
                 KH "You were too slow."
                 KH "The judge can't give a verdict yet."
 
+                scene hs_classroom_front with Dissolve(0.5)
+
                 FAT "Why not?"
 
                 KH "It's the defense's absolute right to be given the chance to cross-examine every witness testimony."
                 KH "Akiyuki hasn't given his cross-examination yet, so you have to uphold that right."
 
+                scene hs_classroom_front with Dissolve(0.5)
+
                 FAT "Really? Is that how this works?"
-                FAT "Now that I think about it, I heard something like that in a movie once."
+                FAT "Now that I think about it, I heard something like that in a video game once."
                 FAT "Defense, please proceed with the cross-examination."
+
+                scene hs_classroom_left with Dissolve(0.5)
 
                 AH "Nice save."
                 AH "So, now what? You said Ei would tell us everything."
@@ -6810,15 +7112,21 @@ label start:
 
                 AH "Got it."
 
+                scene hs_classroom_front with Dissolve(0.5)
+
                 HEI "Yeah yeah yeah yeah."
                 HEI "I performed my class duties–"
+
+                scene hs_classroom_left with Dissolve(0.5)
 
                 AH "Hold it!"
                 AH "Explain in detail what you did while you were on duty."
                 AH "Be specific, don't leave anything out."
 
+                scene hs_classroom_front with Dissolve(0.5)
+
                 HEI "Yeah yeah yeah yeah."
-                HEI "{i}I've been waiting for this.{/i}"
+                HEI "{i}I've been waiting for this!{/i}"
                 HEI "So after the bell rang when class ended, I met up with Rumi."
                 HEI "I reminded her about our duties, but she said she couldn't do them because she's on the track team."
                 HEI "As you all know, I'm also on the track team."
@@ -6829,29 +7137,45 @@ label start:
                 HEI "I left the door unlocked and left the classroom."
                 HEI "Finally, I walked home."
 
+                scene hs_classroom_left with Dissolve(0.5)
+
                 AH "..."
 
+                scene hs_classroom with Dissolve(0.5)
+
                 DSN "..."
+
+                scene hs_classroom_front with Dissolve(0.5)
 
                 E "..."
 
                 FAT "..."
                 FAT "D-Did this witness just confess to committing the crime?"
 
+                scene hs_classroom with Dissolve(0.5)
+
                 "{i}Donaldville slams both her fists on her desk.{/i}"
 
                 DSN "OBJECTION!"
 
+                scene hs_classroom_front with Dissolve(0.5)
+
                 FAT "What is the meaning of this outburst?"
 
+                scene hs_classroom with Dissolve(0.5)
+                
                 DSN "This is ridiculous!"
-                DSN "They must've forced him to give a false testimony."
+                DSN "They must've forced him to give a false testimony!"
 
+                scene hs_classroom_left with Dissolve(0.5)
+                
                 "{i}Akiyuki slams his fist on his desk.{/i}"
 
                 AH "Objection!"
                 AH "We did no such thing!"
                 AH "He willingly admitted to doing it."
+
+                scene hs_classroom_front with Dissolve(0.5)
 
                 HEI "Yeah yeah yeah yeah."
 
@@ -6859,18 +7183,25 @@ label start:
 
                 "{i}The closest student, Mishima, opens the locker and finds the donations box.{/i}"
 
-                TET "It's in here. All the money's still there too."
+                TET "It's in here." 
+                TET "All the money's still there too."
 
                 FAT "Goodness me!"
 
-                HEI "Everything I said here is true."
+                HEI "Everything I said is true."
+
+                scene hs_classroom with Dissolve(0.5)
 
                 "{i}Rumi slams her palm on the desk and injures herself.{/i}"
 
                 RUT "Ow!"
                 RUT "I-I mean, objection!"
 
+                scene hs_classroom_front with Dissolve(0.5)
+
                 FAT "What can it possibly be now?"
+
+                scene hs_classroom with Dissolve(0.5)
 
                 RUT "Ei is lying!"
                 RUT "I never forced him to do the class duties by himself."
@@ -6879,33 +7210,52 @@ label start:
                 DSN "And there you have it."
                 DSN "They must've told him to concoct this story during the intermission."
 
+                scene hs_classroom_left with Dissolve(0.5)
+
                 AH "We–"
 
                 KH "We know that's not true, Akiyuki."
-                KH "And we can prove it with evidence, right?"
+                KH "And we can prove it, right?"
 
                 AH "R-Right, that's what I was gonna say."
-                AH "What evidence again?"
+                AH "How can we prove it again?"
 
                 MH "Tanaka and Chiba, right?"
                 MH "They were with us, so they can vouch we never talked with Ei."
 
+                scene hs_classroom_left with Dissolve(0.5)
+
                 DSN "Don't even try to call any more witnesses."
-                DSN "You probably paid them off too."
+                DSN "You probably coerced them for it as well."
+
+                scene hs_classroom_front with Dissolve(0.5)
 
                 FAT "Prosecution, I'm overruling your objection."
 
-                DSN "WHAT!?"
-                DSN "Why? It makes perfect sense!"
+                scene hs_classroom with Dissolve(0.5)
 
-                FAT "As long as there isn't anyone who can say for certain whether the defense tampered with this witness testimony..."
+                DSN "WHAT!?"
+                DSN "Why?" 
+                DSN "It makes perfect sense!"
+
+                scene hs_classroom_front with Dissolve(0.5)
+
+                FAT "As long as there isn't anyone who can say for certain whether the defense tampered with this witness's testimony..."
                 FAT "We have to accept it as the truth."
+
+                scene hs_classroom_left with Dissolve(0.5)
 
                 AH "{i}Yes!{/i}"
 
+                scene hs_classroom_front with Dissolve(0.5)
+
                 FAT "However..."
 
+                scene hs_classroom_left with Dissolve(0.5)
+
                 AH "{i}No!{/i}"
+
+                scene hs_classroom_front with Dissolve(0.5)
 
                 FAT "The prosecutor's assistant has brought up a new problem."
                 FAT "Can anyone in the gallery confirm whether she went to track practice yesterday?"
@@ -6914,23 +7264,31 @@ label start:
 
                 ANA "I'm also on the team, and I didn't see her."
 
+                scene hs_classroom with Dissolve(0.5)
+
                 RUT "See? I'm not lying."
 
+                scene hs_classroom_left with Dissolve(0.5)
+
                 HEI "For the record, I didn't lie either."
+
+                scene hs_classroom_front with Dissolve(0.5)
 
                 FAT "Sorry, but it looks like that's not the case."
                 FAT "Unless there's anyone else that can corroborate your testimony, I'm going to have to disregard it."
 
-                AH "This is it, isn't it..."
+                scene hs_classroom_left with Dissolve(0.5)
+                
+                AH "{i}This is it, isn't it...{/i}"
 
-                KH "I think I know what's going on here."
+                KH "I think I know how to turn things around."
                 KH "Akiyuki, it's time for that backup plan."
 
                 AH "But Donaldville-sensei already shut it down."
 
-                KH "Not yet."
-                KH "We just have to point out the other possibility first."
-                KH "Like I said at the beginning, logical reasoning is far more valuable than any testimony."
+                KH "Not completely."
+                KH "We just have to point out the other possibility next."
+                KH "Like I said at the beginning, logical reasoning is far more valuable than any witness testimony."
 
                 AH "What's the other possibility?"
 
@@ -6948,38 +7306,55 @@ label start:
                 KH "They said she wasn't at practice, which is probably true."
                 KH "But that doesn't mean she was with Ei doing her class duties."
 
-                AH "Oh, that actually makes sense."
+                AH "Oh, you're actually making sense for once."
                 AH "Your Honor!"
+
+                scene hs_classroom_front with Dissolve(0.5)
 
                 FAT "This better be good."
 
+                scene hs_classroom_left with Dissolve(0.5)
+
                 AH "The defense has multiple witness accounts that corroborate the fact that Ei-kun was working alone yesterday."
+
+                scene hs_classroom with Dissolve(0.5)
 
                 DSN "Objection!"
                 DSN "And the prosecution has multiple witness accounts that state she was in fact doing her class duties with Ei-san."
 
+                scene hs_classroom_left with Dissolve(0.5)
+
                 AH "Objection!"
-                AH "That's not what they say."
+                AH "That's not what they say!"
                 AH "They only said she wasn't at practice."
                 AH "There isn't a single witness that has seen her with Ei, during the crucial time."
+
+                scene hs_classroom with Dissolve(0.5)
 
                 DSN "But that's ridiculous."
                 DSN "If she wasn't at track, then she'd be doing her assigned class duties."
                 DSN "Where else would she be?"
+
+                scene hs_classroom_front with Dissolve(0.5)
 
                 FAT "I have to say, I'm leaning towards the defense's side at the moment."
                 FAT "Prosecution, if you can't produce a witness that has seen Rumi-chan with Ei-kun..."
                 FAT "Then I'll have to end this trial with my verdict."
                 FAT "The school day is almost over after all."
 
+                scene hs_classroom with Dissolve(0.5)
+
                 DSN "You can't be serious."
                 DSN "There has to be someone who saw her."
+
+                scene hs_classroom_front with Dissolve(0.5)
 
                 TET "Uh, if I can say something, I did see Rumi-chan."
 
                 FAT "And who are you?"
 
-                TET "I'm Mishima, an aspiring music artist. You can find me on Modifye under the name \"Lil Tetsuo\"."
+                TET "I'm Mishima, an aspiring music artist." 
+                TET "You can find me on Modifye under the name \"Lil Tetsuo\"."
 
                 FAT "No thank you."
                 FAT "But you say you saw the prosecutor's assistant?"
@@ -6992,13 +7367,19 @@ label start:
                 FAT "Oh my, heavens no."
                 FAT "But if those events are true–"
 
+                scene hs_classroom with Dissolve(0.5)
+
                 DSN "Objection!"
+
+                scene hs_classroom_front with Dissolve(0.5)
 
                 "{i}The judge smh his head.{/i}"
 
                 FAT "Overruled."
                 FAT "I'm sure you'll say this testimony was fabricated as well?"
                 FAT "The only testimony that disagrees with the facts is the one of the prosecutor's assistant."
+
+                scene hs_classroom with Dissolve(0.5)
 
                 RUT "But I–"
 
@@ -7009,10 +7390,14 @@ label start:
 
                 RUT "Y-Yes Ma'am..."
 
+                scene hs_classroom_front with Dissolve(0.5)
+
                 FAT "I believe this trial has reached its conclusion."
                 FAT "I hereby sentence the defendant, Keisuke, not guilty."
 
                 "{i}The judge slammed his gavel on his desk.{/i}"
+
+                scene hs_classroom_left with Dissolve(0.5)
 
                 AH "Does this mean we won?"
 
@@ -7020,9 +7405,12 @@ label start:
 
                 KH "Of course we did, I was innocent the whole time."
 
+                scene hs_classroom_front with Dissolve(0.5)
+
                 FAT "There's just one last thing I don't quite understand."
                 FAT "What made you do it, Ei-san?"
-                FAT "You just moved the box, without taking any of the money. Surely there's an explanation?"
+                FAT "You just moved the box, without taking any of the money."
+                FAT "Surely there's an explanation?"
 
                 HEI "Yeah yeah yeah yeah"
                 HEI "Your Honor, I was offended."
@@ -7035,15 +7423,19 @@ label start:
 
                 HEI "I am?"
 
+                scene hs_classroom with Dissolve(0.5)
+
                 DSN "Of course you are."
                 DSN "You hid the donation box, and left the door unlocked."
                 DSN "But most egregiously, you wasted everyone's time with this nonsensical class trial."
+
+                scene hs_classroom_front with Dissolve(0.5)
 
                 HEI "Yeah yeah yeah yeah."
 
                 "{i}Bell rings.{/i}"
                 "{i}And so, the Great Class Trial of the Second Years ended.{/i}"
-                "{i}Akiyuki became famous amongst the second-years as the brilliant attorney that defended that one black kid against all odds.{/i}"
+                "{i}Akiyuki became famous amongst the school as the laudable lawyer that defended that one black kid against all odds.{/i}"
 
             label Campaign_prologue:
 
