@@ -106,11 +106,11 @@ label sprites:
             image M_S_frown = im.Scale("sprites/Minato/M_S_frown.png", 550,650)
             image M_S_heartbroken = im.Scale("sprites/Minato/M_S_heartbroken.png", 550,650)
             image M_W_shock = im.Scale("sprites/Minato/M_W_shock.png", 550,650)
-            image M G = im.Scale("sprites/Minato/M_G.png", 550,650)
-            image M G_shock = im.Scale("sprites/Minato/M_G_shock.png", 550,650)
-            image M G_startled = im.Scale("sprites/Minato/M_G_startled.png", 550,650)
-            image M C = im.Scale("sprites/Minato/M_C.png", 550,650)
-            image M C_shock = im.Scale("sprites/Minato/M_C_shock.png", 550,650)
+            image M_G = im.Scale("sprites/Minato/M_G.png", 550,650)
+            image M_G_shock = im.Scale("sprites/Minato/M_G_shock.png", 550,650)
+            image M_G_startled = im.Scale("sprites/Minato/M_G_startled.png", 550,650)
+            image M_C = im.Scale("sprites/Minato/M_C.png", 550,650)
+            image M_C_shock = im.Scale("sprites/Minato/M_C_shock.png", 550,650)
 
         label Akiyuki:
             image A_W = im.Scale("sprites/Akiyuki/A_W.png", 550,650)
@@ -233,41 +233,131 @@ label sprites:
             image BEE = im.Scale("sprites/third_grader.png", 550,650)
     label HS:
         label MinatoH:
-            image MH W = im.Scale("sprites/Minato/MH_W.png", 550,650)
-            image MH W_frown = im.Scale("sprites/Minato/MH_W_frown.png", 550,650)
-            image MH W horny = im.Scale("sprites/Minato/M_W_horny.png", 550,650)
-            image MH W heartbroken = im.Scale("sprites/Minato/MH_W_heartbroken.png", 550,650)
-            image MH W breedable = im.Scale("sprites/Minato/MH_W_breedable.png", 550,650)
-            image MH S = im.Scale("sprites/Minato/MH_S.png", 550,650)
-            image MH S frown = im.Scale("sprites/Minato/MH_S_frown.png", 550,650)
-            image MH S horny = im.Scale("sprites/Minato/M_S_horny.png", 550,650)
-            image MH S heartbroken = im.Scale("sprites/Minato/MH_S_heartbroken.png", 550,650)
-            image MH S breedable = im.Scale("sprites/Minato/MH_S_breedable.png", 550,650)
+            image MH_W = im.Scale("sprites/Minato/MH_W.png", 550,650)
+            image MH_W_frown = im.Scale("sprites/Minato/MH_W_frown.png", 550,650)
+            image MH_W_horny = im.Scale("sprites/Minato/MH_W_horny.png", 550,650)
+            image MH_W_heartbroken = im.Scale("sprites/Minato/MH_W_heartbroken.png", 550,650)
+            image MH_W_breedable = im.Scale("sprites/Minato/MH_W_breedable.png", 550,650)
+            image MH_S = im.Scale("sprites/Minato/MH_S.png", 550,650)
+            image MH_S frown = im.Scale("sprites/Minato/MH_S_frown.png", 550,650)
+            image MH_S horny = im.Scale("sprites/Minato/MH_S_horny.png", 550,650)
+            image MH_S heartbroken = im.Scale("sprites/Minato/MH_S_heartbroken.png", 550,650)
+            image MH_S breedable = im.Scale("sprites/Minato/MH_S_breedable.png", 550,650)
+            image MH_C_frown = im.Scale("sprites/Minato/MH_C_frown.png", 550,650)
+            image MH_C_horny = im.Scale("sprites/Minato/MH_C_horny.png", 550,650)
+            image MH_C_heartbroken = im.Scale("sprites/Minato/MH_C_heartbroken.png", 550,650)
+            image MH_naked_horny = im.Scale("sprites/Minato/MH_naked_horny.png", 550,650)
         label AkiyukiH:
+            image AH_W = im.Scale("sprites/Akiyuki/AH_W.png", 550,650)
+            image AH_W_cry = im.Scale("sprites/Akiyuki/AH_W_cry.png", 550,650)
+            image AH_S = im.Scale("sprites/Akiyuki/AH_S.png", 550,650)
+            image AH_S_frown = im.Scale("sprites/Akiyuki/AH_S_frown.png", 550,650)
+            image AH_C = im.Scale("sprites/Akiyuki/AH_C.png", 550,650)
+            image AH_C_frown = im.Scale("sprites/Akiyuki/AH_C_frown.png", 550,650)
         label KeisukeH:
-            image KH W = im.Scale("sprites/Keisuke/KH_W.png", 550,650)
-            image KH W shock = im.Scale("sprites/Keisuke/K_W_shock.png", 550,650)
-            image KH S = im.Scale("sprites/Keisuke/KH_S.png", 550,650)
-            image KH C = im.Scale("sprites/Keisuke/KH_C.png", 550,650)
+            image KH_W = im.Scale("sprites/Keisuke/KH_W.png", 550,650)
+            image KH_W shock = im.Scale("sprites/Keisuke/K_W_shock.png", 550,650)
+            image KH_S = im.Scale("sprites/Keisuke/KH_S.png", 550,650)
+            image KH_C = im.Scale("sprites/Keisuke/KH_C.png", 550,650)
         label Chiba:
+            image XC_W = im.Scale("sprites/Chiba/XC_W", 550,650)
+            image XC_W_angry = im.Scale("sprites/Chiba/XC_W_angry", 550,650)
+            image XC_W_shout = im.Scale("sprites/Chiba/XC_W_shout", 550,650)
+            image XC_S = im.Scale("sprites/Chiba/XC_S", 550,650)
+            image XC_W_angry = im.Scale("sprites/Chiba/XC_W_angry", 550,650)
         label Tanaka:
+            image THO_W = im.Scale("sprites/Tanaka/THO_W", 550,650)
+            image THO_S = im.Scale("sprites/Tanaka/THO_S", 550,650)
+            image THO_naked = im.Scale("sprites/Tanaka/THO_naked", 550,650)
         label Mishima:
+            image TET_W = im.Scale("sprites/Mishima/TET_W", 550,650)
+            image TET_W_frown = im.Scale("sprites/Mishima/TET_W_frown", 550,650)
+            image TET_S = im.Scale("sprites/Mishima/TET_S", 550,650)
+            image TET_S_frown = im.Scale("sprites/Mishima/TET_S_frown", 550,650)
         label Twins:
+            image TN_W = im.Scale("sprites/Twin/TN_W", 550,650)
+            image TN_S = im.Scale("sprites/Twin/TN_S", 550,650)
+            image TN_naked = im.Scale("sprites/Twin/TN_naked", 550,650)
         label TSBB:
+            image TSB_W = im.Scale("sprites/TSBB/TSB_W", 550,650)
+            image TSB_W_angry = im.Scale("sprites/TSBB/TSB_W_angry", 550,650)
+            image TSB_W_stalk = im.Scale("sprites/TSBB/TSB_W_stalk", 550,650)
+            image TSB_S = im.Scale("sprites/TSBB/TSB_S", 550,650)
+            image TSB_S_angry = im.Scale("sprites/TSBB/TSB_S_angry", 550,650)
+            image TSB_S_stalk = im.Scale("sprites/TSBB/TSB_S_stalk", 550,650)
+            image TSB_naked = im.Scale("sprites/TSBB/TSB_naked", 550,650)
+            image TSB_naked_stalk = im.Scale("sprites/TSBB/TSB_naked_stalk", 550,650)
         label TheRiot:
+            image TRT_G = im.Scale("sprites/TheRiot/TRT_G", 550,650)
+            image TRT_G_angry = im.Scale("sprites/TheRiot/TRT_G_angry", 550,650)
+            image TRT_G_happy = im.Scale("sprites/TheRiot/TRT_G_happy", 550,650)
         label Bro:
+            image BRO_G = im.Scale("sprites/Bro/BRO_G", 550,650)
+            image BRO_G_angry = im.Scale("sprites/Bro/BRO_G_angry", 550,650)
+            image BRO_G_happy = im.Scale("sprites/Bro/BRO_G_happy", 550,650)
         label Rumi:
+            image RUT_G = im.Scale("sprites/Rumi/RUT_G", 550,650)
+            image RUT_G_ass = im.Scale("sprites/Rumi/RUT_G_ass", 550,650)
+            image RUT_G_horny = im.Scale("sprites/Rumi/RUT_G_horny", 550,650)
+            image RUT_W = im.Scale("sprites/Rumi/RUT_W", 550,650)
+            image RUT_W_ass = im.Scale("sprites/Rumi/RUT_W_ass", 550,650)
+            image RUT_W_horny = im.Scale("sprites/Rumi/RUT_W_horny", 550,650)
+            image RUT_S = im.Scale("sprites/Rumi/RUT_S", 550,650)
+            image RUT_S_ass = im.Scale("sprites/Rumi/RUT_S_ass", 550,650)
+            image RUT_S_horny = im.Scale("sprites/Rumi/RUT_S_horny", 550,650)
+            image RUT_naked = im.Scale("sprites/Rumi/RUT_naked", 550,650)
+            image RUT_naked_shock = im.Scale("sprites/Rumi/RUT_naked_shock", 550,650)
         label Chizuru:
+            image CAT_G = im.Scale("sprites/Rumi/CAT_G", 550,650)
+            image CAT_W = im.Scale("sprites/Rumi/CAT_W", 550,650)
+            image CAT_S = im.Scale("sprites/Rumi/CAT_S", 550,650)
+            image CAT_naked = im.Scale("sprites/Rumi/CAT_naked", 550,650)
         label Asuka:
+            image ALI_G = im.Scale("sprites/Asuka/ALI_G", 550,650)
+            image ALI_W = im.Scale("sprites/Asuka/ALI_W", 550,650)
+            image ALI_W_angry = im.Scale("sprites/Asuka/ALI_W_angry", 550,650)
+            image ALI__W_lust = im.Scale("sprites/Asuka/ALI_W_lust", 550,650)
+            image ALI_S = im.Scale("sprites/Asuka/ALI_S", 550,650)
+            image ALI_S_angry = im.Scale("sprites/Asuka/ALI_S_angry", 550,650)
+            image ALI_naked = im.Scale("sprites/Asuka/ALI_naked", 550,650)
+            image ALI_naked_shock = im.Scale("sprites/Asuka/ALI_naked_shock", 550,650)
         label Akane:
+            image ANA_G = im.Scale("sprites/Akane/ANA_G", 550,650)
+            image ANA_W = im.Scale("sprites/Akane/ANA_W", 550,650)
+            image ANA_W_shock = im.Scale("sprites/Akane/ANA_W_shock", 550,650)
+            image ANA_W_smile = im.Scale("sprites/Akane/ANA_W_smile", 550,650)
+            image ANA_S = im.Scale("sprites/Akane/ANA_S", 550,650)
+            image ANA_S_smile = im.Scale("sprites/Akane/ANA_S_smile", 550,650)
+            image ANA_C = im.Scale("sprites/Akane/ANA_C", 550,650)
+            image ANA_C_smile = im.Scale("sprites/Akane/ANA_C_smile", 550,650)
+            image ANA_naked = im.Scale("sprites/Akane/ANA_naked", 550,650)
         label Eriko:
+            image ELI_W = im.Scale("sprites/Eriko/ELI_W", 550,650)
+            image ELI_S = im.Scale("sprites/Eriko/ELI_S", 550,650)
+            image ELI_naked = im.Scale("sprites/Eriko/ELI_naked", 550,650)
         label Randori:
+            image LAN_W = im.Scale("sprites/Randori/LAN_W", 550,650)
+            image LAN_W_agony = im.Scale("sprites/Randori/LAN_W_agony", 550,650)
         label Kiyotaka:
+            image KAS_W = im.Scale("sprites/Kiyotaka/KAS_W", 550,650)
         label Paruka:
+            image TRE_W = im.Scale("sprites/Paruka/TRE_W", 550,650)
+            image TRE_S = im.Scale("sprites/Paruka/TRE_S", 550,650)
         label Hiro:
+            image HUK = im.Scale("sprites/Hiro?HUK", 720,900)
         label Donaldville:
+            image DSN = im.Scale("sprites/Donaldville/DSN", 980,840)
+            image DSN_angry = im.Scale("sprites/Donaldville/DSN_angry", 980,840)
+            image DSN_smug = im.Scale("sprites/Donaldville/DSN_smug", 980,840)
         label Fuka:
+            image FBA = im.Scale("sprites/Fuka/FBA", 980,840)
+            image FBA_angry = im.Scale("sprites/Fuka/FBA_angry", 980,840)
+            image FBA_smug = im.Scale("sprites/Fuka/FBA_smug", 980,840)
+            image FBA_vomit = im.Scale("sprites/Fuka/FBA_vomit", 980,840)
         label Sae:
+            image SAE = im.Scale("sprites/Sae/SAE", 980,840)
+            image SAE_smile = im.Scale("sprites/Sae/SAE_smile", 980,840)
+            image SAE_shock = im.Scale("sprites/Sae/SAE_shock", 980,840)
 label backgrounds:
     image ms_classroom_morning = im.Scale("backgrounds/ms_classroom_morning.jpg", 1920,1080)
     image ms_classroom_afternoon = im.Scale("backgrounds/ms_classroom_afternoon.jpg", 1920,1080)
@@ -275,7 +365,7 @@ label backgrounds:
     image ms_hallway = im.Scale("backgrounds/ms_hallway.jpg", 1920,1080)
     image ms_computer = im.Scale("backgrounds/ms_computer.jpg", 1920,1080)
     image ms_music = im.Scale("backgrounds/ms_music.jpg", 1920,1080)
-    image ms_cafeteria = im.Scale("backgrounds/ms_cafeteria.jpg", 1920,1080)
+    image cafeteria = im.Scale("backgrounds/cafeteria.jpg", 1920,1080)
     image ms_play = im.Scale("backgrounds/ms_play.jpg", 1920,1080)
     image ms_gym = im.Scale("backgrounds/ms_gym.jpg", 1920,1080)
     image ms_frontgate = im.Scale("backgrounds/ms_frontgate.jpg", 1920,1080)
@@ -353,7 +443,7 @@ label start:
 
     label Script:
 
-        label Syschord_prologue:
+        '''label Syschord_prologue:
 
             scene toilet with Dissolve (0.5)
 
@@ -1707,7 +1797,7 @@ label start:
 
             label Eight_four:
 
-                scene ms_cafeteria with Dissolve(1.0)
+                scene cafeteria with Dissolve(1.0)
 
                 M "Guys, I've been playing this new MMORPG."
                 M "It's damn good."
@@ -4175,7 +4265,7 @@ label start:
 
                 "{i}The next day.{/i}"
 
-                scene ms_cafeteria with Dissolve(1.0)
+                scene cafeteria with Dissolve(1.0)
 
                 A "So, about \"Stellar Crusades: the Aura Rises\"..."
                 A "Wasn't it crazy when–"
@@ -4486,7 +4576,7 @@ label start:
 
                 "{i}Minato and Akiyuki pull the wagon, with Keisuke still sitting in it, back to the front gate of the middle school.{/i}"
 
-        label HSScript:
+        '''label HSScript:
 
             label Ten_one:
 
@@ -4495,6 +4585,8 @@ label start:
                 "Gym"
 
                 "{i}All incoming and current students gather in the gymnasium for the opening ceremony.{/i}"
+
+                show MH W
 
                 MH "Are you getting nervous yet?"
                 MH "It's our first day of high school after all."
@@ -6938,7 +7030,7 @@ label start:
 
                 XC "For all we knew it could've just been Keisuke."
 
-                THO "But now, after seeing Akiyuki's amazing defense, we're certain it wasn't him."
+                THO "But now, after seeing Akiyuki's stunning defense, we're certain it wasn't him."
 
                 XC "Plus, we wouldn't have seen anything if it was Keisuke, all things considered."
 
@@ -7439,6 +7531,8 @@ label start:
 
             label Campaign_prologue:
 
+                scene rooftop with Dissolve (1.0)
+
                 "{i}After school.{/i}"
 
                 MH "Did you guys hear?"
@@ -7447,8 +7541,8 @@ label start:
 
                 AH "Our old middle school is being closed down, right?"
 
-                KH "That's to be expected."
-                KH "It was a shit school. And they barely had any enrollments."
+                KH "Not really surprising."
+                KH "It was a shit school. They barely had any new enrollments."
 
                 MH "What are you talking about?"
                 MH "You're telling me you're not gonna miss our old middle school?"
@@ -7467,13 +7561,16 @@ label start:
 
                 AH "Let's meet up with everyone at the GRAND CINEMA this weekend."
 
+                scene theater_front with Dissolve(1.0)
+
                 "{i}The weekend.{/i}"
 
                 KH "Looks the exact same as last time."
 
-                MH "Whaddaya mean? They renamed themselves. It's not the GRAND CINEMA anymore. It's the SUPER STAR THEATRE now."
+                MH "Whaddaya mean? They clearly renamed themselves." 
+                MH "It's not the GRAND CINEMA anymore. It's the SUPER STAR THEATRE now."
 
-                KH "Where's Akiyuki? He's late. I bet it's because no one's showing up."
+                KH "Akiyuki's late. Probably cuz no one's showing up."
 
                 MH "What do you mean?"
 
@@ -7489,6 +7586,8 @@ label start:
                 MH "{i}Please tell me Maruiko-chan is coming.{/i}"
 
                 AH "About that..."
+
+                scene toilet with Dissolve (0.5)
 
                 "{i}Two hours earlier...{/i}"
 
@@ -7530,8 +7629,6 @@ label start:
 
                 JNE "I won't be able to go. I'm going out of town with my family."
 
-                "{i}After the calls.{/i}"
-
                 AH "Jeez, I didn't expect that."
                 AH "Who should I ask instead?"
                 AH "I don't like having an odd number going to the movies."
@@ -7541,6 +7638,8 @@ label start:
                 AH "I could try asking her."
                 AH "We haven't talked since that trial, but we're in the same class."
 
+                scene theater_front with Dissolve (0.5)
+                
                 "{i}Back to the future.{/i}"
 
                 AH "That's about it."
@@ -7581,6 +7680,8 @@ label start:
 
                 MH "Yeah. We're basically regulars here."
 
+                scene theater with Dissolve (0.5)
+                
                 "{i}The group make it to The Place Where They Are Supposed to Turn Their Phones Off and Watch the Movie (Screening Room) and sit down in their seats."
 
                 KH "By the way, what movie are we even watching?"
@@ -7639,7 +7740,7 @@ label start:
                 MH "What happened to The Riot? I thought he was still the captain."
 
                 ANA "Bro was getting better times than him, so the coach made Bro captain instead."
-                ANA "Ever since then, the position went to his head."
+                ANA "Ever since then, the position has definitely gotten to his head."
 
                 AH "What do you mean?"
 
@@ -7653,10 +7754,10 @@ label start:
 
                 AH "Does the student council president really hold that much power?"
 
-                ANA "Normally they wouldn't, but the principal pretty much let's the student council handle everything."
+                ANA "In a normal school they wouldn't, but the principal pretty much let's the student council handle everything."
                 ANA "Something about promoting leadership. And if they're on the track team, then they even have the approval of Fuka-sensei, the assistant principal."
 
-                KH "How do you know about all this?"
+                KH "How do you even know about all this?"
 
                 ANA "I actually listen during speeches."
 
@@ -7681,6 +7782,8 @@ label start:
                 MGO "Honestly, I was more invested in what those kids behind us were talking about than the movie."
 
                 MGT "I know right."
+
+                scene rooftop with Dissolve(1.0)
 
                 "{i}Four days until the campaign application deadline.{/i}"
 
@@ -7712,7 +7815,7 @@ label start:
 
                 MH "It was close though."
 
-                XC "If you squinted hard enough, from far away."
+                XC "Maybe if you squinted hard enough, from very far away."
 
                 AH "Let's just see what happens. Minato could win."
                 AH "He beat me whenever we ran against each other for student council back in middle school."
@@ -7720,6 +7823,8 @@ label start:
                 MH "Exactly."
                 MH "Trust me. I won't let y'all down."
                 MH "It'll all go smoothly."
+
+                scene hs_hallway with Dissolve(1.0)
 
                 "{i}Three days until the campaign application deadline.{/i}"
 
@@ -7732,7 +7837,7 @@ label start:
                 STU "No thanks, I don't even know who that is."
 
                 TET "You haven't heard of him?"
-                TET "He's... He's... uh, actually, I didn't even know about till this year either."
+                TET "He's... He's... uh, actually, I didn't even know him till this year either."
 
                 STU "Exactly. You proved my point."
                 STU "This is why you nerds need to be segregated from us."
@@ -7742,6 +7847,8 @@ label start:
                 "{i}The student walked away from Mishima.{/i}"
 
                 TET "And I thought Chiba-kun was crazy."
+
+                scene hs_library with Dissolve(1.0)
 
                 "{i}Two days until the campaign application deadline.{/i}"
 
@@ -7754,6 +7861,11 @@ label start:
                 MH "Because it's like I'm stealing the election from right under Bro's nose."
 
                 KH "Utterly risible."
+
+                AH "What does that have to do with Rizz?"
+
+                MH "Oh, I know all about Rizz!"
+
                 KH "It should have a space theme."
 
                 XC "That's an even dumber suggestion than what Minato had."
@@ -7768,9 +7880,9 @@ label start:
 
                 KH "And how's that been going?"
 
-                AH "Everyone probably still thinks Bro is the only student campaigning."
+                XC "Everyone probably still thinks Bro is the only student campaigning."
 
-                XC "I'm not going to lie your chances of winning are looking pretty slim."
+                AH "I'm not going to lie your chances of winning are looking pretty slim."
 
                 MH "Where there's a will, there's a way."
                 MH "Even if the chances are slim, there's still a–"
@@ -7779,6 +7891,8 @@ label start:
 
                 DSN "{size=*1.5}MINATO! Stop talking!{/size}"
                 DSN "I knew you were trouble ever since that opening ceremony."
+
+                scene hs_hallway with Dissolve (1.0)
 
                 "{i}One day until the campaign application deadline.{/i}"
 
@@ -7802,11 +7916,13 @@ label start:
                 ALI "Just stop before you embarrass yourself in front of the whole school again."
                 ALI "That's all you'll get for going against the track team."
 
-                "{i}Asuka walks away leaving Minato alone in the hallway.{/i}"
+                "{i}Asuka walks away leaving Minato alone in the hallway."
 
-                MH "{i}I have to quit before Asuka-chan starts hating me.{/i}"
+                MH "{i}I have to quit before Asuka-chan starts hating me."
 
-                "{i}Day of the campaign application deadline.{\i}"
+                scene rooftop with Dissolve(1.0)
+                
+                "{i}Day of the campaign application deadline."
 
                 "{i}During lunch.{/i}"
 
@@ -7815,7 +7931,7 @@ label start:
                 KH "Is that really all it took? So the past week was all for nothing?"
 
                 XC "I should've known this was gonna happen."
-                XC "You weren't gonna win anyway. Saves everyone some time."
+                XC "You weren't gonna win anyway. Saves everyone some time I guess."
 
                 TET "I worked so hard to promote you though. You can still win, man."
 
@@ -7826,9 +7942,11 @@ label start:
 
                 AH "I need to go to the restroom to clear my bladder."
 
-                "{i}Akiyuki leaves the rooftop and makes his way downstairs.{/i}"
+                scene hs_hallway with Dissolve(0.5)
+                
+                "{i}Akiyuki leaves the rooftop and makes his way downstairs."
 
-                "{i}As Akiyuki turns the corner, he falls to his knees.{/i}"
+                "{i}As Akiyuki turns the corner, he falls to his knees."
                 "{i}And before him was a bright light, the BRIGHTEST LIGHT he hasn't seen since his first opening ceremony.{/i}"
 
                 AH "God?"
@@ -7891,7 +8009,7 @@ label start:
 
                 AH "Isn't that copyrighted or something?"
 
-                TRE "Now!"
+                TRE "Now go!"
                 TRE "Go and turn in your campaign application, before it's too late!"
 
                 AH "Yes, Paruka-senpai!"
@@ -7900,13 +8018,15 @@ label start:
 
             label Campaign:
 
+                scene hs_track with Dissolve(1.0)
+                
                 "{i}After school.{/i}"
 
                 RUT "I don't understand."
                 RUT "Why does the school need to hold an election?"
                 RUT "It's not like anyone else is running."
 
-                CAT "Wasn't there someone else in our year planning to run? Minato-kun, was it?"
+                CAT "Wasn't there someone else in our year planning to run? Wasn't it Minato-kun?"
 
                 ALI "I wouldn't worry about him."
                 ALI "I've spoken to him."
@@ -7947,6 +8067,8 @@ label start:
 
                 "{i}The next day.{/i}"
 
+                scene hs_classroom_empty with Dissolve(1.0)
+
                 "{i}Before class.{/i}"
 
                 BRO "WHAT IS THE MEANING OF THIS?! Fuka-sensei, you told me I'd be the only one running."
@@ -7980,8 +8102,7 @@ label start:
 
                 AH "I'm not on the track team, so I wouldn't run against you anyway."
 
-                BRO "I know that."
-                BRO "Who are you? \"Literal-san\"?"
+                BRO "You think I don't know that? What are you, \"Literal-san\"?"
 
                 FBA "Okay, that's enough."
                 FBA "Allow me to explain some things about campaigning."
@@ -8012,6 +8133,8 @@ label start:
                 FBA "You have nothing to worry about. Leave him to me."
                 FBA "You just focus on your own campaign."
 
+                scene rooftop with Dissolve(1.0)
+                
                 "{i}After school.{/i}"
 
                 XC "You're seriously running for president?"
@@ -8060,7 +8183,6 @@ label start:
                 HEI "What's wrong with that?"
 
                 KH "..."
-                KH "Things aren't the way they used to be."
                 KH "Back in my day–"
 
                 MH "You can count me out."
@@ -8076,7 +8198,7 @@ label start:
 
                 KH "Why do I need to go with you?"
 
-                MH "Because..."
+                MH "You know, because..."
 
                 KH "Whatever you say man."
 
@@ -8101,9 +8223,10 @@ label start:
 
                 AH "I can't believe I'm actually running for student coucil president..."
 
+                scene hs_frontgate with Dissolve(1.0)
+                
                 "{i}The next day."
-                "{i}Akiyuki and his team begin campaigning throughout school."
-                "{i}Before homeroom."
+                "{i}Akiyuki and his team begin campaigning throughout school before homeroom."
                 "{i}Ei and Tanaka try to convince the incoming students to support Akiyuki.{/i}"
 
                 HEI "Please, consider Akiyuki-kun for school president."
@@ -8144,6 +8267,8 @@ label start:
 
                 STU "No."
 
+                scene rooftop with Dissolve(1.0)
+                
                 "{i}After school."
                 "{i}The group of people who are campaigning for Akiyuki meet up at the rooftop.{/i}"
 
@@ -10017,6 +10142,8 @@ label start:
                 KH "He's probably dead."
 
         label Syschord_epilogue:
+
+            scene toilet with Dissolve (0.5)
 
             MH "What actually happened to TSBB?"
 
