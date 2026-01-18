@@ -256,108 +256,113 @@ label sprites:
             image AH_C_frown = im.Scale("sprites/Akiyuki/AH_C_frown.png", 550,650)
         label KeisukeH:
             image KH_W = im.Scale("sprites/Keisuke/KH_W.png", 550,650)
-            image KH_W shock = im.Scale("sprites/Keisuke/K_W_shock.png", 550,650)
+            image KH_W_shock = im.Scale("sprites/Keisuke/K_W_shock.png", 550,650)
             image KH_S = im.Scale("sprites/Keisuke/KH_S.png", 550,650)
             image KH_C = im.Scale("sprites/Keisuke/KH_C.png", 550,650)
         label Chiba:
-            image XC_W = im.Scale("sprites/Chiba/XC_W", 550,650)
-            image XC_W_angry = im.Scale("sprites/Chiba/XC_W_angry", 550,650)
-            image XC_W_shout = im.Scale("sprites/Chiba/XC_W_shout", 550,650)
-            image XC_S = im.Scale("sprites/Chiba/XC_S", 550,650)
-            image XC_W_angry = im.Scale("sprites/Chiba/XC_W_angry", 550,650)
+            image XC_W = im.Scale("sprites/Chiba/XC_W.png", 550,650)
+            image XC_W_angry = im.Scale("sprites/Chiba/XC_W_angry.png", 550,650)
+            image XC_W_shout = im.Scale("sprites/Chiba/XC_W_shout.png", 550,650)
+            image XC_S = im.Scale("sprites/Chiba/XC_S.png", 550,650)
+            image XC_S_angry = im.Scale("sprites/Chiba/XC_S_angry.png", 550,650)
         label Tanaka:
-            image THO_W = im.Scale("sprites/Tanaka/THO_W", 550,650)
-            image THO_S = im.Scale("sprites/Tanaka/THO_S", 550,650)
-            image THO_naked = im.Scale("sprites/Tanaka/THO_naked", 550,650)
+            image THO_W = im.Scale("sprites/Tanaka/THO_W.png", 550,650)
+            image THO_S = im.Scale("sprites/Tanaka/THO_S.png", 550,650)
+            image THO_naked = im.Scale("sprites/Tanaka/THO_naked.png", 550,650)
         label Mishima:
-            image TET_W = im.Scale("sprites/Mishima/TET_W", 550,650)
-            image TET_W_frown = im.Scale("sprites/Mishima/TET_W_frown", 550,650)
-            image TET_S = im.Scale("sprites/Mishima/TET_S", 550,650)
-            image TET_S_frown = im.Scale("sprites/Mishima/TET_S_frown", 550,650)
+            image TET_W = im.Scale("sprites/Mishima/TET_W.png", 550,650)
+            image TET_W_frown = im.Scale("sprites/Mishima/TET_W_frown.png", 550,650)
+            image TET_S = im.Scale("sprites/Mishima/TET_S.png", 550,650)
+            image TET_S_frown = im.Scale("sprites/Mishima/TET_S_frown.png", 550,650)
         label Twins:
-            image TN_W = im.Scale("sprites/Twin/TN_W", 550,650)
-            image TN_S = im.Scale("sprites/Twin/TN_S", 550,650)
-            image TN_naked = im.Scale("sprites/Twin/TN_naked", 550,650)
+            image TN_W = im.Scale("sprites/Twin/TN_W.png", 550,650)
+            image TN_S = im.Scale("sprites/Twin/TN_S.png", 550,650)
+            image TN_naked = im.Scale("sprites/Twin/TN_naked.png", 550,650)
         label TSBB:
-            image TSB_W = im.Scale("sprites/TSBB/TSB_W", 550,650)
-            image TSB_W_angry = im.Scale("sprites/TSBB/TSB_W_angry", 550,650)
-            image TSB_W_stalk = im.Scale("sprites/TSBB/TSB_W_stalk", 550,650)
-            image TSB_S = im.Scale("sprites/TSBB/TSB_S", 550,650)
-            image TSB_S_angry = im.Scale("sprites/TSBB/TSB_S_angry", 550,650)
-            image TSB_S_stalk = im.Scale("sprites/TSBB/TSB_S_stalk", 550,650)
-            image TSB_naked = im.Scale("sprites/TSBB/TSB_naked", 550,650)
-            image TSB_naked_stalk = im.Scale("sprites/TSBB/TSB_naked_stalk", 550,650)
+            image TSB_W = im.Scale("sprites/TSBB/TSB_W.png", 550,650)
+            image TSB_W_angry = im.Scale("sprites/TSBB/TSB_W_angry.png", 550,650)
+            image TSB_W_stalk = im.Scale("sprites/TSBB/TSB_W_stalk.png", 550,650)
+            image TSB_S = im.Scale("sprites/TSBB/TSB_S.png", 550,650)
+            image TSB_S_angry = im.Scale("sprites/TSBB/TSB_S_angry.png", 550,650)
+            image TSB_S_stalk = im.Scale("sprites/TSBB/TSB_S_stalk.png", 550,650)
+            image TSB_naked = im.Scale("sprites/TSBB/TSB_naked.png", 550,650)
+            image TSB_naked_stalk = im.Scale("sprites/TSBB/TSB_naked_stalk.png", 550,650)
         label TheRiot:
-            image TRT_G = im.Scale("sprites/TheRiot/TRT_G", 550,650)
-            image TRT_G_angry = im.Scale("sprites/TheRiot/TRT_G_angry", 550,650)
-            image TRT_G_happy = im.Scale("sprites/TheRiot/TRT_G_happy", 550,650)
+            image TRT_G = im.Scale("sprites/TheRiot/TRT_G.png", 550,650)
+            image TRT_G_angry = im.Scale("sprites/TheRiot/TRT_G_angry.png", 550,650)
+            image TRT_G_happy = im.Scale("sprites/TheRiot/TRT_G_happy.png", 550,650)
         label Bro:
-            image BRO_G = im.Scale("sprites/Bro/BRO_G", 550,650)
-            image BRO_G_angry = im.Scale("sprites/Bro/BRO_G_angry", 550,650)
-            image BRO_G_happy = im.Scale("sprites/Bro/BRO_G_happy", 550,650)
+            image BRO_G = im.Scale("sprites/Bro/BRO_G.png", 550,650)
+            image BRO_G_angry = im.Scale("sprites/Bro/BRO_G_angry.png", 550,650)
+            image BRO_G_happy = im.Scale("sprites/Bro/BRO_G_happy.png", 550,650)
         label Rumi:
-            image RUT_G = im.Scale("sprites/Rumi/RUT_G", 550,650)
-            image RUT_G_ass = im.Scale("sprites/Rumi/RUT_G_ass", 550,650)
-            image RUT_G_horny = im.Scale("sprites/Rumi/RUT_G_horny", 550,650)
-            image RUT_W = im.Scale("sprites/Rumi/RUT_W", 550,650)
-            image RUT_W_ass = im.Scale("sprites/Rumi/RUT_W_ass", 550,650)
-            image RUT_W_horny = im.Scale("sprites/Rumi/RUT_W_horny", 550,650)
-            image RUT_S = im.Scale("sprites/Rumi/RUT_S", 550,650)
-            image RUT_S_ass = im.Scale("sprites/Rumi/RUT_S_ass", 550,650)
-            image RUT_S_horny = im.Scale("sprites/Rumi/RUT_S_horny", 550,650)
-            image RUT_naked = im.Scale("sprites/Rumi/RUT_naked", 550,650)
-            image RUT_naked_shock = im.Scale("sprites/Rumi/RUT_naked_shock", 550,650)
+            image RUT_G = im.Scale("sprites/Rumi/RUT_G.png", 550,650)
+            image RUT_G_ass = im.Scale("sprites/Rumi/RUT_G_ass.png", 550,650)
+            image RUT_G_horny = im.Scale("sprites/Rumi/RUT_G_horny.png", 550,650)
+            image RUT_W = im.Scale("sprites/Rumi/RUT_W.png", 550,650)
+            image RUT_W_ass = im.Scale("sprites/Rumi/RUT_W_ass.png", 550,650)
+            image RUT_W_horny = im.Scale("sprites/Rumi/RUT_W_horny.png", 550,650)
+            image RUT_S = im.Scale("sprites/Rumi/RUT_S.png", 550,650)
+            image RUT_S_ass = im.Scale("sprites/Rumi/RUT_S_ass.png", 550,650)
+            image RUT_S_horny = im.Scale("sprites/Rumi/RUT_S_horny.png", 550,650)
+            image RUT_naked = im.Scale("sprites/Rumi/RUT_naked.png", 550,650)
+            image RUT_naked_shock = im.Scale("sprites/Rumi/RUT_naked_shock.png", 550,650)
         label Chizuru:
-            image CAT_G = im.Scale("sprites/Rumi/CAT_G", 550,650)
-            image CAT_W = im.Scale("sprites/Rumi/CAT_W", 550,650)
-            image CAT_S = im.Scale("sprites/Rumi/CAT_S", 550,650)
-            image CAT_naked = im.Scale("sprites/Rumi/CAT_naked", 550,650)
+            image CAT_G = im.Scale("sprites/Chizuru/CAT_G.png", 550,650)
+            image CAT_W = im.Scale("sprites/Chizuru/CAT_W.png", 550,650)
+            image CAT_S = im.Scale("sprites/Chizuru/CAT_S.png", 550,650)
+            image CAT_naked = im.Scale("sprites/Chizuru/CAT_naked.png", 550,650)
         label Asuka:
-            image ALI_G = im.Scale("sprites/Asuka/ALI_G", 550,650)
-            image ALI_W = im.Scale("sprites/Asuka/ALI_W", 550,650)
-            image ALI_W_angry = im.Scale("sprites/Asuka/ALI_W_angry", 550,650)
-            image ALI__W_lust = im.Scale("sprites/Asuka/ALI_W_lust", 550,650)
-            image ALI_S = im.Scale("sprites/Asuka/ALI_S", 550,650)
-            image ALI_S_angry = im.Scale("sprites/Asuka/ALI_S_angry", 550,650)
-            image ALI_naked = im.Scale("sprites/Asuka/ALI_naked", 550,650)
-            image ALI_naked_shock = im.Scale("sprites/Asuka/ALI_naked_shock", 550,650)
+            image ALI_G = im.Scale("sprites/Asuka/ALI_G.png", 550,650)
+            image ALI_W = im.Scale("sprites/Asuka/ALI_W.png", 550,650)
+            image ALI_W_angry = im.Scale("sprites/Asuka/ALI_W_angry.png", 550,650)
+            image ALI__W_lust = im.Scale("sprites/Asuka/ALI_W_lust.png", 550,650)
+            image ALI_S = im.Scale("sprites/Asuka/ALI_S.png", 550,650)
+            image ALI_S_angry = im.Scale("sprites/Asuka/ALI_S_angry.png", 550,650)
+            image ALI_naked = im.Scale("sprites/Asuka/ALI_naked.png", 550,650)
+            image ALI_naked_shock = im.Scale("sprites/Asuka/ALI_naked_shock.png", 550,650)
         label Akane:
-            image ANA_G = im.Scale("sprites/Akane/ANA_G", 550,650)
-            image ANA_W = im.Scale("sprites/Akane/ANA_W", 550,650)
-            image ANA_W_shock = im.Scale("sprites/Akane/ANA_W_shock", 550,650)
-            image ANA_W_smile = im.Scale("sprites/Akane/ANA_W_smile", 550,650)
-            image ANA_S = im.Scale("sprites/Akane/ANA_S", 550,650)
-            image ANA_S_smile = im.Scale("sprites/Akane/ANA_S_smile", 550,650)
-            image ANA_C = im.Scale("sprites/Akane/ANA_C", 550,650)
-            image ANA_C_smile = im.Scale("sprites/Akane/ANA_C_smile", 550,650)
-            image ANA_naked = im.Scale("sprites/Akane/ANA_naked", 550,650)
+            image ANA_G = im.Scale("sprites/Akane/ANA_G.png", 550,650)
+            image ANA_W = im.Scale("sprites/Akane/ANA_W.png", 550,650)
+            image ANA_W_shock = im.Scale("sprites/Akane/ANA_W_shock.png", 550,650)
+            image ANA_W_smile = im.Scale("sprites/Akane/ANA_W_smile.png", 550,650)
+            image ANA_S = im.Scale("sprites/Akane/ANA_S.png", 550,650)
+            image ANA_S_smile = im.Scale("sprites/Akane/ANA_S_smile.png", 550,650)
+            image ANA_C = im.Scale("sprites/Akane/ANA_C.png", 550,650)
+            image ANA_C_smile = im.Scale("sprites/Akane/ANA_C_smile.png", 550,650)
+            image ANA_naked = im.Scale("sprites/Akane/ANA_naked.png", 550,650)
         label Eriko:
-            image ELI_W = im.Scale("sprites/Eriko/ELI_W", 550,650)
-            image ELI_S = im.Scale("sprites/Eriko/ELI_S", 550,650)
-            image ELI_naked = im.Scale("sprites/Eriko/ELI_naked", 550,650)
+            image ELI_W = im.Scale("sprites/Eriko/ELI_W.png", 550,650)
+            image ELI_S = im.Scale("sprites/Eriko/ELI_S.png", 550,650)
+            image ELI_naked = im.Scale("sprites/Eriko/ELI_naked.png", 550,650)
+        label Atsushi:
+            image ABD_S = im.Scale("sprites/Atsushi/ABD_S.png", 550,650)
+            image ABD_S_hyper = im.Scale("sprites/Atsushi/ABD_S_hyper.png", 550,650)
+            image ABD_W = im.Scale("sprites/Atsushi/ABD_W.png", 550,650)
+            image ABD_S_hyper = im.Scale("sprites/Atsushi/ABD_W_hyper.png", 550,650)
         label Randori:
-            image LAN_W = im.Scale("sprites/Randori/LAN_W", 550,650)
-            image LAN_W_agony = im.Scale("sprites/Randori/LAN_W_agony", 550,650)
+            image LAN_W = im.Scale("sprites/Randori/LAN_W.png", 550,650)
+            image LAN_W_agony = im.Scale("sprites/Randori/LAN_W_agony.png", 550,650)
         label Kiyotaka:
-            image KAS_W = im.Scale("sprites/Kiyotaka/KAS_W", 550,650)
+            image KAS_W = im.Scale("sprites/Kiyotaka/KAS_W.png", 550,650)
         label Paruka:
-            image TRE_W = im.Scale("sprites/Paruka/TRE_W", 550,650)
-            image TRE_S = im.Scale("sprites/Paruka/TRE_S", 550,650)
+            image TRE_W = im.Scale("sprites/Paruka/TRE_W.png", 550,650)
+            image TRE_S = im.Scale("sprites/Paruka/TRE_S.png", 550,650)
         label Hiro:
-            image HUK = im.Scale("sprites/Hiro?HUK", 720,900)
+            image HUK = im.Scale("sprites/Hiro/HUK.png", 720,900)
         label Donaldville:
-            image DSN = im.Scale("sprites/Donaldville/DSN", 980,840)
-            image DSN_angry = im.Scale("sprites/Donaldville/DSN_angry", 980,840)
-            image DSN_smug = im.Scale("sprites/Donaldville/DSN_smug", 980,840)
+            image DSN = im.Scale("sprites/Donaldville/DSN.png", 980,840)
+            image DSN_angry = im.Scale("sprites/Donaldville/DSN_angry.png", 980,840)
+            image DSN_smug = im.Scale("sprites/Donaldville/DSN_smug.png", 980,840)
         label Fuka:
-            image FBA = im.Scale("sprites/Fuka/FBA", 980,840)
-            image FBA_angry = im.Scale("sprites/Fuka/FBA_angry", 980,840)
-            image FBA_smug = im.Scale("sprites/Fuka/FBA_smug", 980,840)
-            image FBA_vomit = im.Scale("sprites/Fuka/FBA_vomit", 980,840)
+            image FBA = im.Scale("sprites/Fuka/FBA.png", 980,840)
+            image FBA_angry = im.Scale("sprites/Fuka/FBA_angry.png", 980,840)
+            image FBA_smug = im.Scale("sprites/Fuka/FBA_smug.png", 980,840)
+            image FBA_vomit = im.Scale("sprites/Fuka/FBA_vomit.png", 980,840)
         label Sae:
-            image SAE = im.Scale("sprites/Sae/SAE", 980,840)
-            image SAE_smile = im.Scale("sprites/Sae/SAE_smile", 980,840)
-            image SAE_shock = im.Scale("sprites/Sae/SAE_shock", 980,840)
+            image SAE = im.Scale("sprites/Sae/SAE.png", 980,840)
+            image SAE_smile = im.Scale("sprites/Sae/SAE_smile.png", 980,840)
+            image SAE_shock = im.Scale("sprites/Sae/SAE_shock.png", 980,840)
 label backgrounds:
     image ms_classroom_morning = im.Scale("backgrounds/ms_classroom_morning.jpg", 1920,1080)
     image ms_classroom_afternoon = im.Scale("backgrounds/ms_classroom_afternoon.jpg", 1920,1080)
@@ -384,7 +389,7 @@ label backgrounds:
     image hs_classroom_morning = im.Scale("backgrounds/hs_classroom_morning.jpg", 1920,1080)
     image hs_classroom_front = im.Scale("backgrounds/hs_classroom_front.jpg", 1920,1080)
     image hs_classroom_left = im.Scale("backgrounds/hs_classroom_left.jpg", 1920,1080)
-    image hs_classroom_empty = im.Scale("backgrounds/ms_classroom_empty.jpg", 1920,1080)
+    image hs_classroom_empty = im.Scale("backgrounds/hs_classroom_empty.jpg", 1920,1080)
     image hs_hallway = im.Scale("backgrounds/hs_hallway.jpg", 1920,1080)
     image hs_library = im.Scale("backgrounds/hs_library.jpg", 1920,1080)
     image hs_track = im.Scale("backgrounds/hs_track.jpg", 1920,1080)
@@ -393,6 +398,9 @@ label backgrounds:
     image onsen = im.Scale("backgrounds/onsen.jpg", 1920,1080)
     image forest = im.Scale("backgrounds/forest.jpg", 1920,1080)
     image forest_inside = im.Scale("backgrounds/forest_inside.jpg", 1920,1080)
+    image discord = im.Scale("backgrounds/discord.png", 1920, 1080)
+    image skype = im.Scale("backgrounds/skype.png", 1920, 1080)
+    image zoom = im.Scale("backgrounds/zoom.png", 1920, 1080)
     return
 label positions:
     transform right:
@@ -434,7 +442,6 @@ label positions:
     transform TMright:
         xalign 0.80
         yalign 0.50
-
     return
 
 # The game starts here.
@@ -443,9 +450,9 @@ label start:
 
     label Script:
 
-        '''label Syschord_prologue:
+        label Syschord_prologue:
 
-            scene toilet with Dissolve (0.5)
+            scene discord with Dissolve(1.0)
 
             "{i}Minato, Akiyuki, and Keisuke are in discord playing Zenith Champions.{/i}"
 
@@ -496,11 +503,15 @@ label start:
 
             MH "No, you–"
 
+            scene zoom with Dissolve(0.5)
+
             "{i}Meanwhile, on Soom.{/i}"
 
             FBA "Oh, before I let you guys off the soom, remember that tomorrow is a VERY IMPORTANT day."
             FBA "Chizuru-chan is presenting for the project, and it's VERY IMPORTANT to her."
             FBA "You guys better not miss it, because it means THE WORLD to her."
+
+            scene discord with Dissolve(0.5)
 
             "{i}The Soom ends.{/i}"
 
@@ -1433,42 +1444,70 @@ label start:
 
                 "{i}Fumino sneaks up behind them and snatches their paper masterpieces.{/i}"
 
+                show FOS_angry at Tcenter with Dissolve(0.25)
+
                 FOS "What are you two doing?"
                 FOS "I expected this from Minato, not y'all."
 
+                show M_W_shock at right with Dissolve(0.25)
+
                 M "HUH?!"
 
+                hide M_W_shock
+
                 "{i}Ignoring Minato, Fumino throws the masterpieces in the trash, never to be seen again."
-                "{i}Hideki quietly spends all day working hard on his MEGO project.{/i}"
+                "{i}Meanwhile, Hideki quietly spends all day working hard on his MEGO project.{/i}"
 
                 scene ms_classroom_morning with Dissolve(1.0)
 
                 "{i}The next day."
                 "{i}Presentation day.{/i}"
 
+                show FOS at Tcenter with Dissolve(0.25)
+
                 FOS "Alrighty y'all, get ready to present your projects."
                 FOS "Who wants to go first?"
 
+                show GNG_W at right with Dissolve(0.25)
+
                 GNG "Go nigga go!"
+
+                hide GNG_W
 
                 FOS "That's fine, Jun."
                 FOS "You can keep working on your project in the meantime."
 
+                show M_W at left with Dissolve(0.25)
+
                 M "Huh?"
                 M "She understood that?"
+
+                hide FOS
+                show FOS_shout at Tcenter 
 
                 FOS "{size=*1.5}MINATO! Stop talking!{/size}"
                 FOS  "For that, you should go first."
 
                 "{i}Minato sighs and goes up to the front with his project."
-                "{i}Roro comes bursting through the door of the classroom.{/i}"
+                
+                hide FOS_shout
+                show FOS
+                show R at right with Dissolve(0.25)
+
+                "{i}Roro comes bursting through the door of the classroom.{/i}" 
 
                 R "Sorry, I'm late."
                 R "There were a million squirrels out there!"
                 R "But some bronze man shot ‘em down for me."
 
                 FOS "Since you were late, you should go first."
+
+                hide FOS
+                show FOS_shout
+
                 FOS "What are you doing, Minato? Sit down!"
+
+                hide M_W
 
                 R "Let me set my stuff down first, then I'll get started."
 
@@ -1864,6 +1903,8 @@ label start:
 
                 A "Gimme five minutes."
 
+                scene skype with Dissolve(1.0)
+
                 "{i}Minato and Keisuke start a call and wait for Akiyuki to join.{/i}"
 
                 M "Okay Keisuke, make your character."
@@ -2020,1918 +2061,6 @@ label start:
                 "{i}The bus driver turns his head to the KKK and swerves into the building."
 
             label Renaissance:
-
-                "{i}???{/i}"
-
-                "{i}Minato wakes up from lying on a grassy field.{/i}"
-
-                M "(groggily) Where am I?"
-                M "The last thing I remember is being snuggled by Greg and spotting the KKK..."
-
-                "{i}A clothing store.{/i}"
-                "{i}Minato stands up and looks around.{/i}"
-                "{i}He can see a castle in the distance that looks strangely familiar.{/i}"
-
-                M "Wait a minute, isn't that the main city in \"Fantasy Quest Worlds\"?"
-                M "I haven't seen this since I bought the membership two months ago and stopped playing."
-                M "I gotta check it out."
-
-                "{i}Minato runs to the town and tries to enter through the front gate.{/i}"
-                "{i}There were two soldiers guarding the entrance.{/i}"
-
-                ONE "Halt! Who goes there?"
-
-                M "Uh, I'm just trying to get in to see what's up, dawg."
-
-                TWO "What art thou saying, my nigga?"
-
-                M "No way..."
-                M "Ghetto Ei and Bii?"
-
-                EI "Fo' sho, Fo' sho!"
-
-                M "What are y'all niggas doin' here?"
-
-                BII "Thou hast stated the password."
-                BII "Thou nigga may enter."
-
-                EI "Fo' sho, Fo' sho!"
-
-                "{i}Soldier Tuu raises his flag and the gates drop open.{/i}"
-                "{i}Minato walks through and takes in the scenery of the castletown.{/i}"
-                "{i}There were taverns and inns as far as his eyes could see.{/i}"
-                "{i}It looks like a proper fantasy MMORPG main town.{/i}"
-                "{i}Minato goes inside the tavern called \"Zulgar\".{/i}"
-                "{i}He walks up to the barkeep and talks to him.{/i}"
-
-                M "Hey Barkeep, how much is a beer around here?"
-
-                ZUR "Sorry sonny, no underage drinking."
-                ZUR "I just told those two over there the same thing."
-
-                M "Huh?"
-
-                "{i}Minato turns around and sees the only nigga and chink in the whole tavern.{/i}"
-                "{i}He knew in his heart they were his nakama.{/i}"
-
-                "TL Note: Nakama means friends."
-
-                "{i}Minato walks over to the table they're sitting at and introduces himself.{/i}"
-
-                M "Damn, am I glad to see some familiar faces."
-
-                A "Who do you think you are?"
-                A "I AM!"
-
-                K "I see."
-
-                M "Huh?"
-                M "Don't you guys recognize me?"
-                M "It's-a me, Minato!"
-
-                A "Nah, I was just messing with you."
-
-                M "Geez, don't scare me like that."
-                M "I thought I'd be all alone here for a second."
-
-                K "I understand."
-
-                "{i}Minato joins them at the table and sits down.{/i}"
-
-                M "Do you guys know what's happening?"
-                M "Are we in the FQW world?"
-                M "How'd we get here?"
-                M "And how do we get out of here?"
-
-                A "I don't know man, I'm just as clueless as you."
-
-                K "I comprehend."
-
-                M "Keisuke, what the hell are you saying?"
-
-                K "I said I know what's going on."
-
-                MA "Huh?"
-
-                K "Allow me to explain."
-                K "I'll start from the beginning."
-                K "The world we're in now is real, but different from our own."
-                K "For now, we'll call this one \"FQW\"."
-                K "It's obvious that when Minato caused the bus driver to crash into KKK, we transported to this FQW instead of dying."
-
-                "{i}A clothing store.{/i}"
-
-                K "We can infer this because all the people around us seem to still have sentience, and we've kept all our memories."
-                K "Next, to get you up to speed Minato, I'll explain how Akiyuki and I got here."
-                K "First, we woke up from the bus crash in the alleyway behind this tavern."
-                K "The position we entered FQW in must've been decided by how we were seated on the bus."
-                K "Next, we walked inside the tavern."
-                K "That's when we realized this was \"Zulgar's Tavern\", the main tavern in FQW."
-                K "I also figured out how to get back to our world."
-                K "Theoretically at least."
-
-                M "Wait a minute, slow down man."
-                M "So, you're saying that we're actually inside FQW right now?"
-
-                K "No, I'm saying we're in a world that is seemingly identical to FQW."
-                K "At least, that's what I've been able to infer with the information I've gathered from eavesdropping this tavern so far."
-
-                A "Oh, that's why you weren't saying a word before."
-                A "It all makes sense now."
-
-                M "Well, if you've got it all figured out Keisuke..."
-                M "How do we get back to our normal world?"
-
-                K "Ah, I'm glad you asked."
-                K "It's simple logic really."
-                K "All we have to do is beat the game."
-
-                A "Wait a minute, I never got that far in FQW."
-                A "I stopped playing after that first night when we streamed it."
-
-                M "I didn't beat the story either."
-                M "How come you did?"
-                M "And besides, didn't you say this wasn't the game?"
-
-                K "Yes, it's not."
-                K "However, it's seemingly identical."
-                K "Plus, if you guys actually finished the story like me, then you'd know why it'd bring us back."
-                K "I could explain to you guys how and why it'd work out that way..."
-                K "But that'd take hours."
-                K "For now, let's go to \"Sysero's Inn\" so we can have a place to sleep."
-                K "And a base of operations."
-
-                A "How much FQW did you play man?"
-
-                K "Yes."
-
-                "{i}Keisuke leeds them to Sysero Inn and the three stand in front of the innkeeper.{/i}"
-
-                CYS "Oh?"
-                CYS "And who's this?"
-
-                K "We want to rent your smallest room with 3 beds."
-
-                CYS "Is that so?"
-                CYS "That'll be 900 silver."
-
-                M "Oh shit, we forgot about money."
-
-                K "Who's this we?"
-                K "Check your pockets."
-                K "There should be 300 silver somewhere."
-
-                "{i}Minato and Akiyuki check their pockets and surely enough, they each have 300 silver coins worth.{/i}"
-
-                A "How'd you know we'd have money in our pockets?"
-
-                K "Cuz in FQW, you start out with 300 silver."
-                K "Plus there was that exact amount in my own pocket."
-                K "Here Minato, you pay."
-
-                "{i}Keisuke hands Minato his 300 silver, and Akiyuki does the same.{/i}"
-
-                M "Fine."
-                M "900 silver, as requested."
-
-                "{i}Sysero takes the coins and counts the amount meticulously.{/i}"
-
-                CYS "Much obliged."
-                CYS "Here's the key."
-                CYS "What you paid for is good for one night."
-
-                "{i}Minato takes the key from the innkeeper.{/i}"
-                "{i}The three of them head up the stairs into their room.{/i}"
-
-                A "Only one night?"
-                A "And now we're broke."
-                A "How are we gonna get more coins?"
-
-                K "That's easy."
-                K "We'll join the Guild and become official adventurers."
-                K "Then we can take on quests and get paid for completing them."
-
-                M "Wait, don't we have to pick classes to join the guild?"
-                M "At least that's how it was in the game."
-
-                K "Yeah, that's probably how it'll go here too."
-                K "Except here, we can't just allocate our stats however we want."
-                K "We'll have to decide our class by how dense our \"Elemental Aura\" is."
-                K "There should be a way for the Guild to check it."
-
-                A "I have no idea what you're talking about."
-                A "What the heck is Elemental Aura?"
-
-                K "It's the Intelligence Stat in FQW."
-                K "Basically decides how many magic points you have access to."
-                K "And that decides whether you have an affinity for a magic-based class or if you're better off focusing on a weapon-based class."
-                K "You should already know this much, considering you got through the tutorial."
-
-                A "Yeah well, if you guys were'nt shouting in voice chat, I might've been able to pay attention to the tutorial."
-
-                K "Once we find out our Elemental Aura affinity, we can decide on which classes we'll choose."
-
-                M "Well I'll just be a warrior since that's what I was in the game."
-
-                K "It's not really that simple anymore."
-                K "You guys didn't get this far, but you have to make an additional choice after passing the Guild's first test."
-                K "Beneath each of the three main classes, there are two subclasses."
-                K "Warrior has Knight and Ranger, close and ranged attacks that focus on weapon arts."
-                K "Mage has Warlock and Shaman."
-                K "Warlocks combine their magic and weapon arts to fight close."
-                K "Shamans focus solely on their magic arts."
-                K "And most importantly, there's Paladin, with Sentinel and Cleric."
-                K "They use spirit arts to buff and heal the party."
-                K "At least that's how it works in the game."
-                K "We can officially figure out how it works at the Guild's Main Hall tomorrow."
-
-                A "Damn, you never talked this much before Keisuke."
-
-                K "Well, somebody has to do the exposition."
-                K "And I'm the only one here who beat the game."
-
-                M "Let's get some sleep for now guys."
-                M "Sounds like we've got a long road ahead of us."
-
-                "{i}The next day{/i}"
-
-                "{i}Akiyuki is the first to wake up early in the morning.{/i}"
-
-                A "Man, I'm starving."
-                A "It sucks that we still don't have any money."
-
-                K "That's about to change pretty soon."
-
-                A "Oh, you're awake."
-                A "Then what are we waiting for?"
-
-                K "Minato's still asleep."
-                K "We can't leave without him, since he probably doesn't remember where to go."
-
-                A "Let's just wake him up."
-
-                "Akiyuki slaps Minato with his pillow to wake him up."
-
-                M "Shit, what was that for?"
-
-                A "Time to wake up, Minato."
-                A "I'm starving man."
-
-                M "Okay, okay, I hear you."
-
-                "{i}The three of them get ready and exit Sysero Inn.{/i}"
-                "{i}Keisuke leads them to the Guild Main Hall.{/i}"
-                "{i}They make it inside and confront the receptionist.{/i}"
-
-                K "You go up and tell her, Minato."
-
-                M "Why do I have to?"
-                M "Why can't you or Akiyuki do it?"
-
-                K "Cuz you're gonna be the party leader."
-                K "Just like in the game."
-
-                M "(sighs) Fine, I'll do it."
-
-                "{i}Minato walks up to the counter and gestures towards the receptionist.{/i}"
-
-                M "Hello, we want to join the Guild."
-                M "I'm Minato, this is Akiyuki, and that's Keisuke."
-
-                IST "Oh, you came just in time."
-                IST "They're about to conduct the test for new members to officially join today."
-                IST "Usually you'd have to go through training for a few months, but if you're confident, you can take the test immediately."
-                IST "Just choose your specialized role and I'll sign you up."
-
-                K "Before that, is there a way for you to check our Elemental Aura affinity?"
-
-                IST "Yes, I can do that for you."
-                IST "Just stand still and I'll get it checked for you three."
-
-                "{i}The receptionist points a device at each of them and writes down three numbers and elements.{/i}"
-
-                IST "Please keep in mind that you can train to raise your affinity."
-                IST "Minato's affinity is 77/100 and lightning."
-                IST "Akiyuki's is 93/100 and fire."
-                IST "Keisuke's is 61/100 and wind."
-                IST "All three are above average, very uncommon for new adventurers."
-
-                K "What the fuck?"
-                K "Wind is the weakest element."
-                K "And why is mine the lowest?"
-
-                A "Heh, guess your \"Intelligence\" is lower than you thought."
-
-                M "In the end it's kinda useless, considering I'm never gonna use magic arts."
-                M "Like before, I'll just be a–"
-
-                K "No, you should choose Paladin, Minato."
-                K "We need at least one support in our party, and I don't trust Akiyuki."
-                K "Paladins don't use magic arts either."
-
-                M "Then you be the Paladin."
-                M "You had the lowest affinity and worst element anyway."
-                M "I'm sticking with Warrior."
-
-                K "I'm more familiar with the Mage class."
-
-                M "Then pick that."
-
-                K "It'd suck ass to have no support."
-                K "Guess I have to be the Paladin then."
-                K "Still sucks ass for me."
-
-                A "Warlock sounded cool."
-                A "They use both magic and weapon arts right?"
-                A "My affinity was practically max, so that would work great for me."
-
-                K "You'd have to be a Mage first, Akiyuki."
-                K "At least before we pass the test."
-
-                A "Sure, whatever."
-
-                IST "So Minato is a Warrior, Akiyuki is a Mage, and Keisuke is a Paladin."
-                IST "Please head to your respective training zones, where the tests are being conducted."
-                IST "Just follow the signs, and you'll reach your destinations."
-
-                "{i}Minato, Keisuke, and Akiyuki split off and follow the signs to their respective destinations.{/i}"
-                "{i}Minato reaches a large door with the insignia for the Guild's Warriors over it.{/i}"
-
-                M "{i}This is the Warrior training zone, right?{/i}"
-
-                "{i}Minato opens the door and sees a group of people cladded in knightly armor."
-                "{i}There's a large Knight standing on top of a platform at the front who is clearly the Overseer for the test."
-
-                WOS "Everyone is here, right?"
-                WOS "Then let's begin the test now."
-                WOS "In order to pass, you must show me three successful weapon arts."
-                WOS "You can use any weapon you've brought."
-                WOS "If you don't have one, I have some extra swords and bows on that rack that you can use."
-
-                M "{i}Damn, I don't know any of the weapon arts in real life."
-                M "{i}Guess I'll just have to borrow one of the swords and wing it."
-
-                "{i}Minato watches on the sidelines as the newbies stand up at the front and perform weapon arts in front of the Overseer."
-
-                M "{i}Wait a minute, I recognize these from the game."
-                M "{i}If I copy the movements, I probably can pull it off."
-
-                "{i}Minato is the last for the test."
-                "{i}The Overseer signals to Minato and he walks to the front."
-                "{i}Minato grabs one of the swords from the rack and mimicks three weapon arts that he remembered from the game."
-                "{i}He performs each one flawlessly.{/i}"
-
-                WOS "Okay, that's everyone."
-                WOS "Since you were all able to pull it off, you all pass."
-                WOS "Congratulations!"
-                WOS "You're now officially part of the Guild."
-                WOS "I want each of you to come up in a line and tell me your specific role"
-                WOS "I'll give you your corresponding stone insignia."
-
-                "{i}Minato is the final Warrior in the line.{/i}"
-
-                WOS "You're Minato right?"
-                WOS "So what will be your specialization?"
-                WOS "Since you picked up that sword, I'm gonna assume you want to be a knight."
-
-                M "Yeah, that's right."
-                M "But what are these insignias for?"
-
-                WOS "You don't know?"
-                WOS "Let me explain."
-                WOS "The insignias are used to show your rank and specialization."
-                WOS "The Warrior insignia is separated by the sword and the bow, corresponding to the Knight and Ranger."
-                WOS "A stone insignia is the lowest rank."
-                WOS "The next are bronze, silver, gold, and the highest, obsidian."
-                WOS "You can increase your rank based on the difficulty rank of your completed quests."
-                WOS "You haven't completed any quests, so you'll have a stone insignia until you complete a quest."
-
-                "{i}The Warrior Overseer hands Minato his stone Knight insignia and Minato leaves the training zone."
-                "{i}He goes back to the Main Hall and meets up with Keisuke and Akiyuki.{/i}"
-
-                A "Hey guys, look who I found."
-                A "It's a wild panda!"
-
-                MI "Hey, shut up!"
-
-                M "Is that Maruiko?"
-                M "(Rizzified) W-W-W-Why..."
-                M "Why is she here?"
-
-                A "I found her in the Mage training zone."
-
-                K "I also found someone we know."
-                K "She was in the Paladin training zone."
-
-                A "What?"
-                A "Who's that?"
-                A "I've never seen her in my life."
-
-                MI "Are you stupid, Akiyuki?"
-                MI "{i}Maruiko bonks Akiyuki on the head with her staff.{/i}"
-                MI "She's been in our class the whole time."
-                MI "That's Rin."
-
-                M "{i}Damn, Akiyuki's lucky. I wish that was me.{/i}"
-                M "So uh..."
-                M "W-w-w-why..."
-                M "Why are you here?"
-
-                K "I can explain that."
-                K "They were obviously brought here just like us, after the bus crash."
-
-                M "I wasn't asking you."
-
-                A "Anyway, let's hurry and do a quest so we can get some money."
-                A "I'm still starving."
-
-                K "We can go to the Quest Board and find one to accept."
-                K "It should be easy since we have even more than a full party now."
-
-                "{i}They walk to the Quest Board and look at the available quests.{/i}"
-
-                M "Which one should we accept?"
-
-                K "We should accept the highest difficulty quest."
-                K "That will raise our rank the highest and give us the biggest reward."
-
-                M "There's an obsidian difficulty quest for finding and killing a dragon."
-                M "The reward is 1,000,000 gold coins."
-
-                A "Let's do that one."
-                A "We won't need to do another quest ever again with that many coins."
-
-                K "With my experience from the game, it should be feasible for us to defeat a dragon."
-                K "There were only three dragons left, so we can start by going to those locations to find one."
-
-                MI "Only a dragon?"
-                MI "I've dealt with worse before."
-
-                MH "Don't worry, I'll protect you."
-
-                MI "You should worry about protecting Akiyuki."
-                MI "He's the only one dumb enough to get himself killed."
-
-                K "I'm the tank, so I'll do all the protecting anyway."
-                K "Plus, she's a Shaman, so you don't have to worry about her fighting it directly."
-
-                A "How did you know that she's a Shaman?"
-                A "She could've been a Warlock, like me."
-
-                MI "Did you not pay attention when you played the game?"
-                MI "It's on my insignia, just like how Rin's a Cleric."
-
-                A "I never got this far."
-                A "Wait, how'd you know we even played FQW?"
-
-                MI "Oh, that's..."
-
-                K "I'm surprised girls would even play an MMORPG."
-
-                MI "What's that supposed to mean?"
-
-                A "Yeah, you know that's a panda, not a girl."
-
-                MI "Do you want me to hit you?"
-
-                M "{i}Yes please.{/i}"
-
-                K "If you have experience with the game, that just makes my life easier."
-                K "Now let's focus on the quest at hand."
-
-                M "Right, let's do this."
-                M "Since I'm the leader, I'll lead us."
-                M "So Keisuke, where's the dragon?"
-
-                K "If we head through Emerald Fields to the east, we'll get to a cave that the wind dragon should be sleeping in."
-                K "That's the closest one."
-
-                M "Okay, let's head there then."
-
-                "{i}The party sets out on their first quest."
-                "{i}They walk through the tall grass for hours.{/i}"
-
-                A "I thought you said it was close, Keisuke."
-
-                K "I said it was the closest one."
-                K "It's still kinda far."
-
-                MI "I'm not used to walking this much."
-
-                M "I can carry you if you want."
-
-                MI "No thanks."
-
-                K "Keep it down guys."
-                K "I hear something."
-
-                "{i}A bush on the side rustles and a unicorn jumps out.{/i}"
-
-                A "Is that a unicorn?"
-
-                "{i}A flaming arrow comes from the sky and hits the unicorn in the ass."
-                "{i}It dies.{/i}"
-
-                M "Where did that come from?"
-
-                "{i}A man in a hood jumps down from a nearby tree."
-                "{i}He takes his hood off and lowers his bow.{/i}"
-
-                R "Hello there."
-
-                M "Roro?"
-                M "What are you doing here?"
-
-                R "Probably the same as you."
-                R "I'm on a quest to slay a dragon."
-
-                M "That's good, you can join our party."
-
-                K "Wait, how'd you do that Roro?"
-
-                R "Do what?"
-
-                K "You used magic arts with your bow."
-
-                R "Yeah, so?"
-
-                K "I guess the rules in this world are more lenient than in the game..."
-
-                "{i}A man in Knight armor approaches them from further up the path.{/i}"
-
-                TY "Roro?"
-                TY "I found the cave."
-                TY "Wait a minute, who are these guys?"
-
-                R "I found them out here while I was keeping watch."
-
-                TY "Aren't they in our class?"
-                TY "Did they get stuck here too?"
-
-                K "Seems like everyone in our class was brought here."
-                K "I thought it might just be the ones who played FQW, but I know for a fact Roro didn't."
-
-                TY "That's all fine and dandy, but we gotta hurry before the dragon wakes up."
-
-                M "Alright everybody, let's do this."
-                M "Follow me!"
-
-                TY "Who died and made you the leader?"
-                TY "You don't even know where it is."
-
-                M "Oh right."
-                M "Everybody, follow Saki!"
-
-                TY "That's not my name, it's Toru!"
-
-                "{i}The party heads to the cave where the wind dragon dwelled.{/i}"
-
-                K "The wind dragon is weak to fire, so Akiyuki and Roro should be the main damage dealers."
-
-                M "Okay, let's rush it."
-                M "It won't be able to handle all of us."
-
-                K "No, we should come up with a plan first."
-
-                A "I have a plan."
-
-                K "What's your plan?"
-
-                A "ATTACK!"
-
-                "{i}Akiyuki jumps down and charges at the dragon by himself.{/i}"
-
-                MI "What a dumbass."
-
-                "{i}Akiyuki ignites his daggers and leaps at the dragon."
-                "{i}The dragon wakes up and uses its tail to swipe him away and knock him into the wall."
-                "{i}Roro shoots flaming arrows at the dragon to grab its attention away from Akiyuki."
-                "{i}Keisuke uses his spirit arts to taunt the dragon."
-                "{i}While Keisuke tanks the dragon's attacks with his shield, the rest of the party pelts their attacks at it."
-                "{i}A few minutes pass and the dragon is still standing.{/i}"
-
-                TY "This fucker is tough as balls."
-
-                M "It feels like we've barely made a dent in it."
-
-                K "We're using newbie weapons for an obsidian level monster."
-                K "It's gonna take a while at this rate."
-                K "If only we had a top-tier Mage, our gear wouldn't matter."
-
-                A "Did you forget about me?"
-
-                "{i}The whole party turns to where Akiyuki had splat into the wall."
-                "{i}He charges a massive ball of fire thrice his size and aims it at the dragon."
-                "{i}Akiyuki shoots the fire at the dragon and it becomes engulfed in flames and staggers.{/i}"
-
-                M "Now's the time, let's rush it!"
-
-                "{i}The party coordinates their attacks until the dragon finally dies."
-                "{i}The dragon lays an egg right before it keels over, like when a person shits as they die.{/i}"
-
-                TY "It shat out an egg."
-
-                A "We should open it up and eat it."
-
-                MI "Stop being so dumb Akiyuki, that's not a real egg."
-
-                A "Any way you look at it, that's an egg."
-
-                R "Maybe the second phase of the boss will come out of it."
-
-                M "Stand back Maruiko, I'll protect you."
-
-                K "She's right, it's not an egg."
-                K "I mean it is, but it's not."
-                K "Once we open it, we'll get the reward for slaying the dragon."
-
-                R "I get it, it's like the Easter Bunny."
-
-                M "Then let's open it and find out."
-
-                "{i}Minato swings his sword and cuts the egg open."
-                "{i}He finds a backpack inside the egg.{/i}"
-
-                BP "What the hell?"
-                BP "Why are you so big, Minato?"
-
-                M "Huh?"
-                M "The backpack's talking?"
-
-                BP "Backpack?"
-                BP "What ya talkin' ‘bout cuh?"
-
-                MI "Wait a minute, is that voice Kaimon?"
-
-                CAM "Maruiko too?"
-                CAM "Da heck is goin' on cuh?"
-
-                R "Damn, Kaimon turned funsize."
-
-                CAM "If I'm a backpack, I wanna be held by Rin, not you cuh."
-
-                "{i}Minato hands the backpack to Rin.{/i}"
-
-                A "Wait a minute, when did you guys get so close?"
-
-                MI "Why are you so stupid, Akiyuki?"
-                MI "Kaimon's always been the cream to our golden oreo."
-
-                TY "Y'all bitches be wildin'."
-                TY "And y'all pasty as hell."
-
-                K "C'mon guys, let's focus."
-                K "We need to carry the dragon's corpse back as proof that we completed the quest."
-
-                A "How the hell are we gonna do that?"
-                A "It's the size of a house."
-
-                CAM "I'm a backpack, backpack. I'm the backpack loaded up with things and knickknacks too. Anything that you might need, I can fit inside for you."
-
-                "{i}Kaimon opens his zipper mouth and sucks the dragon inside him.{/i}"
-
-                K "I don't know how, but I guess that works."
-
-                R "Damn, Kaimon's got a mouth on him."
-
-                TY "Imagine the BJ."
-
-                M "Let's head back to the Guild Hall."
-
-                "{i}The party arrives at the Guild Main Hall and informs the receptionist they've completed the quest.{/i}"
-
-                IST "Where is the proof you've slayed the dragon?"
-
-                M "It's in the backpack."
-                M "Show her, Kaimon."
-
-                "{i}Kaimon vomits the dragon corpse out on the floor in the middle of the hall.{/i}"
-
-                IST "I see..."
-                IST "In that case, here's your reward."
-                IST "Your party has been promoted to Diamond for completing the quest."
-                IST "Come back tomorrow for your updated insignias."
-                IST "...And you can take the corpse with you."
-
-                "{i}The receptionist gives Minato 1,000,000 gold coins.{/i}"
-
-                M "How are we gonna carry all these coins?"
-
-                CAM "I'm a backpack, backpack. I'm the backpack loaded up with things and knickknacks too. Anything that you might need, I can fit inside for you."
-
-                "{i}Kaimon opens his zipper mouth and sucks all the coins and the dragon inside him.{/i}"
-
-                K "I still don't know how, but I guess it works."
-
-                A "Now that we're rich, let's head back to Zulgar."
-                A "I've been starving all day."
-
-                "{i}The party rents out the tavern for themselves and takes part in a lavish celebration."
-                "{i}After they were all finished eating, a farmer bursts through the door shouting.{/i}"
-
-                FA "Some undead skeletons just showed up and attacked our farms in West Emerald Fields!"
-                FA "We need somebody to help us."
-                FA "Are there any Guild members here?"
-
-                M "We're adventurers of the Guild."
-                M "We'll help and take out the skeletons."
-
-                K "Undead?"
-                K "First I've heard of that in FQW."
-
-                TY "We gotta hurry and go save them!"
-
-                "{i}The party tracks through West Emerald Fields and arrives at the Farmlands.{/i}"
-
-                FA "This is where our farms are."
-                FA "If the skeletons keep attacking them we'll lose our crops."
-                FA "Please stop them!"
-
-                M "Don't worry we'll take care of it."
-
-                "{i}There are dozens of undead skeletons attacking the farms and burning the fields.{/i}"
-
-                TY "Damn, there's so many of them."
-
-                A "We should split up and look for clues."
-
-                M "Okay, we'll split into two teams."
-                M "Keisuke, you know how FQW works, so you decide the teams."
-
-                K "Since we only have two Paladins, we'll split based on that."
-                K "Party A should be Rin (with Kaimon), Maruiko, Saki, and Minato."
-
-                TY "How many times do I have to say it?"
-                TY "MY NAME IS–"
-
-                K "We don't have time for that."
-                K "Party B will be the rest, Akiyuki Roro and me."
-
-                MI "Thank god I'm not with Akiyuki."
-
-                M "Okay party A, follow me!"
-                M "We'll cover the right flank."
-
-                "{i}The two parties split up and successfully wipe out the army of undead."
-                "{i}Afterwards, they regroup.{/i}"
-
-                M "That wasn't too bad."
-
-                MI "For being undead, they sure died pretty quickly."
-
-                R "Are you kidding?"
-                R "It took forever for them to die."
-                R "...Again."
-
-                K "Seems I miscalculated."
-                K "In most RPG games, undead are usually weak to fire."
-                K "But these undead appear to be weak to Ice Elemental Aura instead of Fire."
-                K "If I knew that, I would've made the teams more balanced."
-
-                A "What do you mean?"
-                A "Didn't you beat FQW?"
-
-                K "Yeah, but there weren't any undead in FQW."
-                K "The final boss in the game is a shapeshifting slime."
-
-                M "What's undead doing here then?"
-
-                K "This isn't FQW itself, so there are bound to be some differences."
-
-                MI "Stop acting so worried."
-                MI "They were easy anyway."
-
-                K "Regardless we should–"
-
-                FA "Thank you for stopping those skeletons."
-                FA "We still need help fixing the damage though, and those skeltons could even come back..."
-
-                M "We'll help with that too."
-
-                A "Are we getting paid for this?"
-
-                FA "Yes, of course."
-
-                "{i}The party spends the rest of the night helping the farmers rebuild their homes and replant their crops."
-                "{i}Minato and Maruiko volunteer with Rin and Kaimon to keep watch for the undead in shifts."
-
-                "{i}The next day{/i}"
-
-                "{i}Keisuke, Akiyuki, Saki, and Roro finish helping the farmers.{/i}"
-
-                TY "Finally done."
-
-                R "That was a pretty good workout."
-
-                A "I'm getting tired of all this work."
-                A "We've barely had any time to rest."
-
-                K "Things should slow down for now."
-                K "Unless the undead attack again."
-
-                R "What's up with those things anyway?"
-                R "Where did they even come from?"
-
-                K "We don't really have a way of knowing yet."
-                K "I assumed that everything would be mostly the same, but I shouldn't have done that."
-                K "This also means defeating that slime probably won't let us get back."
-
-                A "Then how do we get back?"
-                A "We can't stay here forever."
-
-                R "Honestly, I wouldn't mind that."
-
-                A "For real?"
-
-                R "It's been cool to be able to do all the arts and stuff."
-                R "And I mean, we actually killed a real dragon, how cool is that?"
-
-                TY "Not cool at all."
-                TY "I just wanna go back home and play some b-ball."
-
-                K "I'll try to come up with something."
-                K "...Now that I think about it, it's strange we didn't see a single slime in East Emerald Fields."
-                K "Maybe the undead replaces the slimes in this world."
-
-                R "Hold on, we've never seen any undead before either."
-                R "And I kept watch the whole time, so I definitely remember that."
-
-                A "Almost like they just decided to spawn last night."
-
-                K "I mean if we still think of this outside of being an RPG and being a real world, then undead shouldn't naturally exist."
-                K "There'd probably be a Necromancer that would have to perform a ritual."
-                K "And if that Necromancer is smart, they'd meticulously control the movements of their secret undead army."
-                K "Even if they were following us the whole time, I doubt we'd spot them."
-
-                TY "That's fucking creepy man."
-
-                K "Necromancers don't exist in FQW, so there's no telling what kind of other abilities they'd have access to here."
-
-                R "If that's the case, then why attack these random farmers?"
-
-                K "I'm not them, so I can't say for certain..."
-                K "It probably wasn't to get more skeletons."
-                K "A more densely populated area would've been the target if that was the case."
-                K "The only logical explanation I can think of is that this was a test of some kind."
-                K "But of course, they could just be way dumber than me."
-
-                A "Or way smarter."
-
-                K "I thought jokes were supposed to be funny."
-
-                A "Where's Minato?"
-                A "He might have a few ideas."
-
-                K "I can probably find him."
-
-                "{i}Keisuke walks around the farmlands until he finds Minato and Maruiko."
-                "{i}They were sleeping on a tree trunk with their heads together.{/i}"
-
-                K "I see."
-                K "Wonder how that happened so quickly."
-                K "...Guess I'll leave them alone."
-
-                "{i}Keisuke walks back to the guys.{/i}"
-
-                R "Oh, you're back."
-                R "Where's Minato?"
-
-                K "I couldn't find him."
-                K "There are more important things to do anyway."
-                K "Do you guys know where Rin is?"
-
-                A "Who?"
-
-                R "She was sleeping in one of the farmhouses."
-                R "I can show you which one."
-
-                TY "Wait, what do you need her for?"
-
-                K "I don't need her for anything."
-                K "But I know Kaimon won't agree to go with me unless he's on her back."
-
-                A "Oh, the girl holding Kaimon, right."
-
-                "{i}Roro takes Keisuke to Kaimon.{/i}"
-
-                TY "So what are we supposed to do now?"
-
-                A "Wanna go back to the city to get something to eat?"
-
-                TY "Nothing better for me to do."
-
-                "{i}Akiyuki and Saki arrive at Zulgar's Tavern.{/i}"
-
-                A "Daddy Z!"
-                A "Get us the usual."
-
-                ZUR "Don't ever call me that again."
-                ZUR "Your friends came in earlier."
-                ZUR "They're at that table."
-
-                AT "Huh?"
-
-                "{i}Minato and Maruiko are eating at one of the tables."
-                "{i}Akiyuki and Roro join them.{/i}"
-
-                TY "Hey hey hey, what's all this about?"
-
-                M "Huh?"
-                M "What are you guys doing here?"
-
-                A "To get some breakfast, what else?"
-
-                TY "Are you on a date?"
-                TY "So, are you two like, a thing now?"
-
-                M "Uh that's—"
-
-                MI "No, of course not."
-                MI "We just couldn't find Rin and Kaimon, so we came here."
-
-                TY "Keisuke said he needed them for something."
-
-                M "Really? For what?"
-
-                "{i}Saki sits down in one of the chairs at the table.{/i}"
-
-                TY "He didn't say."
-
-                "{i}Akiyuki sits down between Minato and Maruiko.{/i}"
-
-                A "More importantly, do you know how we can get back Minato?"
-                A "Keisuke was wrong about beating the game."
-
-                M "Coincidentally, Maruiko and I were just discussing that."
-                M "But if Keisuke doesn't know, then I've got nothing."
-
-                MI "Since we got here some way, there also has to be a way for us to get back."
-
-                MH "Maybe if we–"
-
-                "{i}Roro slams Zulgar's door open.{/i}"
-
-                ZUR "Hey, watch it!"
-
-                R "Sorry about that, boss."
-                R "There you guys are."
-                R "I've been looking everywhere."
-
-                M "What's up?"
-                M "Don't tell me the undead are back."
-
-                R "Nah, I just found a familiar face."
-
-                "{i}Roro steps aside and Shemar appears from behind him.{/i}"
-
-                A "Who's that?"
-
-                TY "Oh hey, it's Shemar!"
-
-                MI "Was he here the whole time?"
-
-                SHR "Uhh, yeah."
-                SHR "It took me a while, but I uhhh..."
-
-                M "Well you guys can sit down and order something."
-                M "We'll pay for you Shemar, so just get whatever you want from the menu."
-
-                "{i}Shemar sits next to Saki and looks at the menu for some time.{/i}"
-
-                SHR "Hey Toru, what's on the menu?"
-
-                TY "Why are you asking me?"
-                TY "You can read it yourself."
-
-                SHR "Uhh..."
-                SHR "Right..."
-
-                "{i}Everyone enjoys a meal together."
-                "{i}Everyone except Shemar, who's still staring at the menu.{/i}"
-
-                A "Man, that hit the spot."
-
-                M "We should head back to West Emerald Fields."
-                M "The undead might come back again."
-
-                TY "Let's head out then."
-                TY "You comin', Shemar?"
-
-                SHR "Uhhh..."
-                SHR "I'll join you guys in a bit."
-                SHR "I'm still..."
-                SHR "Uhhh..."
-                SHR "Reading the menu."
-
-                MI "Let's just go already."
-
-                "{i}The party leaves Shemar and returns to West Emerald Fields.{/i}"
-
-                MI "So what did Keisuke want with Rin?"
-
-                R "He said he needed Kaimon and took them somewhere."
-                R "I didn't go with them, 'cause he said I din't need to."
-                R "Instead, I looked for you guys."
-
-                M "Hope they gets back quickly."
-                M "We'll need our Paladins if the undead show up again."
-
-                "{i}A soldier riding on top of a horse stops in front of the party.{/i}"
-
-                M "Is that Ghetto Bii?"
-
-                A "Who?"
-
-                BII "Thou art all adventurers of the Guild, yes?"
-                BII "Please head to the Main Plaza."
-                BII "The King of West Kingdom hast an announcement for all citizens."
-
-                A "West Kingdom?"
-                A "Which is that?"
-
-                MI "Are you stupid, Akiyuki?"
-                MI "That's the one we're in, obviously."
-
-                BII "Wait, dost I know thy niggas?"
-                BII "Anyway, just hurry to the plaza."
-                BII "I gotta notify everyone else."
-
-                "{i}Soldier Tuu rides off and goes to inform the farmers.{/i}"
-
-                M "Guess we should head to the plaza."
-
-                TY "Then what are we waiting for?"
-                TY "Let's go."
-
-                "{i}The party heads to the Main Plaza while hundreds of the citizens wait in front of the King's castle."
-                "{i}The King walks out onto the balcony.{/i}"
-
-                WK "Silence, my citizens!"
-                WK "I have an announcement to make."
-                WK "Yesterday, war was declared on my Kingdom."
-                WK "A so-called Necromancer sent an official missive to my chambers to inform me that he was the culprit behind the recent undead attacks."
-                WK "I refuse to stand idle while he mocks my Kingdom."
-                WK "We're officially entering wartime effective immediately."
-                WK "There will be a curfew placed on all citizens and everyone will be forced to reside within our walls until we've won."
-                WK "That is all."
-
-                "{i}The King walks back to his chambers."
-                "{i}The citizens disperse like wild animals running around and screaming.{/i}"
-
-                TY "Damn, that's heavy."
-
-                R "That reminds me of what Keisuke was talking about."
-                R "That a necromancer was controlling the undead."
-
-                M "Where is Keisuke, anyway?"
-                M "He should be in this crowd somewhere."
-
-                MI "There's too many people out here."
-                MI "Let's go somewhere quieter."
-
-                A "I know the perfect place."
-
-                TY "An inn?"
-
-                M "We've been here before."
-                M "It's where Akiyuki, Keisuke, and I stayed the first night."
-
-                A "Perfect place for some R and R, you feel me?"
-
-                MI "Shut up Akiyuki."
-
-                R "We still need to look for Keisuke."
-
-                "{i}Keisuke walks into the Inn with Rin and Kaimon.{/i}"
-
-                K "Finally found you guys."
-
-                M "Keisuke, where've you been?"
-
-                K "We can talk about it later."
-                K "Did you guys hear the King's announcement?"
-
-                TY "Would've been hard not to."
-
-                K "We need to have an audience with the King."
-                K "I'm pretty sure the necromancer would be in Omayne."
-
-                A "Omayne?"
-                A "What the hell is that?"
-
-                MI "How many times do I have to point out how stupid you are?"
-                MI "It's obviously from FQW."
-
-                K "If only we knew someone to get us inside the castle..."
-
-                M "I know who we can ask."
-
-                "{i}Minato leads the party to the front gate of the West Kingdom.{/i}"
-
-                ONE "Halt! Who goes there?"
-
-                M "It's us Ghetto Ei."
-                M "Don't you remember?"
-
-                BII "Oh, it's you guys with the Guild."
-                BII "What do you want?"
-                BII "There's supposed to be a curfew."
-
-                M "We need to meet with the King."
-                M "Can you take us to him?"
-
-                EI "Fo' sho, Fo' sho!"
-
-                "{i}Soldier Wan and Tuu escort the party to the room where the West King has his throne."
-                "{i}A Throneroom, one could say."
-                "{i}The Room Where the King Has His Throne (The Throneroom){/i}"
-
-                WK "Why did you bring these children to the room where I have my throne?"
-
-                BII "Thou said they dost have some important information thou must hear immediately."
-
-                M "Yeah, we have some information on that Necromancer."
-
-                WK "You have some information on that Necromancer?"
-
-                M "Yeah, we have some information on that Necromancer."
-
-                WK "You have some information on that Necromancer?"
-
-                M "Yeah, we have some information on that Necromancer."
-
-                A "Anybody else having a stroke?"
-
-                M "Oh, sorry about that."
-
-                WK "So, you have some information on that Necromancer?"
-
-                M "Yeah."
-                M "We have some information on that Necromancer."
-                M "We know where he's hiding."
-
-                WK "You know where Lord Greg is hiding?"
-
-                A "Who?"
-
-                R "The Asthma Boy?"
-
-                TY "What's he doing here?"
-
-                M "Oh I get it."
-                M "It all makes sense now."
-                M "Greg must be who brought us here."
-
-                K "What makes you think that?"
-
-                M "He's been acting weird the whole time."
-                M "It just has to be his fault."
-
-                K "But how would that even be possible for him?"
-                K "That doesn't–"
-
-                WK "What are you all babbling about?"
-                WK "Surely this isn't why you're here."
-                WK "You have some information on that Necromancer, right?"
-
-                M "Yeah, right."
-                M "The Necromancer, I mean, Lord Greg should be residing in Omayne."
-
-                WK "Omayne?"
-                WK "I've never heard of this realm."
-                WK "Where is it?"
-
-                M "It's in between the four Kingdoms."
-                M "There's a castle at the center where Lord Greg should be."
-
-                WK "Are you talking about the Forbidden Lands?"
-                WK "But no one has lived there for centuries since the Great War."
-
-                M "That's why it's the perfect place for a necromancer to garner an undead army."
-
-                WK "I see."
-                WK "This is information indeed."
-                WK "Also, I see you are part of the Guild."
-                WK "We could use your assistance in this war against Lord Greg."
-                WK "What say you, boy?"
-
-                M "Yes, we'll guide your army to Lord Greg's Castle in Omayne."
-                M "But we also need your army."
-
-                WK "What nigga?"
-
-                M "You heard me nigga!"
-
-                EI "Fo' sho, Fo' sho!"
-
-                WK "You're right!"
-                WK "So, we're here, right? And we've all talked about what we need to talk about. You know what you're doing. We know what we're doing. So we'll meet again tomorrow and we'll see where we go from there, okay?"
-                WK "Sounds good."
-
-                "{i}The West King prepares his soldiers to storm Omayne."
-                "{i}The next day after the day after the next day."
-                "{i}The West King presents his army of 1500 soldiers to the party.{/i}"
-
-                M "Is this the army?"
-
-                EI "Fo' sho, Fo' sho!"
-
-                WK "I need another commanding officer for my troops."
-                WK "Soldier Wan and Soldier Tuu are not enough for all 1500."
-
-                M "I'll do it."
-
-                TY "No, I'll do it."
-                TY "Don't you remember the plan?"
-
-                M "Oh yeah, right."
-
-                "{i}Maruiko taps Minato on the shoulder.{/i}"
-
-                MI "Minato, I need to tell you something before we go."
-
-                M "Yes?"
-
-                MI "Once we return to our world, I'll let you take me on a real date."
-
-                M "R-r-r-r-really?!"
-
-                MI "What are you, stupid?!"
-
-                "{i}Maruiko punches Minato's arm like the filthy tsundere she is.{/i}"
-
-                MI "You're too loud."
-
-                "{i}Kesiuke approaches the cringe couple from behind.{/i}"
-
-                K "Minato, it's time to go."
-                K "We need to start splitting up before we leave."
-                K "It's you, Akiyuki, Roro, and me, remember?"
-
-                M "Huh?"
-                M "Oh, right."
-
-                "{i}The M.A.R.K. team separates from the rest of the party.{/i}"
-
-                M "Can't believe we're about to do this."
-
-                A "I know, right?"
-                A "It's like we're in a movie or something."
-
-                K "Almost forgot, I have a present for you guys."
-
-                R "A present? What is it?"
-
-                "{i}Keisuke takes them to the stables where their horses were waiting."
-                "{i}Next to each horse, there's a set of dragonscale armor and dragonbone weapons.{/i}"
-
-                R "Sheesh, these look sick."
-
-                M "Damn son, where'd you find these?"
-
-                K "It's what I needed Kaimon for the day before the day before yesterday."
-                K "I figured we'd be getting pretty close to the endgame, so we'd need some endgame gear."
-
-                A "I reckon that'll work."
-
-                "{i}The M.A.R.K. team equips their new gear and prepare for the final battle.{/i}"
-
-                R "Wait, guys!"
-
-                A "What is it?"
-
-                R "I feel like we're forgetting something, or someone..."
-                R "I'm pretty sure it was kinda important."
-
-                A "I got no clue on what you're talking about."
-
-                K "Only thing "
-
-                K "Let's get on the horses."
-                K "Saki and the others will help guide the King."
-                K "We need to secretly infiltrate the Castle while Greg's undead army is busy."
-
-                M "Alrighty boys, it's do or die, now or never."
-
-                R "What are we, some kinda, Seppuku Squad?"
-
-                "{i}The M.A.R.K. team and the West Kingdom Army get on their horses and make haste to Omayne.{/i}"
-
-                "{i}Lord Greg stands at the top of his tower watching over his undead army of 12000 skeleton soldiers."
-                "{i}On the horizon he sees the flag of the West Kingdom and hundreds of horses entering his territory.{/i}"
-
-                C "Hehehe hehe eh eheh ehehehehe ehehhehe hehehe he."
-                C "Everything is going according to my brilliant keikaku."
-                C "In the end, all their efforts will be meaningless."
-                C "I can't wait to meet Minato again!"
-                C "It's been so long..."
-
-                "{i}Greg laughs maniacally and moonwalks back inside his castle."
-                "{i}Meanwhile..."
-                "{i}The West King leads on his white steed up the hill separating the end of East Emerald Fields and the beginning of the Forbidden Lands."
-                "{i}He looks down upon the undead army.{i}"
-
-                WK "There are thousands of them."
-                WK "But no matter!"
-                WK "We will prevail against the dastardly necromancer's dastardly army!"
-
-                ONE "Fo' sho, Fo' sho!"
-
-                WK "This is the moment that will determine the survival or extinction of our Kingdom!"
-                WK "There is no future for our Kingdom as long as Lord Greg inhabits these lands."
-                WK "Advance forward, and eliminate the enemy!"
-                WK "Dedicate your hearts!"
-
-                "{i}The West King and his army charges down the hill and cnofronts the army of undead."
-                "{i}Meanwhile, on the other side of Lord Greg's Castle...{/i}"
-
-                M "There aren't any undead on this side."
-                M "Are you guys ready to infiltrate the castle?"
-
-                A "I was born ready."
-
-                R "It's just Greg, how bad can it be?"
-
-                K "We've prepared for this throughout our whole journey."
-                K "It'd be humiliating if we weren't ready."
-
-                M "Alright then, let's ditch the horses and sneak inside."
-
-                "{i}Team M.A.R.K. inconspicuously sneaks into the back of the castle."
-                "{i}The inside is completely unguarded."
-                "{i}Almost as if there's nobody there..."
-                "{i}Pretty crazy, right?"
-                "{i}Almost as if it was a trap..."
-                "{i}Anyways, this is the finale, so it'll be over soon.{i}"
-
-                R "Damn, pretty lucky nobody's here."
-
-                K "He probably put all his resources outside."
-
-                A "Omayne, feels like we're walking right into a trap..."
-
-                M "Nah, we've got this in the bag."
-
-                "{i}Right as they reach the bottom of the stairs, Lord Greg appears at the top of the first flight.{/i}"
-
-                C "Hello, Minato!"
-                C "I've been waiting for you this whole time."
-
-                R "It really is you..."
-
-                A "Who?"
-
-                K "It's Greg."
-                K "He was in our class and he's the Necromancer."
-
-                A "Oh shit, really?!"
-                A "What a crazy plot twist."
-
-                C "Silence you fools!"
-                C "I'm only here for Minato."
-
-                "{i}Greg tries to snap his fingers but fails miserably and dozens of undead crawl out of the ground and surround M.A.R.K.{/i}"
-
-                M "Why are you doing this to us?"
-                M "How did you even do all this?"
-
-                C "I'm so happy you asked!"
-                C "It's finally time for my evil monologue."
-                C "I've been practicing it for so long..."
-
-                R "Just get on with it already."
-
-                C "Stop ruining it!"
-                C "Everything has to be perfect."
-                C "Which is exactly why I can't say it yet."
-                C "Get to the top of my castle and I'll reveal everything."
-
-                "{i}Greg walks out of their sight and the undead surrounding them raise their weapons.{/i}"
-
-                R "Actually, I think I'll sit this one out."
-
-                M "No, we're in this together, until the end."
-
-                K "Exactly."
-                K "We have to stick together if we're gonna defeat Greg."
-                K "He probably has more undead waiting for us throughout his Castle."
-
-                A "Hey guys, less talking, more un-undeading."
-
-                "{i}Team M.A.R.K. quickly quells the undead and continues up the flight of stairs."
-                "{i}They go up the castle fighting groups of undead along the way."
-                "{i}They eventually reach the stair of the main tower.{/i}"
-
-                R "There's two sets of stairs."
-                R "Which path should we take?"
-
-                A "Should we flip a coin?"
-
-                K "Be serious, guys."
-                K "We have to hurry so the undead army can be defeated outside."
-                K "The sooner we beat Greg, the sooner the army will fall."
-
-                M "In that case, we should split up."
-                M "It'll be faster if we check both ways at the same time."
-                M "Whoever figures out the correct side first can just send someone to tell the others."
-
-                K "What happened to sticking together?"
-
-                R "Don't worry, it'll be fine."
-
-                M "Akiyuki and I will take the right side."
-                M "You guys climb the left."
-
-                "{i}They split up and climb their respective flights of stairs."
-                "{i}M.A. side"
-                "{i}Minato and Akiyuki climb their set of stairs swiftly."
-                "{i}They eventually make it to a large room at the end of the stairs.{/i}"
-
-                A "There's nothing here."
-                A "Guess we gotta turn back."
-
-                M "I have a bad feeling about this."
-
-                "{i}Greg descends from the roof and lands in the center of the room.{/i}"
-
-                C "Welcome, Minato."
-                C "I've been waiting for you."
-
-                A "You know I'm here too, right?"
-
-                C "Yes, unfortunately."
-                C "In fact, I prepared this next phase of my evil plan especially for you Akiyuki."
-                C "Heheheh ehe eheeheh ehheehhee heehhe."
-
-                "{i}Greg tries to snap his fingers but fails miserably and six undead werewolves crawl out of the ground.{/i}"
-
-                A "What the hell are those?"
-
-                M "I don't remember those from FQW at all."
-
-                C "If you want to continue, think of this as a little test."
-                C "I'm needed elsewhere, so I'm afraid this reunion will be cut short."
-                C "See you at the top, Minato!"
-
-                "{i}Greg waves his staff and a door appears behind him."
-                "{i}He walks through the door and up the stairs.{/i}"
-
-                M "We don't have time to deal with this."
-                M "Let's hurry and get rid of them so we can get this over with."
-
-                A "Right!"
-
-                "{i}Minato and Akiyuki work together to take out the werewolves."
-                "{i}Akiyuki engulfs them in fire and distracts them while Minato swiftly cuts them down with his weapon arts.{/i}"
-
-                A "Heh, that wasn't so bad."
-
-                M "Let's hurry up and head to Greg."
-                M "This is the right way, so you head back down and let the others know–"
-
-                "{i}As Minato spoke, the undead werewolves heal themselves."
-                "{i}All six of them stand back up and howl at them.{/i}"
-
-                M "Shit, they can regenerate."
-                M "We need to stop Greg quickly so the army outside can survive."
-                M "This is gonna take way too long..."
-
-                A "I get it man."
-                A "You head up and handle Greg."
-                A "I'll stop these things from heading up, then I'll let the others know."
-
-                M "You're going to do it alone?"
-                M "There's six of them."
-                M "You go up, I'll stay behind."
-
-                A "No, I got this."
-                A "My magic arts are better for group fights anyway."
-                A "Just trust me."
-                A "Now hurry, and go stop Greg!"
-
-                M "I promise I'll get us back home, Akiyuki."
-
-                "{i}The werewolves run at them."
-                "{i}Minato turns away and heads up the stairs as Akiyuki gets prepared.{/i}"
-
-                A "Keisuke wanted me to save this for Greg but..."
-                A "Now's as good a time as any."
-
-                "{i}Akiyuki clasps his hands together and creates a small ball of fire between them."
-                "{i}He puts all his focus into increasing the heat and size of the fire ball."
-                "{i}The fire ball starts to dwarf Akiyuki in size as he holds it in the air."
-                "{i}It changes color from red, to blue, and finally violet."
-                "{i}The heat alone is enough to deter even the fire resistant undead werewolves from advancing.{/i}"
-
-                A "What's wrong, am I too hot for y'all?"
-                A "Don't worry, there's enough heat for all of you!"
-                A "{i}I only have one shot at this so I gotta make it count{/i}."
-                A "Magic art: Utlra Violet Supergiant Supernova!"
-
-                "{i}Akiyuki unleashes the ultimate attack Keisuke taught him earlier."
-                "{i}He tosses it at the floor and it disintegrates the werewolves before even making contact."
-                "{i}It's so powerful the floor collapses and Akiyuki falls underground along with all the rubble."
-                "{i}Akiyuki groggily stands up in an underground cave and checks his surroundings.{/i}"
-
-                A "Guess I went a bit overkill..."
-
-                "{i}As Akiyuki looks for a way back up, a dozen werewolves crawl out from the ground and surround him.{/i}"
-
-                A "Shit, didn't I just kill you guys?"
-                A "And now there's twice as many."
-                A "Should've known it wouldn't be that easy..."
-
-                "{i}The werewolves all lunge at Akiyuki and he prepares to fight them until Greg is stopped."
-                "{i}Meanwhile..."
-                "{i}R.K. side"
-                "{i}Roro and Keisuke climb their set of stairs and it leads to a large door.{/i}"
-
-                R "That's a pretty big door."
-                R "You think he's compensating for something?"
-
-                K "What do you mean?"
-                K "His ego's already bigger than this entire castle."
-
-                "{i}They walk through the door and see there was a large cave, filled with thick ice stalactites and stalagmites.{/i}"
-
-                R "Damn, it's freezing here."
-                R "How is there a cave this high up in the castle anyway?"
-
-                K "We can use magic and we're fighting an undead army led by a 12 year old."
-                K "And your question is about the cave in the castle?"
-
-                R "Fair point."
-
-                K "I think I see the exit."
-                K "There's a corridor on the other side."
-
-                "{i}Roro and Keisuke walk through the frozen cave and eventually make it to the other side."
-                "{i}Greg is waiting at the front of the corridor.{/i}"
-
-                C "(sighs) Finally."
-                C "Do you know how long I've been waiting?"
-                C "I could be watching Minato right now, but instead I'm stuck entertaining you two..."
-
-                R "I never liked you either Greg."
-                R "I'm glad we get to take you down for good!"
-
-                C "Heheh ehehe heehehehhe ehhehehe hehe."
-                C "Well, if you want to \"take me down\" you'll have to deal with him first."
-
-                "{i}Greg dramatically points behind them."
-                "{i}Roro and Keisuke turn around and see nothing there.{/i}"
-
-                R "Huh?"
-                R "There's nothing there but some ice."
-
-                K "Shit, he's gone."
-                K "No way we just fell for the oldest trick in the book..."
-
-                R "Wait, I think I see something."
-
-                "{i}The floor shakes and a massive undead ice dragon slowly flies down in front of them.{/i}"
-
-                K "The ice dragon?"
-                K "But it's supposed to be dead in FQW."
-
-                R "Well, it's clearly undead now."
-
-                "{i}The dragon slams its body down on the ground and the ice stalactites start falling across the cave."
-                "{i}A large stalactite starts to fall down between the cave and the corridor.{/i}"
-
-                R "Look out!"
-
-                "{i}Roro reaches over and pushes Keisuke into the corridor before the stalactite falls and separates them."
-                "{i}Keisuke stands up after being pushed into the corridor past the fallen ice."
-                "{i}Roro is still stuck in the cave with the undead ice dragon.{/i}"
-
-                K "Roro?"
-                K "Hold on, I'll crack the ice."
-
-                "{i}Just as Keisuke goes to strike the ice, Roro holds his hand up on the other side."
-                "{i}Keisuke can't hear him, but he knew what he wanted to say.{/i}"
-
-                K "You think I'm gonna let you fight that thing alone?"
-                K "Guess again."
-
-                "{i}Keisuke strikes his shield at the ice to no avail."
-                "{i}He even resorts to using wind magic arts, but he can't even dent it.{/i}"
-
-                K "Shit!"
-                K "If only I had a different Elemental Aura..."
-
-                "{i}Keisuke looks through the ice to see how Roro is doing."
-                "{i}Roro is trying his best to dodge the dragon's attacks and fight back."
-                "{i}He uses his flaming arrows to fight at a distance."
-                "{i}He is actually managing to push it back.{/i}"
-                K "Can't believe he's actually putting up a fight."
-                K "But that ice dragon is undead now, which means it's resistant to fire magic."
-                K "He's just delaying the inevitable..."
-
-                "{i}The ice dragon eventually pushes the fight too far back for Keisuke to observe through the ice.{/i}"
-
-                K "Dammit."
-                K "I have no choice but to find Greg now."
-                K "If I stop him, the dragon will stop too."
-                K "He won't last much longer, so I gotta hurry."
-
-                "{i}Keisuke runs to the end of the corridor as fast as he could."
-                "{i}There's another door and a set of stairs behind it."
-                "{i}Keisuke quickly climbs up the stairs and comes across the next door.{/i}"
-
-                K "This has to be the top."
-                K "I can't go back down now."
-                K "I'll have to face Greg alone."
-
-                "{i}He opens the door and there one final corridor."
-                "{i}Keisuke runs across the corridor until he gets to the center where a large door stands.{i}"
-
-                K "This must be the room where Greg has his throne."
-                K "It's time to end this."
-
-                "{i}On the other side, Minato comes running up the corridor towards Keisuke.{/i}"
-
-                M "Keisuke?"
-                M "How'd you get up here?"
-
-                K "We don't have time for that, Minato."
-                K "We need to take down Greg, once and for all."
-
-                M "Okay, agreed."
-
-                "{i}Minato and Keisuke entered the room where Greg has his throne."
-                "{i}Meanwhile, outside the castle...{/i}"
-
-                TUU "There's too many of them..."
-                TUU "Over half of our army has fallen and we've barely put a dent."
-
-                ONE "Fo' sho, Fo' sho..."
-
-                TUU "Even if we keep fighting..."
-                TUU "Is it just meaningless?"
-
-                TY "It's all meaningless."
-                TY "No matter what dreams or hopes you had..."
-                TY "No matter how blessed a life you've lived..."
-                TY "It's all the same if you're killed by the skeletons."
-                TY "Everyone will die someday."
-                TY "Does that mean that our lives are meaningless?"
-                TY "Was there even any meaning in our being born?"
-                TY "Would you say that of our fallen comrades?"
-                TY "Their lives..."
-                TY "Were they meaningless?"
-                TY "No, they weren't!"
-                TY "It's us who give meaning to our comrades' lives!"
-                TY "The brave fallen!"
-                TY "The anguished fallen!"
-                TY "The ones who will remember them..."
-                TY "Are us, the living!"
-                TY "We die, trusting the living who follow to find the meaning in OUR lives!"
-                TY "That is the sole method in which we can rebel against this world!"
-                TY "My soldiers, rage!"
-                TY "My soldiers, scream!"
-                TY "My soldiers, fight!"
-
-                "{i}Through Saki's speech, Soldier Wan and Soldier Tuu regain their vigor and return to the battle at hand."
-                "{i}Meanwhile, in the room where Greg has his throne...{/i}"
-
-                C "Ah, you've finally made it to the top, Minato."
-                C "Now, prepare to hear my perfect monologue!"
-
-                "{i}Greg clears throat and starts coughing and choking."
-
-                K "We don't have time for this bullshit."
-                K "Just call off your undead Greg, before we have to kill you to stop them."
-
-                C "Wait, wait."
-                C "If you're worried about the ice dragon, then don't be."
-                C "I already called it off."
-                C "I don't need it anymore after all."
-
-                M "What are you talking about?"
-
-                C "Maybe it's better if I just showed you."
-                C "Hehe hheheh eeheheheh eheheh ehehe eheh eh"
-
-                "{i}Greg waves his staff and two undead soldiers carrying a corpse walk out from behind his throne."
-                "{i}The skeletons throw the dead body on the floor in front of them."
-                "{i}It is the corpse of Roro, with a gaping cut across his forehead.{/i}"
-
-                M "Is that... Roro?"
-                M "No way..."
-                M "What happened?!"
-
-                K "..."
-
-                C "I see you two are not happy."
-                C "But there's no need to start crying yet."
-                C "I'm a necromancer, remember?"
-                C "With a snap of my fingers, I could bring him back to life!"
-                C "Not only that, but I could teach you to do it too!"
-                C "Just join my side and you'll be able to bring your friend back."
-
-                M "You're crazy!"
-
-                C "My whole life, I've been working towards this."
-                C "Ever since I saw you on the other side, I needed a way to bring you here, to MY world."
-                C "Let's just say it takes a lot of energy to travel across worlds, and souls are the most voluminous source of energy."
-
-                "{i}Keisuke raises his shield and walks toward Greg's throne.{/i}"
-
-                M "Wait Keisuke, we don't know what kind of traps he's left."
-
-                C "There are no more traps."
-                C "It's just the three of us now."
-                C "So will you join me and save your friends?"
-                C "I'll order my undead to spare the rest of your friends if you agree."
-
-                K "Can you really bring Roro back?"
-                K "There's no point if he's just some mindless zombie."
-
-                C "I'm offended."
-                C "Do you take me for a fool?"
-                C "Of course you can bring him back to the same as before."
-                C "But that's only if you do it yourself."
-                C "If I revived him, he'd be a puppet controlled by my strings."
-                C "I invented Necromancy, and I know how to free him of those strings."
-                C "But only if Minato joins me."
-
-                K "Let's just join him, Minato."
-
-                M "What?"
-                M "You're gonna believe the crap he's spewing?"
-                M "He killed Roro!"
-                M "And he's still attacking the others!"
-                M "We have to stop him now!"
-
-                K "No, we should join him now."
-                K "If he doesn't call back his army, then we'd just kill him anyway."
-                K "If he dies, then Roro stays dead too."
-                K "If it's possible to save him, we should do everything we can to do it."
-
-                M "Look, I get it."
-                M "I want to save him too."
-                M "But we can't stay in this world with Greg."
-                M "We have other lives in OUR world."
-                M "We have families and goals."
-                M "We can't just throw all that away."
-
-                K "And what about Roro's family?"
-                K "If we go back without him, they'll suffer for it too."
-                K "Once we get Greg to teach us necromancy, we can all go back together, just like we wanted."
-
-                M "But the West Kingdom is outside fighting right now!"
-                M "If we join Greg, their army will be killed."
-                M "And I doubt he'll stop at just the West Kingdom."
-                M "We owe it to these people to stop Greg now!"
-
-                K "Why would I care about a bunch of NPC's?"
-                K "You're the one that's sounding crazy now."
-                K "You'd put their lives above Roro's?"
-                K "Above our friend's life?"
-
-                M "I know it sucks, but that's just how it ended."
-                M "Think of what Roro would say."
-                M "He wouldn't want you to let Greg kill thousands just to save himself!"
-
-                K "How could you possibly know what he would say?"
-                K "You weren't there when we got separated."
-                K "He saved my life, so now it's time for me to save his."
-                K "I won't let you kill Greg yet."
-
-                M "I didn't want to do this man..."
-                M "But I'll go through you if I have to."
-
-                K "Really?"
-                K "I'm starting to think you just never gave a shit about any of us."
-                K "If you want to get through me, you'll have to kill me."
-                K "Do you really think you're capable of that?"
-
-                M "That's my line, Keisuke."
-                M "I'm not stopping until Greg's dead."
-                M "So just stand aside before I make you!"
-
-                C "He he hehehe heeeh ehheeh heehehheeheheh hehehhe he."
-                C "Oh, this is even better than I imagined!"
-
-                K "Shut up, Greg."
-                K "Once I'm done with Minato, you're going to teach me necromancy."
-                K "And then I'm killing you next."
-
-                "{i}Minato and Keisuke stand on opposite ends of the Throne Room and size each other up.{/i}"
-
-                M "Don't do this Keisuke."
-                M "You can still turn around and help me kill Greg."
-
-                K "I've already made up my mind."
-                K "After I kill you, I'll bring you and Roro back."
-                K "Then we can take our time killing Greg together."
-                K "But I guess this has to happen first."
-
-                "Minato clenches his sword and prepares himself for this fight."
-                "He knows that Keisuke is only a support, so he should be able to win."
-                "Keisuke uses a magnitude of spirit arts to buff his stats."
-
-                K "Spirit arts: Infinity Wall, Holy Ward, Spirit Essence, Greater Full Potential, Greater Speed, Paranormal Intuition, Greater Resistance, Mantle of Serenity, Indomitability, Sensory Boost, Greater Luck, Magic Boost, Heavenly Aura, Absorption, Greater Spirit Shield, Triple Maximize Spirit."
-
-                M "What da fuck?"
-
-                "Keisuke zips around the room like a bolt of lightning and kicks Minato in the back."
-                "Minato slides across the floor on his ass."
-
-                M "Since when could you do that shit?"
-
-                K "Spirit arts increase your stats based on your determination."
-                K "If you aren't more resolved than me, you won't win this fight."
-
-                "{i}Keisuke quickly dashes forward and goes to bash Minato with his shield."
-                "{i}Minato stands up and blocks the shield bash with his sword."
-                "{i}He still gets pushed back across the room from the force alone.{/i}"
-
-                M "{i}Damn, he's actually trying to kill me."
-                M "{i}I need a way to subdue him quickly.{/i}"
-
-                "{i}Minato stands back up and takes a defensive stance with his sword up."
-                "{i}Keisuke charges at him and bashes Minato's sword away.{/i}"
-
-                K "Just give up, Minato."
-                K "You can't fight me without your sword."
-
-                M "You're forgetting this world isn't like the game."
-                M "Just because I'm a Warrior, doesn't mean I can't use magic arts."
-
-                "{i}Minato sticks both his hands out and shoots a lightning bolt directly at Keisuke."
-                "{i}It wasn't very effective.{/i}"
-
-                K "Not only do I have multiple defensive buffs, but we're wearing armor created from the scales of the wind dragon."
-                K "Wind Elemental Aura is resistant to lightning."
-                K "I didn't forget about you having magic arts, they were just irrelevant from the beginning."
-
-                M "Well shit."
-
-                "{i}Keisuke raises his shield once more and prepares to charge Minato once again."
-                "{i}Minato drops his arms in defeat.{/i}"
-
-                M "You're right Keisuke, I can't win."
-                M "We've already wasted enough time, so I give up."
-
-                K "Wise choice."
-                K "We can just kill Greg after he teaches us, so don't fret about it."
-
-                "{i}Minato walks up and extends his hand out to Keisuke.{/i}"
-
-                M "No hard feelings?"
-
-                K "Right."
-
-                "{i}Keisuke takes his hand and shakes it."
-                "{i}Minato clenches Keisuke's hand and pulls him in."
-                "{i}He wraps his arms around Keisuke's neck and holds him in a chokehold."
-                "{i}He pins Keisuke to the floor and holds him down until he passes out."
-                "{i}Minato holds him down for a few minutes until Keisuke stops struggling.{/i}"
-
-                M "Finally, I thought he'd never pass out."
-
-                C "It ended just like that? How boring."
-                C "Right when I thought you were finally coming along..."
-                C "But that would be too easy."
-                C "If I want something done right, I guess I'll have to do it myself."
-
-                "{i}Lord Greg jumps off his throne and lands on the floor with a massive thud.{/i}"
-
-                C "I've been waiting so long for this moment."
-                C "It's just you and me now."
-
-                M "Wait Greg, don't you think it smells a little musty up in here?"
-
-                C "Huh?"
-                C "Whaddya–"
-
-                "{i}Minato pulls out a lemon scented spray can and sprays it in Greg's direction."
-                "{i}Greg coughs and gags and chokes uncontrollably because of the secret weapon.{/i}"
-
-                C "L-Lemon scented spray?"
-                C "B-But how?!"
-
-                M "It was the secret weapon Roro prepared for you in advance."
-                M "It's thanks to him that this plan"
-
-                "{i}Greg trips over himself and bundles into a fetal position while coughing and gagging over himself.{/i}"
-
-                C "H-How can this b-be?"
-                C "E-Even in death, he still..."
-                C "My k–k-keikaku was supposed to be perfect..."
-
-                "{i}Greg keels over and his body falls completely limp after coughing one last time.{/i}"
-
-                M "Is it finally over?"
-
-                "{i}Greg's body dissipates into nothing."
-                "{i}Minato falls on his ass, exhausted from the consecutive battles.{/i}"
-
-                M "It's finally over..."
-
-                "{i}Minato lies down on the cold floor and passes out.{/i}"
 
             label Renaissance_epilogue:
 
@@ -4576,21 +2705,21 @@ label start:
 
                 "{i}Minato and Akiyuki pull the wagon, with Keisuke still sitting in it, back to the front gate of the middle school.{/i}"
 
-        '''label HSScript:
+        label HSScript:
 
             label Ten_one:
 
                 scene hs_gym with Dissolve(1.0)
-
+                        
                 "Gym"
-
+                
                 "{i}All incoming and current students gather in the gymnasium for the opening ceremony.{/i}"
 
-                show MH W
-
+                show MH_W at left
                 MH "Are you getting nervous yet?"
                 MH "It's our first day of high school after all."
 
+                show KH_W at right
                 KH "It's just middle school but in high school."
                 KH "What's there to be nervous about?"
 
@@ -4620,16 +2749,15 @@ label start:
 
                 SEN "Okay, Minato. Stop talking!"
 
-                "{i}The teacher walks away.{/i}"
-
                 FAT "And now, I will have the new student council president, Paruka-kun, come up and say a few words."
 
+                show TRE_W at center
                 "{i}From where the students are seated at, the student section, a student levitates to where the principal stood."
                 "{i}He was blinding to look at."
                 "{i}Too blinding."
                 "{i}The human eye would try to adjust its focus but to no avail.{/i}"
 
-                TRE "I, the representative of the student section from where the students are seated at, would like to extend my gratitude to the faculty and staff for the new school year ahead of us."
+                TRE "I, the representative of the student section from where the students are seated at, would like to extend my gratitude..."
                 TRE "And I would like to extend my welcome to the new incoming students to this high school that has the name of..."
 
                 MH "Are you seeing what I'm seeing?"
@@ -4646,13 +2774,14 @@ label start:
                 KH "Huh?"
 
                 "{i}The student body roars in applause after Paruka finishes his speech.{/i}"
+                hide TRE_W with dissolve
 
                 scene hs_hallway with Dissolve(1.0)
-
                 "Hallway"
-
                 "{i}Students crowd around the board where the faculty post the classroom assignments.{/i}"
 
+                show MH_W at left
+                show KH_W at right
                 MH "I don't see Akiyuki's name in the same class as us."
 
                 KH "I told you."
@@ -4667,9 +2796,9 @@ label start:
                 "{i}Minato and Keisuke head to their homeroom classroom.{/i}"
 
                 scene hs_classroom_front with Dissolve(1.0)
-
                 "Classroom Morning"
 
+                show HUK at center
                 HUK "Let's see..."
                 HUK "We should start with introductions."
                 HUK "I'm Hiro-sensei, your homeroom teacher."
@@ -4686,15 +2815,18 @@ label start:
                 HUK "Anyone care to make a guess?"
 
                 scene hs_classroom with Dissolve(1.0)
-
+                show TSB_W at left
                 TSB "Is it a bar mitzvah?"
 
                 HUK "No."
 
+                show RUT_W at right
                 RUT "Why would it be a bar mitzvah?"
 
+                show ALI_W at center
                 ALI "Yeah, if anything, it should be a bat mitzvah."
 
+                show TRT_G at left_two
                 TRT "Why?"
 
                 ALI "Because, women."
@@ -4708,6 +2840,7 @@ label start:
                 HUK "It would be neither."
                 HUK "Any other guesses?"
 
+                show TN_W at right_two
                 HBI "Is it a test?"
 
                 HUK "Why would I tell you guys about a test two months from now on the first day of school?"
@@ -4717,6 +2850,7 @@ label start:
 
                 TSB "Bii, quit being a nimrod."
 
+                show CAT_W at left_three
                 "{i}Chizuru raises her hand.{/i}"
 
                 HUK "Yes, Chizuru-chan?"
@@ -4737,17 +2871,16 @@ label start:
                 HUK "Just trust me."
 
                 scene hs_classroom with Dissolve(1.0)
-
                 "{i}Bell rings.{/i}"
 
                 HUK "Okay kids, have fun with your lunch."
                 HUK "Don't forget to try the cafeteria cookies."
                 HUK "They taste absolutely divine."
-
-                "{i}Hiro exits the classroom.{/i}"
+                hide HUK with dissolve
 
                 scene hs_classroom with Dissolve(1.0)
-
+                show MH_W at left
+                show KH_W at right
                 "{i}Minato goes over to Keisuke.{/i}"
 
                 MH "Did you see that one girl, Asuka-chan?"
@@ -4761,26 +2894,33 @@ label start:
                 KH "Whatever you say man."
 
                 scene hs_classroom_left with Dissolve(1.0)
-
+                show TRT_G at left
+                show ALI_W at center
+                show RUT_W at right
                 TRT "Hey, Asuka-chan."
                 TRT "Do you want to join me, Rumi-chan, and Chizuru-chan for lunch?"
 
                 ALI "Sure, okay."
 
+                show TN_W at left_two
                 HBI "TSB-kun, let's eat together."
 
+                show TSB_W at right_two
                 TSB "No."
                 TSB "I want to eat alone."
-
+                hide TSB_W with dissolve
                 "{i}TSB gets up and secretly follows The Riot's group to stalk Rumi.{/i}"
 
                 HBI "That sucks. What about you, Atsushi-kun?"
 
+                show ABD_W at right_two
                 ABD "Sure."
 
+                show MH_W at left_three
                 MH "Asuka-chan went off with The Riot."
                 MH "Do you think they're dating?"
 
+                show KH_W at right_three
                 KH "Chill out. It's only the first day of school."
 
                 MH "He's probably trying to snag her."
@@ -10143,7 +8283,7 @@ label start:
 
         label Syschord_epilogue:
 
-            scene toilet with Dissolve (0.5)
+            scene discord with Dissolve (1.0)
 
             MH "What actually happened to TSBB?"
 

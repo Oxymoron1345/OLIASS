@@ -1,30 +1,47 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/script.rpy", line 3401, in script
-    "{i}A student raises their hand.{/i}"
-Exception: Image 'ms_hallway' does not accept attributes '(0.5)'.
+  File "game/script.rpy", line 911, in script
+    "Music Classroom"
+OSError: Couldn't find file 'audio/bgm/SusatoMikotobaObjection!.mp3'.
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/script.rpy", line 3401, in script
-    "{i}A student raises their hand.{/i}"
-  File "C:\Renpy\renpy-8.1.1-sdk\renpy\ast.py", line 1562, in execute
-    show_imspec(self.imspec, atl=getattr(self, "atl", None))
-  File "C:\Renpy\renpy-8.1.1-sdk\renpy\ast.py", line 1391, in show_imspec
-    renpy.config.show(name,
-  File "C:\Renpy\renpy-8.1.1-sdk\renpy\exports.py", line 733, in show
-    if not base.find_target() and renpy.config.missing_show:
-  File "C:\Renpy\renpy-8.1.1-sdk\renpy\display\image.py", line 421, in find_target
-    self.target = target._duplicate(a)
-  File "C:\Renpy\renpy-8.1.1-sdk\renpy\display\core.py", line 496, in _duplicate
-    args.extraneous()
-  File "C:\Renpy\renpy-8.1.1-sdk\renpy\display\core.py", line 359, in extraneous
-    raise Exception("Image '{}' does not accept attributes '{}'.".format(
-Exception: Image 'ms_hallway' does not accept attributes '(0.5)'.
+  File "game/script.rpy", line 911, in script
+    "Music Classroom"
+  File "C:\Renpy\renpy-8.1.1-sdk\renpy\ast.py", line 930, in execute
+    renpy.exports.say(who, what, *args, **kwargs)
+  File "C:\Renpy\renpy-8.1.1-sdk\renpy\exports.py", line 1473, in say
+    who(what, *args, **kwargs)
+  File "C:\Renpy\renpy-8.1.1-sdk\renpy\character.py", line 1352, in __call__
+    self.do_display(who, what, cb_args=self.cb_args, dtt=dtt, **display_args)
+  File "C:\Renpy\renpy-8.1.1-sdk\renpy\character.py", line 1003, in do_display
+    display_say(who,
+  File "C:\Renpy\renpy-8.1.1-sdk\renpy\character.py", line 693, in display_say
+    rv = renpy.ui.interact(mouse='say', type=type, roll_forward=roll_forward)
+  File "C:\Renpy\renpy-8.1.1-sdk\renpy\ui.py", line 299, in interact
+    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
+  File "C:\Renpy\renpy-8.1.1-sdk\renpy\display\core.py", line 3579, in interact
+    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, pause_modal=pause_modal, **kwargs) # type: ignore
+  File "C:\Renpy\renpy-8.1.1-sdk\renpy\display\core.py", line 4376, in interact_core
+    renpy.audio.audio.periodic()
+  File "C:\Renpy\renpy-8.1.1-sdk\renpy\audio\audio.py", line 1222, in periodic
+    raise_(exc[0], exc[1], exc[2])
+  File "/home/tom/ab/renpy-build/tmp/install.linux-x86_64/lib/python3.9/site-packages/future/utils/__init__.py", line 444, in raise_
+  File "C:\Renpy\renpy-8.1.1-sdk\renpy\audio\audio.py", line 1200, in periodic_thread_main
+    periodic_pass()
+  File "C:\Renpy\renpy-8.1.1-sdk\renpy\audio\audio.py", line 1142, in periodic_pass
+    c.periodic()
+  File "C:\Renpy\renpy-8.1.1-sdk\renpy\audio\audio.py", line 534, in periodic
+    topf = load(filename)
+  File "C:\Renpy\renpy-8.1.1-sdk\renpy\audio\audio.py", line 72, in load
+    rv = renpy.loader.load(fn, directory="audio")
+  File "C:\Renpy\renpy-8.1.1-sdk\renpy\loader.py", line 833, in load
+    raise IOError("Couldn't find file '%s'." % name)
+OSError: Couldn't find file 'audio/bgm/SusatoMikotobaObjection!.mp3'.
 
-Windows-10-10.0.22631 AMD64
+Windows-10-10.0.26100 AMD64
 Ren'Py 8.1.1.23060707
 jinseikome 1.0
-Thu Jan  4 01:09:42 2024
+Wed Jun 18 15:58:37 2025

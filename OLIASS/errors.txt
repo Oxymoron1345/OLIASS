@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 426: end of line expected.
-    hide JNE W hide A W frown
-               ^
+File "game/script.rpy", line 8277: end of line expected.
+    scene discord with Dissolve (1.0) at left
+                                      ^
 
 Ren'Py Version: Ren'Py 8.1.1.23060707
-Wed Jan  3 21:19:33 2024
+Wed Jun 18 16:32:37 2025
