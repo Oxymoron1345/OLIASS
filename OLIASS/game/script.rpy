@@ -1534,41 +1534,72 @@ label start:
 
                 scene ms_music with Dissolve(1.0)
 
+                show DUE_smug at TMcenter with Dissolve(0.25)
+
                 DUE "(with bags under his eyes and a five o'clock shadow) Hello, boys and girls."
                 DUE "Today I have a MAJOR announcement."
                 DUE "I finished working on my play, and the principal approved it."
                 DUE "Today, we'll be deciding your roles in the play, and then I'll prepare you boys and girls for it."
 
+                hide DUE_smug with Dissolve(0.25)
+
                 "{i}Daiki projects his computer screen onto the board where it shows the roles for his play.{/i}"
 
                 R "What are you guys gonna sign up for?"
 
+                show GNG_smug at center with Dissolve(0.25)
+
                 GNG "Go nigga go!"
 
-                DUE "Okay Jun."
+                show DUE_smug at right with Dissolve(0.25)
                 DUE "Come type your name here, next to \"newspaper boy\"."
 
+                hide GNG_smug with Dissolve(0.25)
+                show K_neutral at center with Dissolve(0.25)
+
                 K "I think I'll be one of the soldiers."
+
+                show R_shocked at left with Dissolve(0.25)
 
                 R "Nah, that says \"souljas\"."
                 R "There's three of them."
 
+                show A_neutral at right with Dissolve(0.25)
+
                 A "Count me in on that."
+
+                show R_shocked at center with Dissolve(0.25)
 
                 R "Okay, I'll go type our names in."
 
-                "{i}Roro makes his way to Daiki's computer and types their names next to the \"souljas\"."
+                "{i}Roro makes his way to Daiki's computer and types their names next to the \"souljas\".{/i}"
+
+                show CAM_confused at TMcenter with Dissolve(0.25)
 
                 CAM "Nigga spelt Keisuke's name wrong."
 
                 "{i}Everyone in the class looks at the board.{/i}"
 
+                show TY_shocked at TMleft with Dissolve(0.25)
+
                 TY "Nigga, why are all the role names so ghetto?"
+
+                show DUE_smug at TMcenter with Dissolve(0.25)
 
                 DUE "What do you mean?"
                 DUE "That's just how you kids talk these days."
 
+                show EI_shocked at TMright with Dissolve(0.25)
+
                 EI "Fo' sho, Fo' sho!"
+
+                hide DUE_smug with Dissolve(0.25)
+                hide K_neutral with Dissolve(0.25)
+                hide R_shocked with Dissolve(0.25)
+                hide A_neutral with Dissolve(0.25)
+                hide CAM_confused with Dissolve(0.25)
+                hide TY_shocked with Dissolve(0.25)
+                hide EI_shocked with Dissolve(0.25)
 
                 scene ms_play with Dissolve(0.5)
 
@@ -1595,25 +1626,42 @@ label start:
 
                 scene ms_classroom_morning with Dissolve(1.0)
 
+                show RR_normal at center with Dissolve(0.25)
+
                 RR "(coughs) Okay everyone, I'll be your homeroom teacher this year."
                 RR "I see we have a few new faces."
                 RR "Y'all better not act up."
                 RR "Also, I need to mention that Daiki-sensei will be my assistant this year."
                 RR "Because of what happened last semester, the superintendent has decided this school has no need for a music department."
 
+                show DUE_smug at right with Dissolve(0.25)
+
                 DUE "(sniffling) That wasn't the commando I was referring to..."
                 DUE "Ahem, new boys and girls, please go to the front of the class and introduce yourselves."
 
+                show BM_neutral at TMcenter with Dissolve(0.25)
+
                 BM "I am—"
+
+                hide BM_neutral with Dissolve(0.25)
+                show R_shocked at left with Dissolve(0.25)
 
                 R "Oh shit, it's that bronze man."
                 R "He's the guy who saved me from those squirrels!"
 
+                show GNG_smug at center with Dissolve(0.25)
+
                 GNG "Go nigga go!"
+
+                show BM_neutral at TMcenter with Dissolve(0.25)
 
                 BM "You're welcome."
 
+                show SHR_neutral at TMleft with Dissolve(0.25)
+
                 SHR "Uhhh, ma name's Shemar."
+
+                show C_neutral at TMright with Dissolve(0.25)
 
                 C "I'm Greg."
 
@@ -1717,16 +1765,24 @@ label start:
 
                 EI "Fo' sho, Fo' sho!"
 
+                show C_neutral at TMcenter with Dissolve(0.25)
+
                 C "(whispers) It's all going according to keikaku."
 
                 "{i}TL Note: Keikaku means plan.{/i}"
+
+                hide C_neutral with Dissolve(0.25)
 
             label Eight_two:
 
                 scene ms_classroom_morning with Dissolve(1.0)
 
+                show RR_normal at center with Dissolve(0.25)
+
                 RR "Today we're gonna be readin' as a class from the History textbook."
                 RR "Shemar, why don't you start us off?"
+
+                show SHR_neutral at left with Dissolve(0.25)
 
                 SHR "Uhh..."
                 SHR "T-The..."
@@ -1737,6 +1793,8 @@ label start:
 
                 "{i}Minato and Keisuke talk quietly in the corner as Shemar struggles to read.{/i}"
 
+                show RR_normal at center with Dissolve(0.25)
+
                 RR "Alright that's enough."
                 RR "Let's have someone else read."
 
@@ -1745,88 +1803,157 @@ label start:
                 RR "{size=*1.5}MINATO! Stop talking!{/size}"
                 RR "That's it, I have to separate you two."
 
+                show C_neutral at right with Dissolve(0.25)
+
                 C "Um, Beri-sensei?"
+
+                show RR_normal at center with Dissolve(0.25)
 
                 RR "Yes?"
 
+                show C_neutral at right with Dissolve(0.25)
+
                 C "Can Minato-kun sit next to ME?"
+
+                show RR_normal at center with Dissolve(0.25)
 
                 RR "That's a novel idea."
                 RR "Okay, why don't we do that then."
                 RR "Minato, go and sit yo' ass down next to Greg."
 
+                show M_neutral at TMcenter with Dissolve(0.25)
+
                 M "Yes, sensei."
 
                 "{i}Minato sits down in the empty seat next to Greg.{/i}"
 
+                show M_neutral at left with Dissolve(0.25)
+
                 M "How's it going?"
+
+                hide RR_normal with Dissolve(0.25)
+                hide SHR_neutral with Dissolve(0.25)
+                hide C_neutral with Dissolve(0.25)
+
+                show C_neutral at left with Dissolve(0.25)
 
                 C "(giggles) Don't you remember me?"
                 C "I'm the one that helped you out."
 
+                show M_neutral at center with Dissolve(0.25)
+
                 M "Huh?"
+
+                show C_neutral at left with Dissolve(0.25)
 
                 C "You don't remember?"
                 C "WEll, it's okay."
                 C "We'll be acquainted quite nicely very soon."
                 C "He he ehe he eh eh eh he he hehe he"
 
+                hide M_neutral with Dissolve(0.25)
+                hide C_neutral with Dissolve(0.25)
+
             label Eight_three:
 
                 scene ms_classroom_morning with Dissolve(1.0)
+
+                show SDK_shocked at center with Dissolve(0.25)
 
                 "{i}Sheldrieka sniffs the room like a bitch.{/i}"
 
                 SDK "OOF!"
                 SDK "It smell even mustier than usual up in here!"
 
+                show RIN_neutral at left with Dissolve(0.25)
+
                 RIN "Was that you, Jenifa?"
+
+                show JEN_neutral at right with Dissolve(0.25)
 
                 JEN "Why would you think it was me?"
                 JEN "It could have been Tomoko."
 
+                show TIN_neutral at TMcenter with Dissolve(0.25)
+
                 TIN "Why me?"
+
+                show JEN_neutral at right with Dissolve(0.25)
 
                 JEN "Because..."
                 JEN "Well..."
 
+                show RIN_neutral at left with Dissolve(0.25)
+
                 RIN "No, it's safer to assume it's you, the girl who shat in the urinal."
 
+                show JEN_neutral at right with Dissolve(0.25)
+
                 JEN "I told you to forget about that!"
+
+                show RR_normal at center with Dissolve(0.25)
 
                 RR "Okay, okay, settle down."
                 RR "I'll use some lemon scent to sweeten the air."
 
-                "{i}Beri sprays the classroom and fills it with the lemon scent."
+                "{i}Beri sprays the classroom and fills it with the lemon scent.{/i}"
                 "{i}Greg walks in the class and sits down.{/i}"
+
+                show SDK_shocked at center with Dissolve(0.25)
 
                 SDK "Thanks Riri, that lemon spray made it less musty."
 
                 "{i}Greg jumps out of his seat after hearing that.{/i}"
                 "{i}He gasps for air and clutches his chest.{/i}"
 
+                show C_neutral at right with Dissolve(0.25)
+
                 C "Air!"
                 C "I need Air!"
                 C "Why'd you spray that?!"
                 C "You know I have asthma!"
+
+                show RR_normal at center with Dissolve(0.25)
 
                 RR "Calm down child!"
                 RR "Just leave the classroom."
 
                 "{i}Greg runs out of the classroom while breathing exasperatedly.{/i}"
 
+                show GNG_smug at left with Dissolve(0.25)
+
                 GNG "Go nigga go!"
+
+                show M_neutral at center with Dissolve(0.25)
 
                 M "What a drama queen."
 
+                show A_neutral at right with Dissolve(0.25)
+
                 A "What do you mean? That could've killed him."
+
+                show M_neutral at center with Dissolve(0.25)
 
                 M "Maybe if he actually had asthma."
                 M "I know what asthma looks like, and that wasn't it."
                 M "He wouldn't be able to breathe or talk at all if it really was that bad."
 
+                hide SDK_shocked with Dissolve(0.25)
+                hide RIN_neutral with Dissolve(0.25)
+                hide JEN_neutral with Dissolve(0.25)
+                hide TIN_neutral with Dissolve(0.25)
+                hide RR_normal with Dissolve(0.25)
+                hide C_neutral with Dissolve(0.25)
+                hide GNG_smug with Dissolve(0.25)
+                hide M_neutral with Dissolve(0.25)
+                hide A_neutral with Dissolve(0.25)
+
+                show R_shocked at center with Dissolve(0.25)
+
                 R "Whatever man."
                 R "At least the dude's finally gone."
+
+                hide R_shocked with Dissolve(0.25)
 
                 scene ms_hallway with Dissolve(0.5)
 
@@ -1839,42 +1966,83 @@ label start:
 
                 scene cafeteria with Dissolve(1.0)
 
+                show M_W at center with Dissolve(0.25)
+
                 M "Guys, I've been playing this new MMORPG."
                 M "It's damn good."
                 M "I just started it a week ago, so you guys should join me."
 
+                hide M_W with Dissolve(0.25)
+                show A_W at left with Dissolve(0.25)
+
                 A "What's it called?"
+
+                hide A_W with Dissolve(0.25)
+                show M_W at center with Dissolve(0.25)
 
                 M "It's called \"Fantasy Quest Worlds\"."
                 M "There's unique classes and everything, you guys will definitely love it."
 
+                hide M_W with Dissolve(0.25)
+                show A_W at left with Dissolve(0.25)
+
                 A "Sure, I'll join ya."
 
+                hide A_W with Dissolve(0.25)
+                show K_W at right with Dissolve(0.25)
+
                 K "Is there a mage class?"
+
+                hide K_W with Dissolve(0.25)
+                show M_W at center with Dissolve(0.25)
 
                 M "Yeah, you can pick that one, since I'm a warrior."
                 M "How about you, Roro?"
 
+                hide M_W with Dissolve(0.25)
+                show R_W at right_two with Dissolve(0.25)
+
                 R "I'll sit this one out."
                 R "Not really feeling it."
 
+                hide R_W with Dissolve(0.25)
+                show M_W at center with Dissolve(0.25)
+
                 M "It's your loss."
+
+                hide M_W with Dissolve(0.25)
 
                 "{i}Greg sneaks up behind them and sits next to Minato.{/i}"
 
+                show C_W at center_two with Dissolve(0.25)
+
                 C "I'll be the cleric."
                 C "I'll heal you right up ♡."
+
+                hide C_W with Dissolve(0.25)
+                show M_W at center with Dissolve(0.25)
 
                 M "Sorry, Greg."
                 M "You can only make a party of three."
                 M "Keisuke and Akiyuki already agreed."
 
+                hide M_W with Dissolve(0.25)
+                show R_W at right_two with Dissolve(0.25)
+
                 R "Why'd you invite me too if only three can play?"
+
+                hide R_W with Dissolve(0.25)
+                show M_W at center with Dissolve(0.25)
 
                 M "Shut up."
 
+                hide M_W with Dissolve(0.25)
+                show C_W at center_two with Dissolve(0.25)
+
                 C "Gee willikers, that's too bad."
                 C "Guess I'll have to join next time."
+
+                hide C_W with Dissolve(0.25)
 
                 "{i}One table across.{/i}"
 
@@ -2009,27 +2177,51 @@ label start:
 
                 scene ms_classroom_morning with Dissolve(1.0)
 
+                show RR_normal at center with Dissolve(0.25)
+
                 RR "Okay class, the school has a surprise for you guys."
                 RR "We'll be going on a field trip to the Camelot Carnival today."
 
+                show SDK_shocked at left with Dissolve(0.25)
+
                 SDK "We goin' to CC's?"
+
+                show M_neutral at center with Dissolve(0.25)
 
                 M "Oh, CC's?"
                 M "I love their pizzas."
 
+                show SDK_shocked at left with Dissolve(0.25)
+
                 SDK "Nuh uh honey, that's a coffee shop."
+
+                show RR_normal at center with Dissolve(0.25)
 
                 RR "{size=*1.5}MINATO! Stop talking!{/size}"
                 RR "For that outburst, you're gonna sit at the back of the bus."
 
+                show SDK_shocked at left with Dissolve(0.25)
+
                 SDK "Nuh uh honey, I ain't no Rosie Perks."
+
+                show EI_shocked at right with Dissolve(0.25)
 
                 EI "Fo' sho, Fo' sho!"
 
+                show RR_normal at center with Dissolve(0.25)
+
                 RR "Of course, of course, I was talking about Minato."
+
+                show C_neutral at TMcenter with Dissolve(0.25)
 
                 C "Beri-sensei?"
                 C "May I sit in the back, next to Minato, because of my asthma?"
+
+                hide RR_normal with Dissolve(0.25)
+                hide SDK_shocked with Dissolve(0.25)
+                hide M_neutral with Dissolve(0.25)
+                hide EI_shocked with Dissolve(0.25)
+                hide C_neutral with Dissolve(0.25)
 
                 RR "Fine, whatever."
 
@@ -2067,6 +2259,8 @@ label start:
 
                 scene bus with Dissolve(1.0)
 
+                show M_neutral at center with Dissolve(0.25)
+
                 "{i}Minato softly and gently opens his eyes."
                 "{i}Then he bashfully fluttered his eyelashes until he could regain his sight.{/i}"
 
@@ -2074,20 +2268,32 @@ label start:
                 M "Where am I?"
                 M "What's goin' on?"
 
+                show A_neutral at right with Dissolve(0.25)
+
                 A "Hey you."
                 A "You're finally awake."
 
+                show M_neutral at center with Dissolve(0.25)
+
                 M "Akiyuki?"
                 M "What happened to Greg?"
+
+                show A_neutral at right with Dissolve(0.25)
 
                 A "Who?"
                 A "Never heard of anyone named Greg in my life."
 
                 M "Huh?"
 
+                show A_neutral at right with Dissolve(0.25)
+
                 A "Keisuke, do you know who he's talking about?"
 
+                show K_neutral at TMcenter with Dissolve(0.25)
+
                 K "Nope, no idea."
+
+                show M_neutral at center with Dissolve(0.25)
 
                 M "I swore all that stuff was real."
                 M "I guess it was just a really long dream..."
@@ -2113,6 +2319,8 @@ label start:
 
                 scene ms_classroom_morning with Dissolve(1.0)
 
+                show RR_normal at center with Dissolve(0.25)
+
                 RR "Alrighty class, let's get started."
                 RR "Today's the start of your grade's last year of middle school."
                 RR "A lot of faces have come and gone."
@@ -2122,23 +2330,39 @@ label start:
 
                 RR "Yes?"
 
+                show LYN_neutral at left with Dissolve(0.25)
+
                 LYN "It is camouflaged, so the robbers won't steal it."
 
                 "{i}Only silence remains in the classroom.{/i}"
 
+                show M_neutral at center with Dissolve(0.25)
+
                 M "Is it because of acid and erosion?"
+
+                show RR_normal at center with Dissolve(0.25)
 
                 RR "Yes... that is correct."
                 RR "And Minato..."
 
+                show M_neutral at center with Dissolve(0.25)
+
                 M "Hm?"
 
+                show RR_normal at center with Dissolve(0.25)
+
                 RR "{size=*1.5}Stop talking!{/size}"
+
+                hide RR_normal with Dissolve(0.25)
+                hide LYN_neutral with Dissolve(0.25)
+                hide M_neutral with Dissolve(0.25)
 
                 scene ms_classroom_afternoon with Dissolve(0.5)
 
                 "{i}The bell rings.{/i}"
                 "{i}Beri exits the classroom, and the class gets ready for lunch.{/i}"
+
+                show M_neutral at center with Dissolve(0.25)
 
                 M "I swear, every time."
 
@@ -2147,69 +2371,112 @@ label start:
 
                 scene ms_hallway with Dissolve(0.5)
 
+                show M_neutral at center with Dissolve(0.25)
+
                 M "Maruiko? Do you want to eat lunch together?"
 
                 "{i}Maruiko ignores Minato and continues to the cafeteria.{/i}"
 
                 scene ms_classroom_afternoon with Dissolve(0.5)
 
+                show A_neutral at left with Dissolve(0.25)
+
                 A "Hey, Keisuke."
                 A "You noticed how Minato has been trying to get closer to Maruiko lately?"
+
+                show K_neutral at center with Dissolve(0.25)
 
                 K "Yeah."
                 K "What about it?"
 
+                show A_neutral at left with Dissolve(0.25)
+
                 A "I wonder why Maruiko is giving him the cold shoulder now."
 
+                show K_neutral at center with Dissolve(0.25)
+
                 K "Bitches be crazy."
+
+                show A_neutral at left with Dissolve(0.25)
 
                 A "I guess."
                 A "But they seemed fine up until today."
 
                 "{i}Minato makes his way back to them.{/i}"
 
+                show M_neutral at right with Dissolve(0.25)
+
                 M "Yeah..."
                 M "I don't feel like having lunch."
 
+                show A_neutral at left with Dissolve(0.25)
+
                 A "What did you do to Maruiko?"
+
+                show M_neutral at right with Dissolve(0.25)
 
                 M "I didn't do anything."
                 M "It's all Roro's fault!"
 
+                show K_neutral at center with Dissolve(0.25)
+
                 K "Beri-sensei said he transferred to another school this year."
                 K "How can it be his fault?"
+
+                show M_neutral at right with Dissolve(0.25)
 
                 M "I told Maruiko that Roro liked her hair."
                 M "Then Maruiko texted Roro to ask if he liked her and he never responded."
                 M "So basically, she hates me now, and she thinks that Akiyuki put me up to it."
 
+                show A_neutral at left with Dissolve(0.25)
+
                 A "I haven't even spoken to her since the \"Paper Camera Incident\" back in seventh grade."
                 A "Forget about that."
                 A "Are you guys going to try out for the english spelling tournament?"
 
+                show K_neutral at center with Dissolve(0.25)
+
                 K "It's not like we have much of a choice."
                 K "Fumino-sensei is gonna hold a mock spelling tournament during class to choose two students in our grade to compete in the english spelling tournament anyway."
 
+                show M_neutral at right with Dissolve(0.25)
+
                 M "I don't really feel like doing anything right now."
+
+                show A_neutral at left with Dissolve(0.25)
 
                 A "Don't get hung up over Maruiko."
                 A "There's plenty of fish in the sea."
+
+                show K_neutral at center with Dissolve(0.25)
 
                 K "I don't even get what you see in her."
 
                 "{i}The classroom door opens.{/i}"
 
+                show M_neutral at right with Dissolve(0.25)
+
                 M "What do you mean?"
                 M "Maruiko's hot as fuck dawg."
                 M "I mean, you're telling me that she's not hot to you?"
 
+                show MI_shocked at TMcenter with Dissolve(0.25)
+
                 MI "{size=*1.5}MINATO! Stop talking!{/size}"
+
+                hide M_neutral with Dissolve(0.25)
+                hide A_neutral with Dissolve(0.25)
+                hide K_neutral with Dissolve(0.25)
+                hide MI_shocked with Dissolve(0.25)
 
             label Nine_two:
 
                 scene ms_gym with Dissolve(1.0)
 
-                "{i}All grades in the school were in attendance inside the gymnasium."
+                show DUE_smug at center with Dissolve(0.25)
+
+                "{i}All grades in the school were in attendance inside the gymnasium.{/i}"
                 "{i}Akiyuki and Keisuke were chosen to compete in the english spelling tournament for their grade against the other grades.{/i}"
 
                 DUE "We have three students left in the tournament."
@@ -2217,32 +2484,51 @@ label start:
                 DUE "And one of MY students representing the third grade class."
                 DUE "I believe it's time for me to move onto the more challenging words now."
 
-                "{i}Daiki continues to read off the page with all the easy words."
+                "{i}Daiki continues to read off the page with all the easy words.{/i}"
                 "{i}He makes his way to Keisuke.{/i}"
 
                 DUE "Keisuke, your word is \"postpone\"."
 
+                show K_neutral at TMcenter with Dissolve(0.25)
+
                 K "What tense is it?"
 
+                show DUE_smug at center with Dissolve(0.25)
+
                 DUE "It's a verb."
+
+                show K_neutral at TMcenter with Dissolve(0.25)
 
                 K "..."
                 K "Can you use it in a sentence?"
 
+                show DUE_smug at center with Dissolve(0.25)
+
                 DUE "Uh... The game was POSTPONEd."
 
+                show K_neutral at TMcenter with Dissolve(0.25)
+
                 K "Can you repeat that?"
+
+                show DUE_smug at center with Dissolve(0.25)
 
                 DUE "Sure."
                 DUE "The game was POSTPONEd due to bad weather."
 
                 "{i}Keisuke stares at him in disbelief.{/i}"
 
+                show K_neutral at TMcenter with Dissolve(0.25)
+
                 K "Postponed."
                 K "P-O-S-T-P-O-N-E-D."
                 K "Postponed."
 
+                show DUE_smug at center with Dissolve(0.25)
+
                 DUE "That is INCORRECT."
+
+                hide DUE_smug with Dissolve(0.25)
+                hide K_neutral with Dissolve(0.25)
                 DUE "We now have TWO students left."
 
                 "{i}Daiki makes his way to Akiyuki.{/i}"
@@ -2297,23 +2583,43 @@ label start:
 
                 scene theater_inside with Dissolve(0.5)
 
+                show A_W at left with Dissolve(0.25)
+
                 A "Are we even at the right place?"
+
+                hide A_W with Dissolve(0.25)
+                show M_W at center with Dissolve(0.25)
 
                 M "(sniffs) Don't you smell that fresh lemony scent?"
                 M "Totally a new theater smell."
 
+                hide M_W with Dissolve(0.25)
+                show K_W at right with Dissolve(0.25)
+
                 K "You're probably smelling the actual lemons they put in the drinks."
+
+                hide K_W with Dissolve(0.25)
+                show A_W at left with Dissolve(0.25)
 
                 A "Well, all this talk about lemons makes me gotta piss."
                 A "I'm headin' to the toilet."
 
+                hide A_W with Dissolve(0.25)
+
                 "{i}Akiyuki walks to the restroom.{/i}"
+
+                show K_W at right with Dissolve(0.25)
 
                 K "Let's just order the tickets already."
                 K "The register is over there, Minato."
 
+                hide K_W with Dissolve(0.25)
+                show M_W at center with Dissolve(0.25)
+
                 M "Fine, I'll go talk to them, like I always do."
                 M "You guys better do it next time."
+
+                hide M_W with Dissolve(0.25)
 
                 "{i}Akiyuki busts open the restroom door and shouts at the top of his lungs.{/i}"
 
@@ -2367,55 +2673,108 @@ label start:
 
                 "{i}At that moment, a father and the father's child walked in and seated themselves at the front.{/i}"
 
+                show M_W at center with Dissolve(0.25)
+
                 M "Thanks a lot man, you jinxed it."
+
+                hide M_W with Dissolve(0.25)
+                show K_W at right with Dissolve(0.25)
 
                 K "No I didn't."
                 K "They were gonna come in either way."
 
+                hide K_W with Dissolve(0.25)
+                show A_W at left with Dissolve(0.25)
+
                 A "Let's just sit and watch the movie"
+
+                hide A_W with Dissolve(0.25)
+                show M_W at center with Dissolve(0.25)
 
                 M "I call the middle."
                 M "I don't want y'all to leave me out of the conversation."
 
+                hide M_W with Dissolve(0.25)
+                show A_W at left with Dissolve(0.25)
+
                 A "Sure, if it means that much to you."
+
+                hide A_W with Dissolve(0.25)
 
                 "{i}They sit down and the movie starts.{/i}"
                 "{i}After the movie finishes, the father and the father's child leave the place where they are supposed to turn their phones off and watch the movie, leaving the three alone in the place where they are supposed to turn their phones off and watch the movie.{/i}"
 
+                show A_W at left with Dissolve(0.25)
+
                 A "Damn, that was pretty good."
                 A "I'd give it a 9/10."
 
+                hide A_W with Dissolve(0.25)
+                show M_W at center with Dissolve(0.25)
+
                 M "I agree, at least a 9/10."
+
+                hide M_W with Dissolve(0.25)
+                show K_W at right with Dissolve(0.25)
 
                 K "I'd say it was 7/10."
                 K "Not too shabby."
 
+                hide K_W with Dissolve(0.25)
+                show A_W at left with Dissolve(0.25)
+
                 A "See?"
                 A "I told you guys it'd be good."
+
+                hide A_W with Dissolve(0.25)
 
                 "{i}The next day.{/i}"
 
                 scene cafeteria with Dissolve(1.0)
 
+                show A_W at left with Dissolve(0.25)
+
                 A "So, about \"Stellar Crusades: the Aura Rises\"..."
                 A "Wasn't it crazy when–"
+
+                hide A_W with Dissolve(0.25)
+                show M_W at center with Dissolve(0.25)
 
                 M "That movie was shit."
                 M "I don't even want to acknowledge it exists."
                 M "Right, Keisuke?"
 
+                hide M_W with Dissolve(0.25)
+                show K_W at right with Dissolve(0.25)
+
                 K "Yeah, definitely the worst \"Stellar Crusades\" movie so far."
                 K "Complete trash."
 
+                hide K_W with Dissolve(0.25)
+
+                show A_W at left with Dissolve(0.25)
+
                 A "What are you guys talking about? I thought y'all liked it."
+
+                hide A_W with Dissolve(0.25)
+                show M_W at center with Dissolve(0.25)
 
                 M "I thought about it over night and realized it was shit."
                 M "Keisuke and I spent the whole night texting about all the flaws of the movie."
 
+                hide M_W with Dissolve(0.25)
+                show K_W at right with Dissolve(0.25)
+
                 K "Yeah, definitely the worst \"Stellar Crusades\" movie so far."
                 K "Complete trash."
 
+                hide K_W with Dissolve(0.25)
+
+                show A_W at left with Dissolve(0.25)
+
                 A "You guys are just haters."
+
+                hide A_W with Dissolve(0.25)
 
             label Nine_four:
 
@@ -2424,34 +2783,59 @@ label start:
                 "{i}Minato, Akiyuki, and Keisuke are eating lunch together on the rooftop."
                 "{i}Minato draws on a piece of paper while he eats.{/i}"
 
+                show A_W at left with Dissolve(0.25)
+
                 A "Can't believe they left the roof unlocked."
+
+                hide A_W with Dissolve(0.25)
+                show K_W at right with Dissolve(0.25)
 
                 K "I can."
 
+                hide K_W with Dissolve(0.25)
+                show M_W at center with Dissolve(0.25)
+
                 M "Hey guys, look what I made."
+
+                hide M_W with Dissolve(0.25)
 
                 "{i}He shows them his magnum opus."
                 "{i}It is a drawing of a nigga man with a collar around his neck and his massah holding the end of it."
                 "{i}The massah is shouting \"Useless nigger nigga, stop niggaing around you nigger.\""
                 "{i}Right before they start laughing, Fumino slams the rooftop door open.{/i}"
 
+                show FOS at Tcenter with Dissolve(0.25)
+
                 FOS "{size=*1.5}MINATO!{/size}"
                 FOS "What are you doing up here?"
                 FOS "What's that note?"
 
+                hide FOS with Dissolve(0.25)
+
                 "{i}Fumino-sensei walks over and snatches the note from Minato."
                 "{i}She reads it, completely flabbergasted.{/i}"
+
+                show FOS at Tcenter with Dissolve(0.25)
 
                 FOS "That's it!"
                 FOS "You're coming with me to the principal's office, Minato."
                 FOS "NOW!"
 
+                hide FOS with Dissolve(0.25)
+
                 "{i}Fumino grabs Minato and drags him to the office.{/i}"
+
+                show K_W at right with Dissolve(0.25)
 
                 K "Guess he's getting a detention."
 
+                hide K_W with Dissolve(0.25)
+                show A_W at left with Dissolve(0.25)
+
                 A "And on black history month?"
                 A "So unlucky."
+
+                hide A_W with Dissolve(0.25)
 
                 "{i}The next day.{/i}"
 
@@ -2459,28 +2843,59 @@ label start:
 
                 "{i}Keisuke and Akiyuki are on their way to class.{/i}"
 
+                show A_W at left with Dissolve(0.25)
+
                 A "Hey, what do you think ended up happening to Minato?"
+
+                hide A_W with Dissolve(0.25)
+                show K_W at right with Dissolve(0.25)
 
                 K "Probably got expelled."
 
+                hide K_W with Dissolve(0.25)
+                show M_W at center with Dissolve(0.25)
+
                 M "Haha, very funny."
+
+                hide M_W with Dissolve(0.25)
+                show A_W at left with Dissolve(0.25)
 
                 A "Woah, where'd you come from?"
 
+                hide A_W with Dissolve(0.25)
+                show K_W at right with Dissolve(0.25)
+
                 K "What happened with the note?"
+
+                hide K_W with Dissolve(0.25)
+                show M_W at center with Dissolve(0.25)
 
                 M "Nothing happened."
 
+                hide M_W with Dissolve(0.25)
+                show A_W at left with Dissolve(0.25)
+
                 A "Whaddya mean \"Nothing happened\"?"
+
+                hide A_W with Dissolve(0.25)
+                show M_W at center with Dissolve(0.25)
 
                 M "Whaddya mean, what do I mean?"
                 M "They just let me go."
 
+                hide M_W with Dissolve(0.25)
+                show K_W at right with Dissolve(0.25)
+
                 K "So I get detention for writing a single curse word, but you get off scott free for depicting the most racist shit in history?"
                 K "Totally sounds fair to me."
 
+                hide K_W with Dissolve(0.25)
+                show M_W at center with Dissolve(0.25)
+
                 M "Yeah well, I'm not black."
                 M "You are."
+
+                hide M_W with Dissolve(0.25)
 
             label Nine_five:
 
@@ -2497,140 +2912,305 @@ label start:
 
                 "{i}Then they make their way to the other side of campus.{/i}"
 
+                show A_W at left with Dissolve(0.25)
+
                 A "Can you believe from now to next week we're gonna be in high school?"
+
+                hide A_W with Dissolve(0.25)
+                show M_W at center with Dissolve(0.25)
 
                 M "What the fuck did you just say?"
 
+                hide M_W with Dissolve(0.25)
+                show K_W at right with Dissolve(0.25)
+
                 K "Hey alright."
+
+                hide K_W with Dissolve(0.25)
+                show M_W at center with Dissolve(0.25)
 
                 M "Let's just take these cans to the shed already."
 
+                hide M_W with Dissolve(0.25)
+                show A_W at left with Dissolve(0.25)
+
                 A "Yeah, okay man."
+
+                hide A_W with Dissolve(0.25)
 
                 "{i}They walk towards the restrooms.{/i}"
 
+                show A_W at left with Dissolve(0.25)
+
                 A "Hey, remember that time I found shit in the urinal?"
 
+                hide A_W with Dissolve(0.25)
+                show K_W at right with Dissolve(0.25)
+
                 K "We never did find out who did that."
+
+                hide K_W with Dissolve(0.25)
+                show M_W at center with Dissolve(0.25)
 
                 M "It looked pretty sexy."
                 M "It must've been from a girl."
 
+                hide M_W with Dissolve(0.25)
+                show A_W at left with Dissolve(0.25)
+
                 A "What the fuck did you just say?"
+
+                hide A_W with Dissolve(0.25)
+                show K_W at right with Dissolve(0.25)
 
                 K "Hey alright."
 
+                hide K_W with Dissolve(0.25)
+
                 "{i}They walk past the restroom and approach the shoe lockers.{/i}"
+
+                show M_W at center with Dissolve(0.25)
 
                 M "Isn't it crazy how so many students left the school?"
 
+                hide M_W with Dissolve(0.25)
+                show A_W at left with Dissolve(0.25)
+
                 A "Wanna see if we can list them all?"
+
+                hide A_W with Dissolve(0.25)
+                show M_W at center with Dissolve(0.25)
 
                 M "That's easy."
                 M "First, Jein, she left in our first year."
 
+                hide M_W with Dissolve(0.25)
+                show A_W at left with Dissolve(0.25)
+
                 A "Yeah, I never even got the chance to talk to her again."
 
+                hide A_W with Dissolve(0.25)
+                show K_W at right with Dissolve(0.25)
+
                 K "Who?"
+
+                hide K_W with Dissolve(0.25)
+                show M_W at center with Dissolve(0.25)
 
                 M "There were also a bunch in our second year that didn't come back."
                 M "Sheldrieka and Jun didn't last until this year either."
 
+                hide M_W with Dissolve(0.25)
+                show A_W at left with Dissolve(0.25)
+
                 A "Don't forget Sukiko, Jenifa, and Tomoko."
                 A "Those three left after the second year too."
+
+                hide A_W with Dissolve(0.25)
+                show K_W at right with Dissolve(0.25)
 
                 K "You guys are just making names up now."
                 K "I think I remember some weird kid leaving though."
 
+                hide K_W with Dissolve(0.25)
+                show A_W at left with Dissolve(0.25)
+
                 A "Oh, I know who you're talking about."
                 A "What was his name again..."
+
+                hide A_W with Dissolve(0.25)
+                show M_W at center with Dissolve(0.25)
 
                 M "Are you talking about Greg?"
                 M "You guys remember him now!?"
 
+                hide M_W with Dissolve(0.25)
+                show K_W at right with Dissolve(0.25)
+
                 K "Nah, it was Seidohito."
 
+                hide K_W with Dissolve(0.25)
+                show A_W at left with Dissolve(0.25)
+
                 A "That's what it was!"
+
+                hide A_W with Dissolve(0.25)
+                show M_W at center with Dissolve(0.25)
 
                 M "R-Right..."
                 M "So, it's only been a few that stayed here since the beginning of middle school."
 
+                hide M_W with Dissolve(0.25)
+                show A_W at left with Dissolve(0.25)
+
                 A "Seems like the school isn't going to get many incoming students either."
 
+                hide A_W with Dissolve(0.25)
+                show K_W at right with Dissolve(0.25)
+
                 K "I wouldn't be surprised if the school shuts down."
+
+                hide K_W with Dissolve(0.25)
+                show A_W at left with Dissolve(0.25)
 
                 A "Don't say that, man."
                 A "We had so many cherished memories together here."
 
+                hide A_W with Dissolve(0.25)
+                show M_W at center with Dissolve(0.25)
+
                 M "Yeah, it'd suck if our middle school shut down."
+
+                hide M_W with Dissolve(0.25)
+                show K_W at right with Dissolve(0.25)
 
                 K "It's not like you need the school to stay open to remember it."
                 K "Anyway, are we there yet?"
 
+                hide K_W with Dissolve(0.25)
+                show M_W at center with Dissolve(0.25)
+
                 M "No."
+
+                hide M_W with Dissolve(0.25)
 
                 "{i}They are still walking across the hallways.{/i}"
 
+                show K_W at right with Dissolve(0.25)
+
                 K "Are we there yet?"
 
+                hide K_W with Dissolve(0.25)
+                show A_W at left with Dissolve(0.25)
+
                 A "Not yet."
+
+                hide A_W with Dissolve(0.25)
 
                 "{i}They are still walking across the hallways."
                 "{i}A sign reads \"Three kilometers to the shed.\".{/i}"
 
+                show K_W at right with Dissolve(0.25)
+
                 K "Are we there yet?"
+
+                hide K_W with Dissolve(0.25)
+                show A_W at left with Dissolve(0.25)
 
                 A "No."
 
+                hide A_W with Dissolve(0.25)
+
                 "{i}More time passes and they are walking through more hallways.{/i}"
 
+                show K_W at right with Dissolve(0.25)
+
                 K "Are we there yet?"
+
+                hide K_W with Dissolve(0.25)
+                show M_W at center with Dissolve(0.25)
 
                 M " No!"
 
+                hide M_W with Dissolve(0.25)
+
                 "{i}They are walking through more hallways.{/i}"
 
+                show K_W at right with Dissolve(0.25)
+
                 K "Are we there yet?"
+
+                hide K_W with Dissolve(0.25)
+                show M_W at center with Dissolve(0.25)
 
                 M "Yes."
 
+                hide M_W with Dissolve(0.25)
+                show K_W at right with Dissolve(0.25)
+
                 K "Really?"
+
+                hide K_W with Dissolve(0.25)
+                show M_W at center with Dissolve(0.25)
 
                 M "No!!"
 
+                hide M_W with Dissolve(0.25)
+
                 "{i}They pass by more hallways.{/i}"
 
+                show K_W at right with Dissolve(0.25)
+
                 K "Are we there yet?"
+
+                hide K_W with Dissolve(0.25)
+                show A_W at left with Dissolve(0.25)
 
                 A "No!"
 
+                hide A_W with Dissolve(0.25)
+
                 "{i}They pass a sign that reads \"1.5 km to the shed.\".{i}"
+
+                show K_W at right with Dissolve(0.25)
 
                 K "Are we there yet?"
 
+                hide K_W with Dissolve(0.25)
+                show M_W at center with Dissolve(0.25)
+
                 M "No, we are not!"
+
+                hide M_W with Dissolve(0.25)
 
                 "{i}Later as they pass through the hallway, they see a nigga bus driver outside the window.{/i}"
 
+                show K_W at right with Dissolve(0.25)
+
                 K "Are we there yet?!"
+
+                hide K_W with Dissolve(0.25)
+                show MA at center with Dissolve(0.25)
 
                 MA "No!!"
 
+                hide MA with Dissolve(0.25)
+
                 "{i}Minato decides to mimic Keisuke.{/i}"
 
+                show M_W at center with Dissolve(0.25)
+
                 M "Are we there yet?"
+
+                hide M_W with Dissolve(0.25)
+                show K_W at right with Dissolve(0.25)
 
                 K "That's not funny."
                 K "It's just immature."
 
+                hide K_W with Dissolve(0.25)
+                show M_W at center with Dissolve(0.25)
+
                 M "See, this is why nobody likes niggers."
+
+                hide M_W with Dissolve(0.25)
+                show K_W at right with Dissolve(0.25)
 
                 K "Alright, your loss."
                 K "I'm just gonna stop talking."
 
+                hide K_W with Dissolve(0.25)
+                show M_W at center with Dissolve(0.25)
+
                 M "Finally!"
 
+                hide M_W with Dissolve(0.25)
+                show K_W at right with Dissolve(0.25)
+
                 K "But seriously, this is taking forever."
+
+                hide K_W with Dissolve(0.25)
+                show M_W at center with Dissolve(0.25)
 
                 M "Outside the school."
                 M "That's where we're going, Keisuke."
@@ -2638,15 +3218,25 @@ label start:
                 M "-side"
                 M "(whispers) the school."
 
+                hide M_W with Dissolve(0.25)
+                show K_W at right with Dissolve(0.25)
+
                 K "All right, I get it."
                 K "I'm just fucking bored."
 
+                hide K_W with Dissolve(0.25)
+                show M_W at center with Dissolve(0.25)
+
                 M "Well, find a way to entertain yourself!"
+
+                hide M_W with Dissolve(0.25)
 
                 "{i}Keisuke sighs."
                 "{i}Then he makes a popping sound with his fingers."
                 "{i}Then pops again."
                 "{i}And again.{/i}"
+
+                show M_W at center with Dissolve(0.25)
 
                 M "Oh!"
                 M "For five minutes..."
