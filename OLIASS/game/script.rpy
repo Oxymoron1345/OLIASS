@@ -1492,7 +1492,7 @@ label start:
                 
                 hide FOS_shout
                 show FOS
-                show R at right with Dissolve(0.25)
+                show R_W at right with Dissolve(0.25)
 
                 "{i}Roro comes bursting through the door of the classroom.{/i}" 
 
