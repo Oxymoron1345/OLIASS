@@ -1491,7 +1491,7 @@ label start:
                 "{i}Minato sighs and goes up to the front with his project."
                 
                 hide FOS_shout
-                show FOS
+                show FOS at Tcenter
                 show R_W at right with Dissolve(0.25)
 
                 "{i}Roro comes bursting through the door of the classroom.{/i}" 
@@ -1503,10 +1503,11 @@ label start:
                 FOS "Since you were late, you should go first."
 
                 hide FOS
-                show FOS_shout
+                show FOS_shout at Tcenter
 
                 FOS "What are you doing, Minato? Sit down!"
-
+                
+                hide FOS_shout
                 hide M_W
 
                 R "Let me set my stuff down first, then I'll get started."
